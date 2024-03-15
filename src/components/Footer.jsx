@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import SiteName from './SiteName';
 import Nav from './Nav';
+import { Link } from 'react-router-dom';
 import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa';
 
 const Footer = () => {
@@ -84,15 +85,15 @@ const Footer = () => {
             </p>
           </div>
           <div className="flex md:gap-4 gap-2">
-            <a href="/privacy" className="underline">
+            <Link to="/privacy" className="underline">
               {t('Privacy_Policy')}
-            </a>
-            <a href="/terms" className="underline">
+            </Link>
+            <Link to="/terms" className="underline">
               {t('Terms_Conditions')}
-            </a>
-            <a href="/help" className="underline">
+            </Link>
+            <Link to="/help" className="underline">
               {t('Help_FAQ')}
-            </a>
+            </Link>
           </div>
         </div>
       </div>

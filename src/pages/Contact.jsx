@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import Container from '../components/Container';
 import SectionHeader from '../components/SectionHeader';
-import Form from '../components/Form';
+import ContactForm from '../components/ContactForm';
 import ContactInfo from '../components/ContactInfo';
 
 const Contact = () => {
@@ -20,7 +20,7 @@ const Contact = () => {
           </div>
           <div className="md:w-3/6 w-11/12 my-6">
             <h3 className="uppercase text-2xl mb-5">{t('send_us_message')}</h3>
-            <Form />
+            <ContactForm />
           </div>
         </div>
       </Container>

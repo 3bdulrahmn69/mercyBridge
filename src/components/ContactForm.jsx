@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
-const Form = () => {
+const ContactForm = () => {
   const { t } = useTranslation();
   const [formData, setFormData] = useState({
     name: '',
@@ -10,14 +10,14 @@ const Form = () => {
   });
   return (
     <form
-      onSubmit={() => {
+      onSubmit={(e) => {
         e.preventDefault();
         console.log(formData);
       }}
       className="flex flex-col gap-2 w-full"
     >
       <label htmlFor="name">
-        {t('Full_Name')} <span className="text-red-600">*</span>
+        {t('Full_Name')} <span className="text-red-600 select-none">*</span>
         <input
           type="text"
           name="name"
@@ -30,7 +30,7 @@ const Form = () => {
         />
       </label>
       <label htmlFor="email">
-        {t('Email')} <span className="text-red-600">*</span>
+        {t('Email')} <span className="text-red-600 select-none">*</span>
         <input
           type="email"
           name="email"
@@ -43,7 +43,7 @@ const Form = () => {
         />
       </label>
       <label htmlFor="message">
-        {t('Message')} <span className="text-red-600">*</span>
+        {t('Message')} <span className="text-red-600 select-none">*</span>
         <textarea
           name="message"
           placeholder={t('Message')}
@@ -73,4 +73,4 @@ const Form = () => {
   );
 };
 
-export default Form;
+export default ContactForm;
