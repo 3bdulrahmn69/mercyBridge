@@ -1,0 +1,207 @@
+{
+  "states": [
+    {
+      "id": 1,
+      "name": "Alexandria",
+      "short": "ALX"
+    },
+    {
+      "id": 2,
+      "name": "Al Qalyubiya",
+      "short": "QAL"
+    },
+    {
+      "id": 3,
+      "name": "Aswan",
+      "short": "ASN"
+    },
+    {
+      "id": 4,
+      "name": "Asyut",
+      "short": "AST"
+    },
+    {
+      "id": 5,
+      "name": "Beheira",
+      "short": "BH"
+    },
+    {
+      "id": 6,
+      "name": "Beni Souef",
+      "short": "BNS"
+    },
+    {
+      "id": 7,
+      "name": "Cairo",
+      "short": "C"
+    },
+    {
+      "id": 8,
+      "name": "Dakahlia",
+      "short": "DK"
+    },
+    {
+      "id": 9,
+      "name": "Damietta",
+      "short": "DT"
+    },
+    {
+      "id": 10,
+      "name": "Faiyum",
+      "short": "FYM"
+    },
+    {
+      "id": 11,
+      "name": "Gharbia",
+      "short": "GH"
+    },
+    {
+      "id": 12,
+      "name": "Giza",
+      "short": "GZ"
+    },
+    {
+      "id": 13,
+      "name": "Ismaiyla",
+      "short": "IS"
+    },
+    {
+      "id": 14,
+      "name": "Kafr El Sheikh",
+      "short": "KS"
+    },
+    {
+      "id": 15,
+      "name": "Matrouh",
+      "short": "MT"
+    },
+    {
+      "id": 16,
+      "name": "Minya",
+      "short": "MN"
+    },
+    {
+      "id": 17,
+      "name": "Menofia",
+      "short": "MF"
+    },
+    {
+      "id": 18,
+      "name": "New Valley",
+      "short": "NV"
+    },
+    {
+      "id": 19,
+      "name": "North Sinai",
+      "short": "SIN"
+    },
+    {
+      "id": 20,
+      "name": "Port Said",
+      "short": "PS"
+    },
+    {
+      "id": 21,
+      "name": "Qena",
+      "short": "QNA"
+    },
+    {
+      "id": 22,
+      "name": "Red Sea",
+      "short": "RS"
+    },
+    {
+      "id": 23,
+      "name": "Al Sharqia",
+      "short": "SHR"
+    },
+    {
+      "id": 24,
+      "name": "Sohag",
+      "short": "SHG"
+    },
+    {
+      "id": 25,
+      "name": "South Sinai",
+      "short": "SIN"
+    },
+    {
+      "id": 26,
+      "name": "Suez",
+      "short": "SUZ"
+    },
+    {
+      "id": 27,
+      "name": "Luxor",
+      "short": "LX"
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "title": "Egyptian President Sisi to visit Russia",
+      "content": "Egyptian President Abdel Fattah al-Sisi will visit Russia on August 26, 2015 to discuss the situation in the Middle East and North Africa, the Kremlin said on Tuesday.",
+      "link": "http://www.reuters.com/article/2015/08/25/us-egypt-russia-sisi-idUSKCN0QU0Z720150825",
+      "img": "https://placehold.co/800x400",
+      "date": "2015-08-25"
+    },
+    {
+      "id": 2,
+      "title": "Egyptian President Sisi to visit Russia",
+      "content": "Egyptian President Abdel Fattah al-Sisi will visit Russia on August 26, 2015 to discuss the situation in the Middle East and North Africa, the Kremlin said on Tuesday.",
+      "link": "http://www.reuters.com/article/2015/08/25/us-egypt-russia-sisi-idUSKCN0QU0Z720150825",
+      "img": "https://placehold.co/800x400",
+      "date": "2015-08-25"
+    },
+    {
+      "id": 3,
+      "title": "Egyptian President Sisi to visit Russia",
+      "content": "Egyptian President Abdel Fattah al-Sisi will visit Russia on August 26, 2015 to discuss the situation in the Middle East and North Africa, the Kremlin said on Tuesday.",
+      "link": "http://www.reuters.com/article/2015/08/25/us-egypt-russia-sisi-idUSKCN0QU0Z720150825",
+      "img": "https://placehold.co/800x400",
+      "date": "2015-08-25"
+    },
+    {
+      "id": 4,
+      "title": "Egyptian President Sisi to visit Russia",
+      "content": "Egyptian President Abdel Fattah al-Sisi will visit Russia on August 26, 2015 to discuss the situation in the Middle East and North Africa, the Kremlin said on Tuesday.",
+      "link": "http://www.reuters.com/article/2015/08/25/us-egypt-russia-sisi-idUSKCN0QU0Z720150825",
+      "img": "https://placehold.co/800x400",
+      "date": "2015-08-25"
+    },
+    {
+      "id": 5,
+      "title": "Egyptian President Sisi to visit Russia",
+      "content": "Egyptian President Abdel Fattah al-Sisi will visit Russia on August 26, 2015 to discuss the situation in the Middle East and North Africa, the Kremlin said on Tuesday.",
+      "link": "http://www.reuters.com/article/2015/08/25/us-egypt-russia-sisi-idUSKCN0QU0Z720150825",
+      "img": "https://placehold.co/800x400",
+      "date": "2015-08-25"
+    },
+    {
+      "id": 6,
+      "title": "Egyptian President Sisi to visit Russia",
+      "content": "Egyptian President Abdel Fattah al-Sisi will visit Russia on August 26, 2015 to discuss the situation in the Middle East and North Africa, the Kremlin said on Tuesday.",
+      "link": "http://www.reuters.com/article/2015/08/25/us-egypt-russia-sisi-idUSKCN0QU0Z720150825",
+      "img": "https://placehold.co/800x400",
+      "date": "2015-08-25"
+    },
+    {
+      "id": 7,
+      "title": "Egyptian President Sisi to visit Russia",
+      "content": "Egyptian President Abdel Fattah al-Sisi will visit Russia on August 26, 2015 to discuss the situation in the Middle East and North Africa, the Kremlin said on Tuesday.",
+      "link": "http://www.reuters.com/article/2015/08/25/us-egypt-russia-sisi-idUSKCN0QU0Z720150825",
+      "img": "https://placehold.co/800x400",
+      "date": "2015-08-25"
+    }
+  ],
+  "news-ar": [
+    {
+      "id": 1,
+      "title": "arabic title",
+      "content": "Egyptian President Abdel Fattah al-Sisi will visit Russia on August 26, 2015 to discuss the situation in the Middle East and North Africa, the Kremlin said on Tuesday.",
+      "link": "http://www.reuters.com/article/2015/08/25/us-egypt-russia-sisi-idUSKCN0QU0Z720150825",
+      "img": "http://www.reuters.com/resources/r/?m=02&d=20150825&t=2&i=1070730733&w=644&fh=&fw=&ll=&pl=&r=LYNXNPEB7O0ZL",
+      "date": "2015-08-25"
+    }
+  ]
+}
