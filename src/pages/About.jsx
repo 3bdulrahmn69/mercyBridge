@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import Container from '../components/Container';
 import SectionHeader from '../components/SectionHeader';
+import SectionEndHint from '../components/SectionEndHint';
 import about from '../assets/about.svg';
 
 const About = () => {
@@ -42,7 +43,7 @@ const About = () => {
       </Container>
       <div className="w-full h-20 bg-gray-200 mt-9">
         <Container className={'flex justify-center items-center h-full'}>
-          <p className="text-gray-400">{t('about_end')}</p>
+          <SectionEndHint Hint={t('about_end')} />
         </Container>
       </div>
     </main>

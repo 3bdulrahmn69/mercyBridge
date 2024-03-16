@@ -8,7 +8,7 @@ const ContactInfo = () => {
   return (
     <>
       <h3 className="uppercase text-2xl mt-8">{t('Contact_Info')}</h3>
-      <div className="flex flex-col gap-3 justify-start my-8 text-start px-8 text-lg text-gray-700">
+      <div className="flex flex-col gap-3 justify-start my-8 text-start md:px-8 px-2 text-lg text-gray-700">
         <p className="bg-green-300 py-2 px-4 rounded">
           <FaEnvelope className="inline-block mr-3" />
           support@mercybridge.org

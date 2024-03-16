@@ -22,9 +22,7 @@ const Works = () => {
       <WorksCard
         right={true}
         title={'Our Lunch'}
-        description={
-          'We started a charity to help people in need. lore   m ipsum dolor sit amet consectetur adipisicing elit. Quos, quas.'
-        }
+        description={'We started a charity to help people in need.'}
         picture={img}
         date={'2021-09-01'}
       />

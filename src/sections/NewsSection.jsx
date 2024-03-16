@@ -28,7 +28,8 @@ const NewsSection = () => {
   const newsCards = useMemo(
     () =>
       newsData
-        .slice(0, 4)
+        .slice(-4)
+        .reverse()
         .map((news) => (
           <NewsCard
             key={news.id}

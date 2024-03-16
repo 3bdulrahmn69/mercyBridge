@@ -20,8 +20,15 @@ const NewsCard = ({ right, title, content, link, date, img }) => {
             />
           </figure>
           <div className="md:w-6/12 w-11/12 flex flex-col">
-            <h2 className="text-2xl font-bold mt-4">{title}</h2>
-            <p className="text-gray-600 mt-2">{content}</p>
+            <h2
+              className="text-2xl font-bold mt-4 cursor-default"
+              title={title}
+            >
+              {title.slice(0, 40) + '...'}
+            </h2>
+            <p className="text-gray-600 mt-2">
+              {content.slice(0, 120) + '...'}
+            </p>
             <div
               className={`flex ${
                 right ? '' : 'flex-row-reverse'
@@ -33,7 +40,7 @@ const NewsCard = ({ right, title, content, link, date, img }) => {
                 rel="noreferrer noopener"
                 className={`bg-green-800 py-2 px-4 text-white block w-fit hover:bg-transparent hover:text-green-800 border-2 border-green-800 rounded-sm transition-colors duration-300`}
               >
-                {t('Discover')}
+                {t('read_more')}
               </a>
             </div>
           </div>
