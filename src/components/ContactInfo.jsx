@@ -17,11 +17,11 @@ const ContactInfo = () => {
           Egypt
         </p>
         <p className="bg-green-300 py-2 pl-4 rounded text-lg md:text-xs lg:text-lg">
-          <FaEnvelope className="inline-block mr-2" />
+          <FaEnvelope className="inline-block mr-3" />
           support@mercybridge.org
         </p>
         <p className="bg-green-300 py-2 pl-4  rounded text-lg md:text-xs lg:text-lg">
-          <FaEnvelope className="inline-block mr-2" />
+          <FaEnvelope className="inline-block mr-3" />
           donate@mercybridge.org
         </p>
         <p className="bg-green-300 py-2 pl-4  rounded text-lg md:text-xs lg:text-lg">
