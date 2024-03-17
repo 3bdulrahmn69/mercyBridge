@@ -16,7 +16,7 @@ const AboutSection = () => {
           center={true}
         />
         <div>
-          <div className="mb-4 md:px-0 px-2">
+          <div className="mb-4 lg:px-0 px-2">
             <h4 className="text-3xl font-bold text-gray-500">
               {t('Who_We_Are')}
             </h4>

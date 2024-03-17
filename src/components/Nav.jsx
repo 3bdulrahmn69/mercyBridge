@@ -54,11 +54,11 @@ const Nav = ({ checkboxValue, navList, isHeader }) => {
         </nav>
       ) : (
         <nav>
-          <ul className="flex flex-col text-2xl">
+          <ul className="flex flex-col lg:text-xl md:text-xs text-2xl">
             {navList.map((item) => (
               <li
                 key={item.name}
-                className="hover:underline hover:underline-offset-4"
+                className="hover:underline hover:underline-offset-4 capitalize"
               >
                 <Link to={item.link}>{t(item.name)}</Link>
               </li>

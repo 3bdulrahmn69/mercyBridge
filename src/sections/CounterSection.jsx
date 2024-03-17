@@ -13,7 +13,7 @@ const CounterSection = () => {
           title={t('Counter_Title')}
           description={t('Counter_Description')}
         />
-        <div className="flex md:flex-row md:gap-8 flex-col gap-4 justify-center items-center">
+        <div className="flex md:flex-row md:gap-8 flex-col gap-4 justify-center items-center px-0 md:px-2 lg:px-0">
           <CounterCard
             count={5}
             title={t('Charity')}
@@ -30,7 +30,7 @@ const CounterSection = () => {
             description={t('Counter_Donors_Description')}
           />
         </div>
-        <div className="w-full min-h-24 flex justify-between items-center md:gap-0 gap-3 md:flex-row flex-col md:mb-0 my-7 md:px-0 px-2">
+        <div className="w-full min-h-24 flex justify-between items-center md:gap-0 gap-3 md:flex-row flex-col md:mb-0 my-7 lg:px-0 px-2">
           <p className="text-xl">{t('Counter_take_action')}</p>
           <DonateBtn />
         </div>

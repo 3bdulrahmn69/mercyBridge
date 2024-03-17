@@ -16,7 +16,7 @@ const ContactSection = () => {
           description={t('Contact_Description')}
           center={true}
         />
-        <div className="flex md:flex-row flex-col justify-between md:items-stretch items-center">
+        <div className="flex md:flex-row flex-col justify-between md:items-stretch md:justify-center lg:justify-between md:gap-16 lg:gap-0 gap-0 items-center">
           <div className="md:w-2/6 w-11/12 bg-gray-100 rounded text-black text-center">
             <ContactInfo />
           </div>

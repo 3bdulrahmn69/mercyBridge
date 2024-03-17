@@ -8,7 +8,7 @@ function CounterCard({ count, title, description }) {
       </div>
       <h3 className="text-2xl mt-2">{title}</h3>
       <hr className="w-9/12 my-4" />
-      <div>
+      <div className="lg:text-base text-sm">
         <p>{description}</p>
       </div>
     </div>

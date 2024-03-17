@@ -27,7 +27,11 @@ const NotSection = () => {
       <div className="flex flex-col gap-4 px-4 md:flex-row md:gap-6">
         <div className="w-full md:w-1/2 flex flex-col md:flex-row md:gap-4">
           <div className="w-full md:w-1/2">
-            <img src={not_01} alt="Not Numbers 01" className="w-full h-auto" />
+            <img
+              src={not_01}
+              alt="Not Numbers 01"
+              className="w-full h-auto mb-4 md:mb-0"
+            />
           </div>
           <div className="w-full md:w-1/2 grid grid-cols-2 gap-4">
             <img src={not_02} alt="Not Numbers 02" className="w-full h-auto" />
@@ -44,7 +48,11 @@ const NotSection = () => {
             <img src={not_09} alt="Not Numbers 09" className="w-full h-auto" />
           </div>
           <div className="w-full md:w-1/2">
-            <img src={not_10} alt="Not Numbers 10" className="w-full h-auto" />
+            <img
+              src={not_10}
+              alt="Not Numbers 10"
+              className="w-full h-auto mt-4 md:mt-0"
+            />
           </div>
         </div>
       </div>

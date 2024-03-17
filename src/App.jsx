@@ -24,6 +24,11 @@ import OtherDonation from './pages/OtherDonation';
 import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
 import Help from './pages/Help';
+import AllDonation from './pages/AllDonation';
+import GazaDonation from './pages/GazaDonation';
+import WomenDonation from './pages/WomenDonation';
+import ChildrenDonation from './pages/ChildrenDonation';
+import HospitalsDonation from './pages/HospitalsDonation';
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -53,6 +58,11 @@ const App = () => {
           <Route path="/donate/medicine" element={<MedicineDonation />} />
           <Route path="/donate/food" element={<FoodDonation />} />
           <Route path="/donate/clothes" element={<ClothesDonation />} />
+          <Route path="/donate/gaza" element={<GazaDonation />} />
+          <Route path="/donate/hospitals" element={<HospitalsDonation />} />
+          <Route path="/donate/children" element={<ChildrenDonation />} />
+          <Route path="/donate/women" element={<WomenDonation />} />
+          <Route path="/donate/all" element={<AllDonation />} />
           <Route path="/donate/other" element={<OtherDonation />} />
           <Route path="*" element={<NotFound />} />
           <Route path="/privacy" element={<Privacy />} />

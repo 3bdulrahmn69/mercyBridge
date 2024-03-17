@@ -8,15 +8,15 @@ const Footer = () => {
   const { t } = useTranslation();
   const Year = new Date().getFullYear();
   const donateLinks = [
-    { name: 'Money', link: '/donate/money' },
-    { name: 'Medicine', link: '/donate/medicine' },
-    { name: 'Food', link: '/donate/food' },
-    { name: 'Clothes', link: '/donate/clothes' },
-    { name: 'Other', link: '/donate/other' },
+    { name: 'money', link: '/donate/money' },
+    { name: 'medicine', link: '/donate/medicine' },
+    { name: 'food', link: '/donate/food' },
+    { name: 'clothes', link: '/donate/clothes' },
+    { name: 'other', link: '/donate/other' },
   ];
 
   return (
-    <footer className="bg-green-800 text-white pt-16 pb-8">
+    <footer className="bg-green-800 text-white pt-16 pb-8 px-0 md:px-2 lg:px-0">
       <div className="container">
         <div className="w-full flex md:flex-row gap-4 flex-col md:px-0 px-3 justify-between md:mb-24">
           <div className="max-w-80">
@@ -28,15 +28,21 @@ const Footer = () => {
             <p className="text-xl">{t('SiteDescription')}</p>
           </div>
           <div>
-            <h4 className="mb-2 text-3xl">{t('Quick_Links')}</h4>
+            <h4 className="mb-2 text-3xl md:text-xl lg:text-3xl">
+              {t('Quick_Links')}
+            </h4>
             <Nav isHeader={false} />
           </div>
           <div>
-            <h4 className="mb-2 text-3xl">{t('Donate_Now')}</h4>
+            <h4 className="mb-2 text-3xl md:text-xl lg:text-3xl">
+              {t('Donate_Now')}
+            </h4>
             <Nav isHeader={false} navList={donateLinks} />
           </div>
           <div>
-            <h4 className="mb-2 text-3xl">{t('Follow_Us')}</h4>
+            <h4 className="mb-2 text-3xl md:text-xl lg:text-3xl">
+              {t('Follow_Us')}
+            </h4>
             <div>
               <ul className="text-3xl flex gap-4">
                 <li>
