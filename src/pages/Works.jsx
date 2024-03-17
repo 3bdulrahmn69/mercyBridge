@@ -1,9 +1,13 @@
+import { useTranslation } from 'react-i18next';
 import Container from '../components/Container';
 import SectionHeader from '../components/SectionHeader';
 import WorksCard from '../components/WorksCard';
-import img from '../assets/600x400.png';
+import ourLaunch from '../assets/ourLaunch.jpg';
+import firstMove from '../assets/firstMove.jpg';
+import secondMove from '../assets/secondMove.jpg';
 
 const Works = () => {
+  const { t } = useTranslation('works');
   return (
     <main className="min-h-screen">
       <Container>
@@ -14,22 +18,22 @@ const Works = () => {
         />
       </Container>
       <WorksCard
-        title={'Our Lunch'}
-        description={'We started a charity to help people in need.'}
-        picture={img}
-        date={'2021-09-01'}
+        title={t('ourLaunch')}
+        description={t('ourLaunch_description')}
+        picture={ourLaunch}
+        date={'2024-01-01'}
       />
       <WorksCard
         right={true}
-        title={'Our Lunch'}
-        description={'We started a charity to help people in need.'}
-        picture={img}
+        title={t('FirstMove')}
+        description={t('FirstMove_description')}
+        picture={firstMove}
         date={'2021-09-01'}
       />
       <WorksCard
-        title={'Our Lunch'}
-        description={'We started a charity to help people in need.'}
-        picture={img}
+        title={t('SecondMove')}
+        description={t('SecondMove_description')}
+        picture={secondMove}
         date={'2021-09-01'}
       />
     </main>
