@@ -118,5 +118,77 @@
   "CharitiesSSSS": "__________________________CharitiesSSSS_______________________________",
   "Egyptian Food Bank": "Egyptian Food Bank",
   "Misr El Kheir": "Misr El Kheir",
-  "Resala": "Resala"
+  "Resala": "Resala",
+  "Terms_ss": "__________________________Terms_ss_______________________________",
+  "terms.title": "Terms and Conditions for MercyBridge",
+  "terms.lastUpdated": "Last updated: [1-1-2024]",
+  "terms.intro": "Please read these Terms and Conditions ('Terms') carefully before using the MercyBridge website (the 'Service') operated by MercyBridge ('us', 'we', or 'our').",
+  "terms.acceptance": "Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users, and others who access or use the Service.",
+  "terms.agreement": "By accessing or using the Service you agree to be bound by these Terms. If you disagree with any part of the terms then you may not access the Service.",
+  "terms.linksToOtherSites": {
+    "title": "Links To Other Web Sites",
+    "content": "Our Service may contain links to third-party web sites or services that are not owned or controlled by MercyBridge."
+  },
+  "terms.termination": {
+    "title": "Termination",
+    "content": "We may terminate or suspend access to our Service immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms."
+  },
+  "terms.governingLaw": {
+    "title": "Governing Law",
+    "content": "These Terms shall be governed and construed in accordance with the laws of Egypt, without regard to its conflict of law provisions."
+  },
+  "terms.changes": {
+    "title": "Changes",
+    "content": "We reserve the right, at our sole discretion, to modify or replace these Terms at any time."
+  },
+  "terms.contactUs": {
+    "title": "Contact Us",
+    "content": "If you have any questions about these Terms, please contact us."
+  },
+  "HelpFAQ_ss": "__________________________HelpFAQ_ss_______________________________",
+  "help.title": "Help Center & FAQs",
+  "help.intro": "Here are quick answers to some common questions about using MercyBridge:",
+  "help.faqs": "Frequently Asked Questions (FAQs)",
+  "help.donationTitle": "How can I make a donation?",
+  "help.donationSteps": "To make a donation, simply follow these steps:",
+  "help.findCharitiesTitle": "How do I find charities on MercyBridge?",
+  "help.findCharitiesDesc": "You can find charities by utilizing our search feature or browsing through categories on our homepage. Each charity has a profile that provides detailed information about their mission, impact, and how your donation can help.",
+  "help.isSecureTitle": "Is my donation secure?",
+  "help.isSecureDesc": "Yes, your donation is secure. We use industry-standard security measures to ensure that your personal and payment information is encrypted and protected during every transaction.",
+  "help.needMoreHelp": "Need more help?",
+  "help.moreHelpDesc": "If your question isn't answered here, or if you need further assistance, please reach out to our support team:",
+  "help.emailSupport": "By email: support@mercybridge.com",
+  "help.visitWebsite": "Visit the MercyBridge website.",
+  "help.searchCharity": "Search for the charity you wish to support using the search function or browse through the categories.",
+  "help.selectCharity": "Select the charity of your choice to view more details about their mission and needs.",
+  "help.completeDonation": "Follow the instructions to complete your donation through the payment gateway.",
+  "PrivacyPolicy_ss": "__________________________PrivacyPolicy_ss_______________________________",
+  "privacy": {
+    "title": "Privacy Policy for MercyBridge",
+    "lastUpdated": "Last updated: {{date}}",
+    "introductionTitle": "1. Introduction",
+    "introduction": "MercyBridge (\"we\", \"our\", or \"us\") is committed to protecting the privacy of our users (\"user\", \"you\"). This Privacy Policy outlines how we collect, use, disclose, and safeguard your information when you visit our website (MercyBridge.com) and use our services to connect with charitable organizations. We facilitate connections between users and charities without handling monetary transactions directly. By using our Service, you agree to the collection and use of information in accordance with this policy.",
+    "informationCollectionTitle": "2. Information We Collect",
+    "informationCollection": "We collect various types of information for various purposes to provide and improve our Service to you.",
+    "personalData": "Personal Data:",
+    "personalDataDesc": "While using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you (\"Personal Data\"). This may include, but is not limited to, your name and email address.",
+    "usageData": "Usage Data:",
+    "usageDataDesc": "We may also collect information on how the Service is accessed and used (\"Usage Data\"). This Usage Data may include details such as your computer's Internet Protocol address (e.g., IP address), browser type, browser version, our Service pages that you visit, the time and date of your visit, the time spent on those pages, and other diagnostic data.",
+    "dataRetention": "Data Retention:",
+    "dataRetentionDesc": "We retain your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use your Personal Data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements and policies.",
+    "cookies": "Cookies and Tracking Technologies:",
+    "cookiesDesc": "We may use cookies and similar tracking technologies to track the activity on our Service and hold certain information. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Service.",
+    "useOfInformationTitle": "3. Use of Your Information",
+    "useOfInformation": "MercyBridge uses the collected data for various purposes:",
+    "disclosureOfInformationTitle": "4. Disclosure of Your Information",
+    "disclosureOfInformation": "We may disclose your personal information in the following situations:",
+    "securityOfDataTitle": "5. Security of Data",
+    "securityOfData": "The security of your data is important to us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security.",
+    "linksToOtherSitesTitle": "6. Links to Other Sites",
+    "linksToOtherSites": "Our Service may contain links to other sites that are not operated by us. If you click on a third-party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy of every site you visit.",
+    "changesToThisPrivacyPolicyTitle": "7. Changes to This Privacy Policy",
+    "changesToThisPrivacyPolicy": "We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.",
+    "contactUsTitle": "8. Contact Us",
+    "contactUs": "If you have any questions about this Privacy Policy, please contact us:"
+  }
 }
