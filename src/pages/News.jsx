@@ -47,14 +47,6 @@ const News = () => {
     [newsData]
   );
 
-  if (loading) {
-    return <Loading />;
-  }
-
-  if (error) {
-    return <Error message={error.message} />;
-  }
-
   return (
     <main className="min-h-screen">
       <Container>
@@ -64,7 +56,13 @@ const News = () => {
           center={true}
         />
       </Container>
-      {newsCards}
+      {loading ? (
+        <Loading />
+      ) : error ? (
+        <Error message={t('news_error')} />
+      ) : (
+        <div className="flex flex-wrap justify-evenly gap-4">{newsCards}</div>
+      )}
     </main>
   );
 };

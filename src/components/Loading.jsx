@@ -1,4 +1,4 @@
-function Loading() {
+const Loading = () => {
   return (
     <div
       dir="ltr"
@@ -9,6 +9,6 @@ function Loading() {
       </div>
     </div>
   );
-}
+};
 
 export default Loading;

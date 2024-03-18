@@ -1,74 +1,131 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useCallback, useReducer } from 'react';
 import { useTranslation } from 'react-i18next';
 import Container from '../components/Container';
-import DonateMethod from '../components/DonateMethod';
 import SectionHeader from '../components/SectionHeader';
 import Alert from '../components/Alert';
 import getCurrentLocation from '../components/utilities';
-import {
-  FaDollarSign,
-  FaPumpMedical,
-  FaHamburger,
-  FaTshirt,
-  FaInfinity,
-  FaHospitalAlt,
-  FaFemale,
-  FaPencilAlt,
-} from 'react-icons/fa';
-import { FaGun, FaChild } from 'react-icons/fa6';
+import { getCharities as getCharitiesFromApi } from '../components/utilities';
+import StateSelector from '../components/StateSelector';
+import CharityCard from '../components/CharityCard';
+import Loading from '../components/Loading';
+import Error from '../components/Error';
+
+const initialState = {
+  loading: true,
+  error: null,
+  errorType: null, // Add errorType to state
+  charities: [],
+};
+
+const reducer = (state, action) => {
+  switch (action.type) {
+    case 'FETCH_INIT':
+      return { ...state, loading: true, error: null, errorType: null };
+    case 'FETCH_SUCCESS':
+      return {
+        ...state,
+        loading: false,
+        charities: action.payload,
+        error: null,
+        errorType: null,
+      };
+    case 'LOCATION_FETCH_FAILURE':
+      return {
+        ...state,
+        loading: false,
+        error: action.payload,
+        errorType: 'location',
+      };
+    case 'CHARITIES_FETCH_FAILURE':
+      return {
+        ...state,
+        loading: false,
+        error: action.payload,
+        errorType: 'charities',
+      };
+    default:
+      return state;
+  }
+};
 
 const Donate = () => {
-  const [error, setError] = useState('');
+  const [state, dispatch] = useReducer(reducer, initialState);
   const { t } = useTranslation();
 
-  useEffect(() => {
-    const fetchLocation = async () => {
-      const { error, data } = await getCurrentLocation();
-      if (error) {
-        setError(error);
-      } else {
-        console.log('Location data:', data);
+  const fetchLocationAndCharities = useCallback(async () => {
+    dispatch({ type: 'FETCH_INIT' });
+    setTimeout(() => {
+      dispatch({
+        type: 'CHARITIES_FETCH_FAILURE',
+        payload: 'Something went wrong. Please try again later.',
+      });
+    }, 1000);
+    try {
+      const { error: locationError, data } = await getCurrentLocation();
+      if (locationError) {
+        dispatch({ type: 'LOCATION_FETCH_FAILURE', payload: locationError });
+        return;
       }
-    };
+      console.log('Location data:', data);
 
-    fetchLocation();
+      const { error: charitiesError, charities } = await getCharitiesFromApi();
+      if (charitiesError) {
+        dispatch({ type: 'CHARITIES_FETCH_FAILURE', payload: charitiesError });
+      } else {
+        dispatch({ type: 'FETCH_SUCCESS', payload: charities });
+      }
+    } catch (error) {
+      // Generic error handling
+      dispatch({ type: 'FETCH_FAILURE', payload: 'Unexpected error occurred' });
+      console.error(error);
+    }
   }, []);
 
+  useEffect(() => {
+    fetchLocationAndCharities();
+  }, [fetchLocationAndCharities]);
+
+  const location = sessionStorage.getItem('currentLocationState');
+
   return (
-    <main>
-      {error && <Alert type="warning">{error}</Alert>}
+    <main className="min-h-screen pb-6">
+      {state.error && state.errorType === 'location' && (
+        <Alert type="warning">{state.error}</Alert>
+      )}
       <Container>
         <SectionHeader
           title={t('Donate_BTN')}
           description={t('donate_desc')}
           center={true}
         />
-
-        <div className="flex md:justify-evenly justify-center md:items-baseline items-center md:flex-row flex-col">
-          <div className="flex flex-col gap-2 items-center py-4 rounded-xl bg-gray-100 mb-4 md:w-80 w-72">
-            <h2 className="text-2xl my-4">{t('By_Method')}</h2>
-            <DonateMethod method="money" icon={<FaDollarSign />} />
-            <DonateMethod method="medicine" icon={<FaPumpMedical />} />
-            <DonateMethod method="food" icon={<FaHamburger />} />
-            <DonateMethod method="clothes" icon={<FaTshirt />} />
-          </div>
-          <div className="flex flex-col gap-2 items-center py-4 rounded-xl bg-gray-100 mb-4 md:w-80 w-72">
-            <h2 className="text-2xl my-4">{t('By_Donor')}</h2>
-            <DonateMethod method="gaza" icon={<FaGun />} />
-            <DonateMethod method="hospitals" icon={<FaHospitalAlt />} />
-            <DonateMethod method="children" icon={<FaChild />} />
-            <DonateMethod method="women" icon={<FaFemale />} />
+        <div className="flex gap-4 items-center mb-4">
+          <StateSelector location={location} />
+          <div className="bg-red-500 rounded py-1 px-2 text-white flex items-center">
+            <span className="bg-white rounded-full w-8 h-8 text-black mx-2 flex justify-center items-center font-bold">
+              {state.charities.length}{' '}
+            </span>{' '}
+            Found
           </div>
         </div>
-        <div className="flex md:gap-0 gap-2 justify-center mb-4 md:flex-row flex-col-reverse md:items-baseline items-center">
-          <div className="md:w-80 w-72 justify-center flex">
-            <DonateMethod method="other" icon={<FaPencilAlt />} />
+        {state.loading ? (
+          <Loading />
+        ) : (
+          <div className="flex flex-wrap justify-evenly gap-2">
+            {state.charities.map((charity) => (
+              <CharityCard
+                key={charity.id}
+                name={charity.name}
+                description={charity.description}
+                image={charity.img}
+                methods={charity.methods}
+              />
+            ))}
           </div>
-          <div className="md:w-80 w-72 justify-center flex">
-            <DonateMethod method="all" icon={<FaInfinity />} />
-          </div>
-        </div>
+        )}
       </Container>
+      {state.error && state.errorType === 'charities' && (
+        <Error message={state.error} />
+      )}
     </main>
   );
 };

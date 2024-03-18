@@ -100,3 +100,12 @@ export async function getNews(lang = 'en', config = {}) {
   }
 }
 //_____________________________________________________________________________________
+export async function getCharities() {
+  try {
+    const response = await api.get('/charities');
+    return { error: null, charities: response.data };
+  } catch (error) {
+    console.error('Error fetching charities:', error);
+    throw error;
+  }
+}

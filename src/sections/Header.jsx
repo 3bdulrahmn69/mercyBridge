@@ -1,5 +1,5 @@
-import Nav from './Nav';
-import SiteName from './SiteName';
+import Nav from '../components/Nav';
+import SiteName from '../components/SiteName';
 import { useState } from 'react';
 
 const Header = () => {

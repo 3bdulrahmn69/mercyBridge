@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
-import SiteName from './SiteName';
-import Nav from './Nav';
+import SiteName from '../components/SiteName';
+import Nav from '../components/Nav';
 import { Link } from 'react-router-dom';
 import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa';
 

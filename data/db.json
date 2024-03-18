@@ -205,11 +205,116 @@
   "news-ar": [
     {
       "id": 1,
-      "title": "arabic title",
+      "title": "arabic title 1",
       "content": "Egyptian President Abdel Fattah al-Sisi will visit Russia on August 26, 2015 to discuss the situation in the Middle East and North Africa, the Kremlin said on Tuesday.",
       "link": "http://www.reuters.com/article/2015/08/25/us-egypt-russia-sisi-idUSKCN0QU0Z720150825",
-      "img": "http://www.reuters.com/resources/r/?m=02&d=20150825&t=2&i=1070730733&w=644&fh=&fw=&ll=&pl=&r=LYNXNPEB7O0ZL",
+      "img": "https://placehold.co/800x400",
       "date": "2015-08-25"
+    },
+    {
+      "id": 2,
+      "title": "arabic title 2",
+      "content": "Egyptian President Abdel Fattah al-Sisi will visit Russia on August 26, 2015 to discuss the situation in the Middle East and North Africa, the Kremlin said on Tuesday.",
+      "link": "http://www.reuters.com/article/2015/08/25/us-egypt-russia-sisi-idUSKCN0QU0Z720150825",
+      "img": "https://placehold.co/800x400",
+      "date": "2015-08-25"
+    },
+    {
+      "id": 3,
+      "title": "arabic title 3",
+      "content": "Egyptian President Abdel Fattah al-Sisi will visit Russia on August 26, 2015 to discuss the situation in the Middle East and North Africa, the Kremlin said on Tuesday.",
+      "link": "http://www.reuters.com/article/2015/08/25/us-egypt-russia-sisi-idUSKCN0QU0Z720150825",
+      "img": "https://placehold.co/800x400",
+      "date": "2015-08-25"
+    },
+    {
+      "id": 4,
+      "title": "arabic title 4",
+      "content": "Egyptian President Abdel Fattah al-Sisi will visit Russia on August 26, 2015 to discuss the situation in the Middle East and North Africa, the Kremlin said on Tuesday.",
+      "link": "http://www.reuters.com/article/2015/08/25/us-egypt-russia-sisi-idUSKCN0QU0Z720150825",
+      "img": "https://placehold.co/800x400",
+      "date": "2015-08-25"
+    }
+  ],
+  "charities": [
+    {
+      "id": 1,
+      "name": "Egyptian Food Bank",
+      "description": "The Egyptian Food Bank is a non-profit organization that aims to alleviate hunger in Egypt. It was founded in 2006 by Moez Masoud and is based in Cairo.",
+      "link": "http://www.egyptianfoodbank.com/",
+      "methods": ["Cash", "Food", "Clothes", "Volunteer"],
+      "areas": [
+        "Cairo",
+        "Giza",
+        "Alexandria",
+        "Qalyubiya",
+        "Suez",
+        "Ismailia",
+        "Port Said",
+        "Dakahlia",
+        "Sharqia",
+        "Beheira",
+        "Gharbia",
+        "Menofia",
+        "Kafr El Sheikh",
+        "Damietta",
+        "Fayoum",
+        "Beni Suef",
+        "Minya",
+        "Asyut",
+        "Sohag",
+        "Qena",
+        "Luxor",
+        "Aswan",
+        "Red Sea",
+        "New Valley",
+        "Matrouh",
+        "North Sinai",
+        "South Sinai"
+      ],
+      "img": "https://i.ibb.co/cgPVD48/Egyptian-Food-Bank-png-144x144.png"
+    },
+    {
+      "id": 2,
+      "name": "Misr El Kheir",
+      "description": "Misr El Kheir is an Egyptian non-profit organization that was established in 2007. It aims to develop the Egyptian society and to alleviate poverty.",
+      "link": "http://www.misrelkheir.org/",
+      "methods": ["Cash", "Food", "Clothes", "Volunteer"],
+      "areas": [
+        "Cairo",
+        "Giza",
+        "Alexandria",
+        "Qalyubiya",
+        "Suez",
+        "Ismailia",
+        "Port Said",
+        "Dakahlia",
+        "Sharqia",
+        "Beheira",
+        "Gharbia"
+      ],
+      "img": "https://i.ibb.co/r4LY9nL/Misr-El-Khair.png"
+    },
+    {
+      "id": 3,
+      "name": "Resala",
+      "description": "Resala is an Egyptian non-profit organization that was established in 1999. It aims to develop the Egyptian society and to alleviate poverty.",
+      "link": "http://www.resala.org/",
+      "methods": ["Cash", "Food", "Clothes", "Volunteer"],
+      "areas": [
+        "Cairo",
+        "Giza",
+        "Alexandria",
+        "Qalyubiya",
+        "Suez",
+        "Ismailia",
+        "Port Said",
+        "Dakahlia",
+        "Sharqia",
+        "Beheira",
+        "Gharbia"
+      ],
+      "img": "https://i.ibb.co/W3QsgPW/Resala.png"
     }
   ]
 }

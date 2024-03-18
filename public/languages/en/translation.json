@@ -85,7 +85,8 @@
   "Error_404": "__________________________Error_404_______________________________",
   "backToHome": "Back to Home",
   "StatesArr": "__________________________StatesArr_______________________________",
-  "Select_a_state": "Select a state",
+  "filter_by_state": "Filter by state",
+  "donation_methods": "Donation Methods",
   "all": "All",
   "Alexandria": "Alexandria",
   "Al Qalyubiya": "Al Qalyubiya",
@@ -113,5 +114,9 @@
   "Sohag": "Sohag",
   "South Sinai": "South Sinai",
   "Suez": "Suez",
-  "Luxor": "Luxor"
+  "Luxor": "Luxor",
+  "CharitiesSSSS": "__________________________CharitiesSSSS_______________________________",
+  "Egyptian Food Bank": "Egyptian Food Bank",
+  "Misr El Kheir": "Misr El Kheir",
+  "Resala": "Resala"
 }

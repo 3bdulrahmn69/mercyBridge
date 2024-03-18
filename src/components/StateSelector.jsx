@@ -30,24 +30,35 @@ const StateSelector = ({ location }) => {
     () =>
       states.map((state) => ({
         name: state.name,
-        translation: t(state.name),
       })),
-    [states, t]
+    [states]
   );
 
   if (loading) {
-    return <div className="loading-spinner">Loading...</div>;
+    return (
+      <label htmlFor="state">
+        {t('filter_by_state')}:
+        <select
+          className="state-selector p-2 mx-2 border border-green-500 rounded-md font-bold focus:outline-green-500"
+          value={locationState}
+          onChange={(e) => setLocationState(e.target.value)}
+          id="state"
+        >
+          <option value="000">Loading...</option>
+        </select>
+      </label>
+    );
   }
 
   if (error) {
-    return <div className="error-message">Error: {error}</div>;
+    return <div>Error: {error}</div>;
   }
 
   return (
     <label htmlFor="state">
-      {t('Select_a_state')}:
+      {t('filter_by_state')}:
       <select
-        className="state-selector p-2 mx-2 border border-green-500 rounded-md font-bold focus:outline-green-500"
+        className="state-selector p-2 mx-2 border border-green-500 rounded-md font-bold focus:outline-none"
         value={locationState}
         onChange={(e) => setLocationState(e.target.value)}
         id="state"
@@ -55,7 +66,7 @@ const StateSelector = ({ location }) => {
         <option value="all">{t('all')}</option>
         {translatedStates.map((state) => (
           <option key={state.name} value={state.name}>
-            {state.translation}
+            {t(state.name)}
           </option>
         ))}
       </select>
