@@ -8,7 +8,7 @@ import firstMove from '../assets/firstMove.jpg';
 import secondMove from '../assets/secondMove.jpg';
 
 const WorksSection = () => {
-  const { t } = useTranslation('works');
+  const { t } = useTranslation();
   return (
     <section className="bg-gray-50 pb-5" id="ourWorks">
       <Container>

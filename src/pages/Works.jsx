@@ -7,7 +7,7 @@ import firstMove from '../assets/firstMove.jpg';
 import secondMove from '../assets/secondMove.jpg';
 
 const Works = () => {
-  const { t } = useTranslation('works');
+  const { t } = useTranslation();
   return (
     <main className="min-h-screen">
       <Container>

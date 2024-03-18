@@ -10,7 +10,7 @@ import {
 const CharityCard = ({ name, description, image, methods }) => {
   const { t } = useTranslation();
   return (
-    <div className="border border-green-600 flex gap-4 px-4 py-2 rounded">
+    <div className="border border-green-600 flex gap-4 px-4 py-2 rounded flex-col items-center md:flex-row">
       <div className="flex">
         <figure className="w-36 h-36 rounded-full overflow-hidden border-2 border-green-500 p-4 ">
           {image ? (
@@ -26,11 +26,11 @@ const CharityCard = ({ name, description, image, methods }) => {
       </div>
       <div>
         <div>
-          <h3 className="text-2xl mb-2 font-bold">{t(name)}</h3>
+          <h3 className="md:text-2xl text-xl mb-2 font-bold">{t(name)}</h3>
           <p>{description}</p>
         </div>
         <div className="flex items-center mt-2">
-          <h4 className="bg-red-400 text-white w-fit rounded py-1 px-2">
+          <h4 className="bg-red-400 text-white w-fit rounded py-1 px-2 text-xs md:text-base">
             {t('donation_methods')}:
           </h4>
           <ul className="flex gap-2 mx-2">
