@@ -3,12 +3,12 @@ import { useTranslation } from 'react-i18next';
 import Container from '../components/Container';
 import SectionHeader from '../components/SectionHeader';
 import Alert from '../components/Alert';
-import getCurrentLocation from '../components/utilities';
-import { getCharities as getCharitiesFromApi } from '../components/utilities';
 import StateSelector from '../components/StateSelector';
 import CharityCard from '../components/CharityCard';
 import Loading from '../components/Loading';
 import Error from '../components/Error';
+import getCurrentLocation from '../components/utilities';
+import { getCharities as getCharitiesFromApi } from '../components/utilities';
 
 const initialState = {
   loading: true,
