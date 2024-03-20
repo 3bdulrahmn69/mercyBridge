@@ -12,23 +12,33 @@ function getPosition(options = {}) {
 
 async function reverseGeocode(latitude, longitude) {
   const url = `https://nominatim.openstreetmap.org/reverse?format=json&lat=${latitude}&lon=${longitude}`;
-  try {
-    const response = await axios.get(url);
-    return response.data;
-  } catch (error) {
-    throw new Error('Failed to fetch location data: ' + error.message);
+  const axiosInstance = axios.create({ timeout: 30000 }); // Adjusted timeout to 30 seconds
+  let attempts = 0;
+  const maxAttempts = 3; // Retry up to 3 times
+
+  while (attempts < maxAttempts) {
+    try {
+      const response = await axiosInstance.get(url);
+      return response.data;
+    } catch (error) {
+      attempts += 1;
+      if (
+        error.code === 'ECONNABORTED' ||
+        error.message.includes('timeout') ||
+        error.message.includes('ERR_CONNECTION_TIMED_OUT')
+      ) {
+        console.log(`Attempt ${attempts} failed, retrying...`);
+        continue; // Try again if a timeout or connection error occurred
+      }
+      throw new Error('Failed to fetch location data: ' + error.message);
+    }
   }
+  throw new Error('All attempts to fetch location data failed.');
 }
 
 export default async function getCurrentLocation() {
   try {
-    const cachedLocation = window.sessionStorage.getItem('currentLocation');
-    if (cachedLocation) {
-      console.log('Using cached location data.');
-      return { error: null, data: JSON.parse(cachedLocation) };
-    }
-
-    const options = { timeout: 10000 };
+    const options = { timeout: 10000 }; // This is for geolocation, not the reverseGeocode API call
     const position = await getPosition(options);
     const { latitude, longitude } = position.coords;
     const data = await reverseGeocode(latitude, longitude);
@@ -40,16 +50,11 @@ export default async function getCurrentLocation() {
     const state = data.address.state;
     const city = data.address.city;
 
-    sessionStorage.setItem('currentLocationState', state);
-    sessionStorage.setItem('currentLocationCity', city);
-    return { error: null, data: state + ' ' + city };
+    return { error: null, data: { state, city } };
   } catch (error) {
     console.error(error.message);
     if (error.message === 'User denied Geolocation') {
-      return {
-        error: 'Please allow location access',
-        data: null,
-      };
+      return { error: 'Please allow location access', data: null };
     }
     return { error: error.message, data: null };
   }

@@ -243,11 +243,11 @@
       "description": "The Egyptian Food Bank is a non-profit organization that aims to alleviate hunger in Egypt. It was founded in 2006 by Moez Masoud and is based in Cairo.",
       "link": "http://www.egyptianfoodbank.com/",
       "methods": ["Cash", "Food", "Clothes", "Volunteer"],
-      "areas": [
+      "states": [
         "Cairo",
         "Giza",
         "Alexandria",
-        "Qalyubiya",
+        "Al Qalyubiya",
         "Suez",
         "Ismailia",
         "Port Said",
@@ -280,11 +280,11 @@
       "description": "Misr El Kheir is an Egyptian non-profit organization that was established in 2007. It aims to develop the Egyptian society and to alleviate poverty.",
       "link": "http://www.misrelkheir.org/",
       "methods": ["Cash", "Food", "Clothes", "Volunteer"],
-      "areas": [
+      "states": [
         "Cairo",
         "Giza",
         "Alexandria",
-        "Qalyubiya",
+        "Al Qalyubiya",
         "Suez",
         "Ismailia",
         "Port Said",
@@ -301,7 +301,7 @@
       "description": "Resala is an Egyptian non-profit organization that was established in 1999. It aims to develop the Egyptian society and to alleviate poverty.",
       "link": "http://www.resala.org/",
       "methods": ["Cash", "Food", "Clothes", "Volunteer"],
-      "areas": [
+      "states": [
         "Cairo",
         "Giza",
         "Alexandria",
