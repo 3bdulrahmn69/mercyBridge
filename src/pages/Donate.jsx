@@ -2,16 +2,15 @@ import { useState, useEffect, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import Container from '../components/Container';
 import SectionHeader from '../components/SectionHeader';
-import StateSelector from '../components/StateSelector';
+import UltimateSelector from '../components/UltimateSelector';
 import CharityCard from '../components/CharityCard';
 import Alert from '../components/Alert';
 import Loading from '../components/Loading';
 import Error from '../components/Error';
 import FoundShape from '../components/FoundShape';
-import getCurrentLocation from '../components/utilities';
-import { getCharities as getCharitiesFromApi } from '../components/utilities';
-import { getStates } from '../components/utilities';
 import NoSomethingFound from '../components/NoSomethingFound';
+import getCurrentLocation from '../components/utilities';
+import { getStates, getCharities } from '../components/utilities';
 
 const Donate = () => {
   const { t } = useTranslation();
@@ -20,6 +19,8 @@ const Donate = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [states, setStates] = useState([]);
   const [locationSelected, setLocationSelected] = useState('');
+  const [methodSelected, setMethodSelected] = useState('All');
+  const [forSelected, setForSelected] = useState('All');
   const [charities, setCharities] = useState([]);
 
   useEffect(() => {
@@ -65,7 +66,7 @@ const Donate = () => {
         }
 
         try {
-          const charitiesResponse = await getCharitiesFromApi();
+          const charitiesResponse = await getCharities();
           if (charitiesResponse.error) {
             setErrorWithCharities(charitiesResponse.error);
           } else {
@@ -90,10 +91,12 @@ const Donate = () => {
     [states]
   );
 
-  const filteredCharities = charities.filter((charity) =>
-    locationSelected === 'All'
-      ? true
-      : charity.states.includes(locationSelected)
+  const filteredCharities = charities.filter(
+    (charity) =>
+      (locationSelected === 'All' ||
+        charity.states.includes(locationSelected)) &&
+      (methodSelected === 'All' || charity.methods.includes(methodSelected)) &&
+      (forSelected === 'All' || charity.donationFor.includes(forSelected))
   );
 
   if (isLoading) {
@@ -112,12 +115,39 @@ const Donate = () => {
         center={true}
       />
       <Container className="md:px-4">
-        <div className="flex gap-4 items-center mb-4">
-          <StateSelector
-            states={translatedStates}
-            location={locationSelected}
-            setLocationSelected={setLocationSelected}
-          />
+        <div className="flex mb-4 md:items-center md:justify-between md:flex-row flex-col justify-center items-start">
+          <div className="flex md:flex-row flex-col md:gap-4 gap-2 md:mb-0 mb-2">
+            <UltimateSelector
+              label={t('filter_by_state')}
+              arrToSelectFrom={translatedStates}
+              selectedValue={locationSelected}
+              setSelectedValue={setLocationSelected}
+            />
+            <UltimateSelector
+              label={t('filter_by_method')}
+              arrToSelectFrom={[
+                { name: 'Cash' },
+                { name: 'Food' },
+                { name: 'Clothes' },
+                { name: 'Volunteer' },
+              ]}
+              selectedValue={methodSelected}
+              setSelectedValue={setMethodSelected}
+            />
+            <UltimateSelector
+              label={t('filter_by_for')}
+              arrToSelectFrom={[
+                { name: 'Gaza' },
+                { name: 'Society' },
+                { name: 'Children' },
+                { name: 'Women' },
+                { name: 'Health' },
+                { name: 'Education' },
+              ]}
+              selectedValue={forSelected}
+              setSelectedValue={setForSelected}
+            />
+          </div>
           <FoundShape number={filteredCharities.length} />
         </div>
         <div className="flex flex-wrap justify-evenly gap-2">

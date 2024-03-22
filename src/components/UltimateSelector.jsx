@@ -1,20 +1,25 @@
 import PropTypes from 'prop-types';
 import { useTranslation } from 'react-i18next';
 
-const StateSelector = ({ states, location, setLocationSelected }) => {
+const UltimateSelector = ({
+  label,
+  arrToSelectFrom,
+  selectedValue,
+  setSelectedValue,
+}) => {
   const { t } = useTranslation();
 
   return (
     <label htmlFor="state">
-      {t('filter_by_state')}:
+      {label}:
       <select
         className="state-selector p-2 mx-2 border border-green-500 rounded-md font-bold focus:outline-none"
-        value={location}
-        onChange={(e) => setLocationSelected(e.target.value)}
+        value={selectedValue}
+        onChange={(e) => setSelectedValue(e.target.value)}
         id="state"
       >
         <option value="All">{t('all')}</option>
-        {states.map((state) => (
+        {arrToSelectFrom.map((state) => (
           <option key={state.name} value={state.name}>
             {t(state.name)}
           </option>
@@ -24,10 +29,11 @@ const StateSelector = ({ states, location, setLocationSelected }) => {
   );
 };
 
-StateSelector.propTypes = {
-  states: PropTypes.array,
-  location: PropTypes.string,
-  setLocationSelected: PropTypes.func,
+UltimateSelector.propTypes = {
+  label: PropTypes.string,
+  arrToSelectFrom: PropTypes.array,
+  selectedValue: PropTypes.string,
+  setSelectedValue: PropTypes.func,
 };
 
-export default StateSelector;
+export default UltimateSelector;

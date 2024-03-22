@@ -28,7 +28,7 @@ async function reverseGeocode(latitude, longitude) {
         error.message.includes('ERR_CONNECTION_TIMED_OUT')
       ) {
         console.log(`Attempt ${attempts} failed, retrying...`);
-        continue; // Try again if a timeout or connection error occurred
+        continue;
       }
       throw new Error('Failed to fetch location data: ' + error.message);
     }
@@ -38,7 +38,7 @@ async function reverseGeocode(latitude, longitude) {
 
 export default async function getCurrentLocation() {
   try {
-    const options = { timeout: 10000 }; // This is for geolocation, not the reverseGeocode API call
+    const options = { timeout: 10000 };
     const position = await getPosition(options);
     const { latitude, longitude } = position.coords;
     const data = await reverseGeocode(latitude, longitude);
