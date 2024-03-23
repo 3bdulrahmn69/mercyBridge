@@ -94,10 +94,21 @@ export async function getStates() {
 //_____________________________________________________________________________________
 export async function getNews(lang = 'en', config = {}) {
   try {
-    const url = lang === 'ar' ? 'news-ar' : 'news';
-    const finalConfig = { ...config };
-
-    const response = await api.get(url, finalConfig);
+    const response = await api.get(
+      lang === 'ar' ? '/news-ar' : '/news',
+      config
+    );
+    return response.data;
+  } catch (error) {
+    console.error('Error fetching news:', error);
+    throw error;
+  }
+}
+//_____________________________________________________________________________________
+export async function getNewsById(newsId, lang = 'en') {
+  try {
+    const url = lang === 'ar' ? `news-ar/${newsId}` : `news/${newsId}`;
+    const response = await api.get(url);
     return response.data;
   } catch (error) {
     console.error('Error fetching news:', error);
@@ -111,6 +122,16 @@ export async function getCharities() {
     return { error: null, charities: response.data };
   } catch (error) {
     console.error('Error fetching charities:', error);
+    throw error;
+  }
+}
+//_____________________________________________________________________________________
+export async function getCharityById(charityId) {
+  try {
+    const response = await api.get(`/charities/${charityId}`);
+    return { error: null, charity: response.data };
+  } catch (error) {
+    console.error('Error fetching charity:', error);
     throw error;
   }
 }

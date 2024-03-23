@@ -36,7 +36,7 @@ const NewsSection = () => {
             right={news.id % 2 === 0}
             title={news.title}
             content={news.content}
-            link={news.link}
+            id={news.id}
             date={news.date}
             img={news.img}
           />

@@ -140,7 +140,7 @@
     {
       "id": 1,
       "title": "Egyptian President Sisi to visit Russia 1",
-      "content": "Egyptian President Abdel Fattah al-Sisi will visit Russia on August 26, 2015 to discuss the situation in the Middle East and North Africa, the Kremlin said on Tuesday.",
+      "content": "Egyptian President Abdel Fattah al-Sisi will visit Russia on August 26, 2015 to discuss the situation in the Middle East and North Africa, the Kremlin said on Tuesday. Egyptian President Abdel Fattah al-Sisi will visit Russia on August 26, 2015 to discuss the situation in the Middle East and North Africa, the Kremlin said on Tuesday. Egyptian President Abdel Fattah al-Sisi will visit Russia on August 26, 2015 to discuss the situation in the Middle East and North Africa, the Kremlin said on Tuesday. Egyptian President Abdel Fattah al-Sisi will visit Russia on August 26, 2015 to discuss the situation in the Middle East and North Africa, the Kremlin said on Tuesday.",
       "link": "http://www.reuters.com/article/2015/08/25/us-egypt-russia-sisi-idUSKCN0QU0Z720150825",
       "img": "https://placehold.co/800x400",
       "date": "2015-08-25"
@@ -273,7 +273,8 @@
         "North Sinai",
         "South Sinai"
       ],
-      "img": "https://i.ibb.co/cgPVD48/Egyptian-Food-Bank-png-144x144.png"
+      "img": "https://i.ibb.co/cgPVD48/Egyptian-Food-Bank-png-144x144.png",
+      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg"
     },
     {
       "id": 2,
@@ -295,7 +296,8 @@
         "Beheira",
         "Gharbia"
       ],
-      "img": "https://i.ibb.co/r4LY9nL/Misr-El-Khair.png"
+      "img": "https://i.ibb.co/r4LY9nL/Misr-El-Khair.png",
+      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg"
     },
     {
       "id": 3,
@@ -317,7 +319,8 @@
         "Beheira",
         "Gharbia"
       ],
-      "img": "https://i.ibb.co/W3QsgPW/Resala.png"
+      "img": "https://i.ibb.co/W3QsgPW/Resala.png",
+      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg"
     },
     {
       "id": 4,
@@ -339,7 +342,8 @@
         "Beheira",
         "Gharbia"
       ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png"
+      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg"
     },
     {
       "id": 5,
@@ -361,7 +365,8 @@
         "Beheira",
         "Gharbia"
       ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png"
+      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg"
     },
     {
       "id": 6,
@@ -383,7 +388,8 @@
         "Beheira",
         "Gharbia"
       ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png"
+      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg"
     },
     {
       "id": 7,
@@ -405,7 +411,8 @@
         "Beheira",
         "Gharbia"
       ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png"
+      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg"
     },
     {
       "id": 8,
@@ -427,7 +434,8 @@
         "Beheira",
         "Gharbia"
       ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png"
+      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg"
     },
     {
       "id": 9,
@@ -449,7 +457,8 @@
         "Beheira",
         "Gharbia"
       ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png"
+      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg"
     },
     {
       "id": 10,
@@ -471,7 +480,8 @@
         "Beheira",
         "Gharbia"
       ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png"
+      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg"
     },
     {
       "id": 11,
@@ -493,7 +503,8 @@
         "Beheira",
         "Gharbia"
       ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png"
+      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg"
     },
     {
       "id": 12,
@@ -515,7 +526,8 @@
         "Beheira",
         "Gharbia"
       ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png"
+      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg"
     },
     {
       "id": 13,
@@ -537,7 +549,8 @@
         "Beheira",
         "Gharbia"
       ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png"
+      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg"
     },
     {
       "id": 14,
@@ -559,7 +572,8 @@
         "Beheira",
         "Gharbia"
       ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png"
+      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg"
     },
     {
       "id": 15,
@@ -581,7 +595,8 @@
         "Beheira",
         "Gharbia"
       ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png"
+      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg"
     },
     {
       "id": 16,
@@ -603,7 +618,8 @@
         "Beheira",
         "Gharbia"
       ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png"
+      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg"
     },
     {
       "id": 17,
@@ -625,7 +641,8 @@
         "Beheira",
         "Gharbia"
       ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png"
+      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg"
     },
     {
       "id": 18,
@@ -647,7 +664,8 @@
         "Beheira",
         "Gharbia"
       ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png"
+      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg"
     },
     {
       "id": 19,
@@ -669,7 +687,8 @@
         "Beheira",
         "Gharbia"
       ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png"
+      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg"
     },
     {
       "id": 20,
@@ -691,7 +710,8 @@
         "Beheira",
         "Gharbia"
       ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png"
+      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg"
     },
     {
       "id": 21,
@@ -712,7 +732,8 @@
         "Sharqia",
         "Beheira"
       ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png"
+      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg"
     },
     {
       "id": 22,
@@ -731,7 +752,8 @@
         "Port Said",
         "Dakahlia"
       ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png"
+      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg"
     },
     {
       "id": 23,
@@ -741,7 +763,8 @@
       "methods": ["Cash", "Volunteer"],
       "donationFor": ["Health"],
       "states": ["Cairo", "Giza", "Alexandria", "Qalyubiya"],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png"
+      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg"
     },
     {
       "id": 24,
@@ -751,7 +774,8 @@
       "methods": ["Cash", "Volunteer"],
       "donationFor": ["Health"],
       "states": ["Cairo", "Giza", "Alexandria"],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png"
+      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg"
     },
     {
       "id": 25,
@@ -761,7 +785,8 @@
       "methods": ["Cash", "Volunteer"],
       "donationFor": ["Health"],
       "states": ["Cairo", "Giza"],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png"
+      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg"
     },
     {
       "id": 26,
@@ -771,7 +796,8 @@
       "methods": ["Cash", "Volunteer"],
       "donationFor": ["Health"],
       "states": ["Cairo"],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png"
+      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg"
     },
     {
       "id": 27,
@@ -781,7 +807,8 @@
       "methods": ["Cash", "Volunteer"],
       "donationFor": ["Health"],
       "states": ["Cairo"],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png"
+      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg"
     },
     {
       "id": 28,
@@ -791,7 +818,8 @@
       "methods": ["Cash"],
       "donationFor": ["Health", "Children"],
       "states": ["Alexandria"],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png"
+      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg"
     }
   ]
 }

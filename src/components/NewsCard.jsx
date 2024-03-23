@@ -1,8 +1,9 @@
 import PropTypes from 'prop-types';
 import Container from './Container';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
-const NewsCard = ({ right, title, content, link, date, img }) => {
+const NewsCard = ({ right, title, content, id, date, img }) => {
   const { t } = useTranslation();
   return (
     <article className="w-full bg-gray-100 flex items-center mb-2">
@@ -35,13 +36,13 @@ const NewsCard = ({ right, title, content, link, date, img }) => {
               } justify-between items-center mt-4`}
             >
               <p className="bg-green-200 text-black px-2 py-1">{date}</p>
-              <a
-                href={link}
+              <Link
+                to={`/news/${id}`}
                 rel="noreferrer noopener"
                 className={`bg-green-800 py-2 px-4 text-white block w-fit hover:bg-transparent hover:text-green-800 border-2 border-green-800 rounded-sm transition-colors duration-300`}
               >
                 {t('read_more')}
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -54,7 +55,7 @@ NewsCard.propTypes = {
   right: PropTypes.bool,
   title: PropTypes.string.isRequired,
   content: PropTypes.string.isRequired,
-  link: PropTypes.string.isRequired,
+  id: PropTypes.string.isRequired,
   date: PropTypes.string.isRequired,
   img: PropTypes.string,
 };

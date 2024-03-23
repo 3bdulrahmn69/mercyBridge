@@ -154,6 +154,7 @@ const Donate = () => {
           {filteredCharities.map((charity) => (
             <CharityCard
               key={charity.id}
+              id={charity.id}
               name={charity.name}
               description={charity.description}
               image={charity.img}

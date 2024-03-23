@@ -26,6 +26,10 @@
   "News_Title": "Latest News",
   "News_disc": "Stay updated with our latest news and events",
   "read_more": "Read More",
+  "newsProfile": {
+    "back": "Previous",
+    "next": "Next"
+  },
   "ContactSection": "__________________Contact_______________________________",
   "Contact_Description": "Have a question or need more information? Contact us!",
   "Full_Name": "Full Name",
@@ -75,7 +79,8 @@
   "donate": {
     "results": "results",
     "Sorry": "Sorry",
-    "message": "no charities found in"
+    "message": "no charities found in",
+    "charity_donate_BTN": "Donate"
   },
   "Error_404": "__________________________Error_404_______________________________",
   "backToHome": "Back to Home",

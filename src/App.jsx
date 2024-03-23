@@ -1,58 +1,66 @@
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import HttpApi from 'i18next-http-backend';
 import { ReactLenis } from '@studio-freight/react-lenis';
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
-import { useEffect } from 'react';
 import Language from './components/Language';
 import Header from './sections/Header';
 import Home from './pages/Home';
 import News from './pages/News';
+import NewsProfile from './pages/NewsProfile';
 import About from './pages/About';
 import Works from './pages/Works';
 import Contact from './pages/Contact';
 import Donate from './pages/Donate';
+import CharityProfile from './pages/CharityProfile';
 import NotFound from './pages/NotFound';
 import GoTopBtn from './components/GoTopBtn';
 import Footer from './sections/Footer';
 import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
 import Help from './pages/Help';
-
-const ScrollToTop = () => {
-  const { pathname } = useLocation();
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
-
-  return null;
-};
+import ScrollToTop from './components/ScrollToTop';
 
 const App = () => {
   return (
     <ReactLenis root>
       <BrowserRouter>
-        <ScrollToTop />
-        <Language />
-        <Header />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/news" element={<News />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/works" element={<Works />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/donate" element={<Donate />} />
-          <Route path="*" element={<NotFound />} />
-          <Route path="/privacy" element={<Privacy />} />
-          <Route path="/terms" element={<Terms />} />
-          <Route path="/help" element={<Help />} />
-        </Routes>
-        <GoTopBtn />
-        <Footer />
+        <InnerApp />
       </BrowserRouter>
     </ReactLenis>
+  );
+};
+
+const InnerApp = () => {
+  const location = useLocation();
+
+  const hideHeader =
+    location.pathname.match(/\/news\/\d+$/) ||
+    location.pathname.match(/\/donate\/\d+$/);
+
+  return (
+    <>
+      <ScrollToTop />
+      {!hideHeader && <Language />}
+      {!hideHeader && <Header />}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/news" element={<News />} />
+        <Route path="/news/:id" element={<NewsProfile />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/works" element={<Works />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/donate" element={<Donate />} />
+        <Route path="/donate/:id" element={<CharityProfile />} />
+        <Route path="*" element={<NotFound />} />
+        <Route path="/privacy" element={<Privacy />} />
+        <Route path="/terms" element={<Terms />} />
+        <Route path="/help" element={<Help />} />
+      </Routes>
+      <GoTopBtn />
+      <Footer />
+    </>
   );
 };
 

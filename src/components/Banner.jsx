@@ -1,14 +1,26 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
-import reLogo from '../assets/logo1.png';
+import BannerImg from './BannerImg';
+import { getCharities } from './utilities';
 
 const Banner = ({ speed }) => {
+  const [charities, setCharities] = useState([]);
   const scrollRef = useRef(null);
 
   useEffect(() => {
     const container = scrollRef.current;
     let animationFrameId = null;
     let isHovering = false;
+
+    try {
+      const fetchCharities = async () => {
+        const response = await getCharities();
+        setCharities(response.charities);
+      };
+      fetchCharities();
+    } catch (error) {
+      console.error('Error fetching charities:', error);
+    }
 
     const scrollContent = () => {
       if (!isHovering) {
@@ -50,97 +62,9 @@ const Banner = ({ speed }) => {
     >
       {[...Array(2)].map((_, i) => (
         <React.Fragment key={i}>
-          <div className="bg-red-500 rounded-full md:w-28 w-20 md:h-28 h-20 mx-2 shrink-0 flex-none">
-            <img
-              src={reLogo}
-              alt="logo"
-              className="w-full h-full object-contain"
-            />
-          </div>
-          <div className="bg-white rounded-full md:w-28 w-20 md:h-28 h-20 mx-2 shrink-0 flex-none">
-            <img
-              src={reLogo}
-              alt="logo"
-              className="w-full h-full object-contain"
-            />
-          </div>
-          <div className="bg-white rounded-full md:w-28 w-20 md:h-28 h-20 mx-2 shrink-0 flex-none">
-            <img
-              src={reLogo}
-              alt="logo"
-              className="w-full h-full object-contain"
-            />
-          </div>
-          <div className="bg-white rounded-full md:w-28 w-20 md:h-28 h-20 mx-2 shrink-0 flex-none">
-            <img
-              src={reLogo}
-              alt="logo"
-              className="w-full h-full object-contain"
-            />
-          </div>
-          <div className="bg-white rounded-full md:w-28 w-20 md:h-28 h-20 mx-2 shrink-0 flex-none">
-            <img
-              src={reLogo}
-              alt="logo"
-              className="w-full h-full object-contain"
-            />
-          </div>
-          <div className="bg-white rounded-full md:w-28 w-20 md:h-28 h-20 mx-2 shrink-0 flex-none">
-            <img
-              src={reLogo}
-              alt="logo"
-              className="w-full h-full object-contain"
-            />
-          </div>
-          <div className="bg-white rounded-full md:w-28 w-20 md:h-28 h-20 mx-2 shrink-0 flex-none">
-            <img
-              src={reLogo}
-              alt="logo"
-              className="w-full h-full object-contain"
-            />
-          </div>
-          <div className="bg-white rounded-full md:w-28 w-20 md:h-28 h-20 mx-2 shrink-0 flex-none">
-            <img
-              src={reLogo}
-              alt="logo"
-              className="w-full h-full object-contain"
-            />
-          </div>
-          <div className="bg-white rounded-full md:w-28 w-20 md:h-28 h-20 mx-2 shrink-0 flex-none">
-            <img
-              src={reLogo}
-              alt="logo"
-              className="w-full h-full object-contain"
-            />
-          </div>
-          <div className="bg-white rounded-full md:w-28 w-20 md:h-28 h-20 mx-2 shrink-0 flex-none">
-            <img
-              src={reLogo}
-              alt="logo"
-              className="w-full h-full object-contain"
-            />
-          </div>
-          <div className="bg-white rounded-full md:w-28 w-20 md:h-28 h-20 mx-2 shrink-0 flex-none">
-            <img
-              src={reLogo}
-              alt="logo"
-              className="w-full h-full object-contain"
-            />
-          </div>
-          <div className="bg-white rounded-full md:w-28 w-20 md:h-28 h-20 mx-2 shrink-0 flex-none">
-            <img
-              src={reLogo}
-              alt="logo"
-              className="w-full h-full object-contain"
-            />
-          </div>
-          <div className="bg-black rounded-full md:w-28 w-20 md:h-28 h-20 mx-2 shrink-0 flex-none">
-            <img
-              src={reLogo}
-              alt="logo"
-              className="w-full h-full object-contain"
-            />
-          </div>
+          {charities.map((charity) => (
+            <BannerImg key={charity.id} img={charity.img} />
+          ))}
         </React.Fragment>
       ))}
     </div>
