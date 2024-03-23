@@ -116,9 +116,10 @@ export async function getNewsById(newsId, lang = 'en') {
   }
 }
 //_____________________________________________________________________________________
-export async function getCharities() {
+export async function getCharities(lang = 'en') {
+  const url = lang === 'ar' ? '/charities-ar' : '/charities';
   try {
-    const response = await api.get('/charities');
+    const response = await api.get(url);
     return { error: null, charities: response.data };
   } catch (error) {
     console.error('Error fetching charities:', error);
@@ -126,9 +127,11 @@ export async function getCharities() {
   }
 }
 //_____________________________________________________________________________________
-export async function getCharityById(charityId) {
+export async function getCharityById(charityId, lang = 'en') {
+  const url =
+    lang === 'ar' ? `/charities-ar/${charityId}` : `/charities/${charityId}`;
   try {
-    const response = await api.get(`/charities/${charityId}`);
+    const response = await api.get(url);
     return { error: null, charity: response.data };
   } catch (error) {
     console.error('Error fetching charity:', error);

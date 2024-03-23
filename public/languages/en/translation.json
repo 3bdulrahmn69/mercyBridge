@@ -27,6 +27,7 @@
   "News_disc": "Stay updated with our latest news and events",
   "read_more": "Read More",
   "newsProfile": {
+    "snapshots": "Snapshots",
     "back": "Previous",
     "next": "Next"
   },
@@ -117,10 +118,6 @@
   "South Sinai": "South Sinai",
   "Suez": "Suez",
   "Luxor": "Luxor",
-  "CharitiesSSSS": "__________________________CharitiesSSSS_______________________________",
-  "Egyptian Food Bank": "Egyptian Food Bank",
-  "Misr El Kheir": "Misr El Kheir",
-  "Resala": "Resala",
   "Terms_ss": "__________________________Terms_ss_______________________________",
   "terms.title": "Terms and Conditions for MercyBridge",
   "terms.lastUpdated": "Last updated: [1-1-2024]",

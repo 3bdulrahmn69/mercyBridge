@@ -15,7 +15,7 @@ const NewsCard = ({ right, title, content, id, date, img }) => {
         >
           <figure className="h-56 md:w-5/12 w-11/12">
             <img
-              src={img}
+              src={img[0]}
               alt="Latest News"
               className="w-full h-full rounded"
             />

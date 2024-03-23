@@ -21,6 +21,7 @@ const Donate = () => {
   const [locationSelected, setLocationSelected] = useState('');
   const [methodSelected, setMethodSelected] = useState('All');
   const [forSelected, setForSelected] = useState('All');
+  const [searchQuery, setSearchQuery] = useState('');
   const [charities, setCharities] = useState([]);
 
   useEffect(() => {
@@ -96,8 +97,14 @@ const Donate = () => {
       (locationSelected === 'All' ||
         charity.states.includes(locationSelected)) &&
       (methodSelected === 'All' || charity.methods.includes(methodSelected)) &&
-      (forSelected === 'All' || charity.donationFor.includes(forSelected))
+      (forSelected === 'All' || charity.donationFor.includes(forSelected)) &&
+      (searchQuery === '' ||
+        charity.name.toLowerCase().includes(searchQuery.toLowerCase()))
   );
+
+  const handleSearchChange = (event) => {
+    setSearchQuery(event.target.value);
+  };
 
   if (isLoading) {
     return (
@@ -117,6 +124,13 @@ const Donate = () => {
       <Container className="md:px-4">
         <div className="flex mb-4 md:items-center md:justify-between md:flex-row flex-col justify-center items-start">
           <div className="flex md:flex-row flex-col md:gap-4 gap-2 md:mb-0 mb-2">
+            <input
+              type="text"
+              placeholder="Search charities..."
+              value={searchQuery}
+              onChange={handleSearchChange}
+              className="px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:border-green-500"
+            />
             <UltimateSelector
               label={t('filter_by_state')}
               arrToSelectFrom={translatedStates}

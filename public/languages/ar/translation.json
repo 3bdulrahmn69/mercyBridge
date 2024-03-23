@@ -27,6 +27,7 @@
   "News_disc": "تعرف على آخر الأخبار والأحداث التي تحدث في مجتمعك",
   "read_more": "اقرأ المزيد",
   "newsProfile": {
+    "snapshots": "لقطات",
     "back": "السابق",
     "next": "التالي"
   },
@@ -113,10 +114,6 @@
   "South Sinai": "جنوب سيناء",
   "Suez": "السويس",
   "Luxor": "الأقصر",
-  "CharitiesSSSS": "__________________________CharitiesSSSS_______________________________",
-  "Egyptian Food Bank": "البنك الغذائي المصري",
-  "Misr El Kheir": "مصر الخير",
-  "Resala": "رسالة",
   "Terms_sss": "__________________________Terms_sss_______________________________",
   "terms.title": "الشروط والأحكام لـ MercyBridge",
   "terms.lastUpdated": "آخر تحديث: [1-1-2024]",

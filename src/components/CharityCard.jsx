@@ -27,7 +27,7 @@ const CharityCard = ({ id, name, description, image, methods }) => {
       </div>
       <div>
         <div>
-          <h3 className="md:text-2xl text-xl mb-2 font-bold">{t(name)}</h3>
+          <h3 className="md:text-2xl text-xl mb-2 font-bold">{name}</h3>
           <p>{description}</p>
         </div>
         <div className="flex items-center mt-2 justify-between">
