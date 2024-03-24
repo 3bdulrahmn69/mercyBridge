@@ -57,7 +57,7 @@ NewsCard.propTypes = {
   content: PropTypes.string.isRequired,
   id: PropTypes.string.isRequired,
   date: PropTypes.string.isRequired,
-  img: PropTypes.string,
+  img: PropTypes.array,
 };
 
 NewsCard.defaultProps = {

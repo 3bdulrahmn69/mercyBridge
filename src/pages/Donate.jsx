@@ -23,7 +23,7 @@ const Donate = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [states, setStates] = useState([]);
   const [locationSelected, setLocationSelected] = useState('');
-  const [methodSelected, setMethodSelected] = useState('All'); 
+  const [methodSelected, setMethodSelected] = useState('All');
   const [forSelected, setForSelected] = useState(methodFromQuery || 'All');
   const [searchQuery, setSearchQuery] = useState('');
   const [charities, setCharities] = useState([]);
@@ -96,15 +96,23 @@ const Donate = () => {
     [states]
   );
 
-  const filteredCharities = charities.filter(
-    (charity) =>
-      (locationSelected === 'All' ||
-        charity.states.includes(locationSelected)) &&
-      (methodSelected === 'All' || charity.methods.includes(methodSelected)) &&
-      (forSelected === 'All' || charity.donationFor.includes(forSelected)) &&
-      (searchQuery === '' ||
-        charity.name.toLowerCase().includes(searchQuery.toLowerCase()))
-  );
+  const filteredCharities = charities.filter((charity) => {
+    const locationMatches =
+      locationSelected === 'All' ||
+      charity.location.some((location) => location.states === locationSelected);
+
+    const methodMatches =
+      methodSelected === 'All' || charity.methods.includes(methodSelected);
+
+    const forMatches =
+      forSelected === 'All' || charity.donationFor.includes(forSelected);
+
+    const searchMatches =
+      searchQuery === '' ||
+      charity.name.toLowerCase().includes(searchQuery.toLowerCase());
+
+    return locationMatches && methodMatches && forMatches && searchMatches;
+  });
 
   const handleSearchChange = (event) => {
     setSearchQuery(event.target.value);

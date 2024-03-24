@@ -1,6 +1,7 @@
 import i18next from 'i18next';
 import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
+import { useLenis } from '@studio-freight/react-lenis';
 import Loading from '../components/Loading';
 import Error from '../components/Error';
 import Container from '../components/Container';
@@ -20,8 +21,12 @@ const NewsProfile = () => {
   const [showModal, setShowModal] = useState(false);
   const [imgIndex, setImgIndex] = useState(0);
   const lang = i18next.language;
-
   const { id } = useParams();
+
+  // eslint-disable-next-line no-unused-vars
+  const lenis = useLenis(({ scroll }) => {
+    // called every scroll
+  });
 
   useEffect(() => {
     async function fetchNews() {
@@ -57,6 +62,12 @@ const NewsProfile = () => {
   if (error) {
     return <Error message={error} />;
   }
+
+  const handleImageClick = (idx) => {
+    setShowModal(true);
+    setImgIndex(idx);
+    lenis.scrollTo(0);
+  };
 
   return (
     <main className={`pb-4 ${showModal ? 'overflow-hidden h-screen' : ''}`}>
@@ -100,10 +111,7 @@ const NewsProfile = () => {
                   src={img}
                   alt={news.title}
                   className="w-full h-full object-contain rounded opacity-80 hover:opacity-100 duration-300 cursor-pointer"
-                  onClick={() => {
-                    setImgIndex(index);
-                    setShowModal(true);
-                  }}
+                  onClick={() => handleImageClick(index)}
                 />
               </figure>
             ))}

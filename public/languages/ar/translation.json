@@ -83,7 +83,10 @@
     "results": "من النتائج",
     "Sorry": "عذراً",
     "message": "لا يوجد جمعيات في",
-    "charity_donate_BTN": "تبرع "
+    "charity_donate_BTN": "تبرع ",
+    "locationIn": "عنواننا في",
+    "description": "وصف",
+    "donationMethods": "طرق التبرع"
   },
   "Error_404": "__________________________Error_404_______________________________",
   "backToHome": "العودة الى الصفحة الرئيسية",
@@ -92,6 +95,7 @@
   "filter_by_method": "طرق التبرع",
   "filter_by_for": "تبرع لـ",
   "donation_methods": "طرق التبرع",
+  "states": "المحافظات",
   "all": "الكل",
   "Alexandria": "الإسكندرية",
   "Al Qalyubiya": "القليوبية",

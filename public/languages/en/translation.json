@@ -87,7 +87,10 @@
     "results": "results",
     "Sorry": "Sorry",
     "message": "no charities found in",
-    "charity_donate_BTN": "Donate"
+    "charity_donate_BTN": "Donate",
+    "locationIn": "Our location in",
+    "description": "Description",
+    "donationMethods": "Donation Methods"
   },
   "Error_404": "__________________________Error_404_______________________________",
   "backToHome": "Back to Home",
@@ -96,6 +99,7 @@
   "filter_by_method": "Method",
   "filter_by_for": "For",
   "donation_methods": "Donation Methods",
+  "states": "States",
   "all": "All",
   "Alexandria": "Alexandria",
   "Al Qalyubiya": "Al Qalyubiya",
