@@ -101,16 +101,16 @@ const NewsProfile = () => {
           <p className="font-medium leading-7 lg:px-0 px-2">{news.content}</p>
         </article>
         <article className="md:px-0 px-2">
-          <h2 className="font-bold text-xl mt-8">
+          <h2 className="font-bold text-3xl mb-4">
             {i18next.t('newsProfile.snapshots')}
           </h2>
-          <div className="flex md:justify-between justify-center flex-wrap">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {news.img.map((img, index) => (
-              <figure key={index} className="w-60 h-60">
+              <figure key={index} className="w-full h-96 relative">
                 <img
                   src={img}
                   alt={news.title}
-                  className="w-full h-full object-contain rounded opacity-80 hover:opacity-100 duration-300 cursor-pointer"
+                  className="w-full h-full object-cover opacity-80 hover:opacity-100 duration-300 cursor-pointer rounded"
                   onClick={() => handleImageClick(index)}
                 />
               </figure>
