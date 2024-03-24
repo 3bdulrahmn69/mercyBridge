@@ -105,9 +105,9 @@ const CharityProfile = () => {
           <LiaAngleLeftSolid />
         </Link>
       </figure>
-      <div>
-        <section className="flex justify-evenly mb-8">
-          <aside className="bg-green-500 text-white w-2/12 px-8 py-4 rounded-lg">
+      <div className="lg:px-0 px-4">
+        <section className="flex md:flex-row flex-col-reverse justify-evenly mb-8">
+          <aside className="bg-green-500 text-white md:w-2/12 w-full md:mt-0 mt-4 px-8 py-4 rounded-lg">
             <h2 className="font-bold text-3xl text-center mb-4">
               {t('states')}
             </h2>
@@ -127,7 +127,7 @@ const CharityProfile = () => {
               ))}
             </ul>
           </aside>
-          <section className="w-8/12">
+          <section className="md:w-8/12 w-full">
             <article>
               <h2 className="font-bold text-3xl mb-4">
                 {t('donate.description')}

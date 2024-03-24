@@ -98,13 +98,13 @@ const NewsProfile = () => {
       </figure>
       <Container>
         <article>
-          <p className="font-medium leading-7">{news.content}</p>
+          <p className="font-medium leading-7 lg:px-0 px-2">{news.content}</p>
         </article>
-        <article>
+        <article className="md:px-0 px-2">
           <h2 className="font-bold text-xl mt-8">
             {i18next.t('newsProfile.snapshots')}
           </h2>
-          <div className="flex justify-between">
+          <div className="flex md:justify-between justify-center flex-wrap">
             {news.img.map((img, index) => (
               <figure key={index} className="w-60 h-60">
                 <img
@@ -116,9 +116,9 @@ const NewsProfile = () => {
               </figure>
             ))}
           </div>
+          <p className="flex justify-end mt-4 md:mb-20 mb-10">{news.date}</p>
         </article>
-        <p className="flex justify-end mt-4 mb-20">{news.date}</p>
-        <div className="flex justify-between" dir="ltr">
+        <div className="flex md:justify-between justify-center gap-5" dir="ltr">
           <Link
             to={`/news/${parseInt(id) === 1 ? 1 : parseInt(id) - 1}`}
             className={`bg-green-700 text-white rounded-md w-28 h-fit py-2 flex justify-end px-4 items-center gap-1 hover:bg-green-600 duration-300 hover:gap-3 ${

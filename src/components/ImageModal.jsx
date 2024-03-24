@@ -21,13 +21,13 @@ const ImageModal = ({ img, setShowModal, imgIndex }) => {
         X
       </button>
       <button
-        className="absolute top-1/2 left-4 text-6xl h-24 bg-gray-400 hover:bg-gray-600 duration-300 text-white rounded-md"
+        className="absolute md:top-1/2 bottom-16 md:left-4 left-1 text-6xl h-24 bg-gray-400 hover:bg-gray-600 duration-300 text-white rounded-md"
         title="Previous"
         onClick={() => setIndex(index === 0 ? img.length - 1 : index - 1)}
       >
         <IoIosArrowBack />
       </button>
-      <div className="w-4/6">
+      <div className="md:w-4/6 w-full">
         <img
           src={img[index]}
           alt="image"
@@ -35,7 +35,7 @@ const ImageModal = ({ img, setShowModal, imgIndex }) => {
         />
       </div>
       <button
-        className="absolute top-1/2 right-4 text-6xl h-24 bg-gray-400 hover:bg-gray-600 duration-300 text-white rounded-md"
+        className="absolute md:top-1/2 bottom-16 md:right-4 right-1 text-6xl h-24 bg-gray-400 hover:bg-gray-600 duration-300 text-white rounded-md"
         title="Next"
         onClick={() => setIndex(index === img.length - 1 ? 0 : index + 1)}
       >
