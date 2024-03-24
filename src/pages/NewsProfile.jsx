@@ -100,7 +100,7 @@ const NewsProfile = () => {
         <article>
           <p className="font-medium leading-7 lg:px-0 px-2">{news.content}</p>
         </article>
-        <article className="md:px-0 px-2">
+        <article className="md:px-0 px-2 mt-4">
           <h2 className="font-bold text-3xl mb-4">
             {i18next.t('newsProfile.snapshots')}
           </h2>
