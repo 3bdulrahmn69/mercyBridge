@@ -291,7 +291,7 @@
       "description": "The Egyptian Food Bank is a non-profit organization that aims to alleviate hunger in Egypt. It was founded in 2006 by Moez Masoud and is based in Cairo.",
       "link": "http://www.egyptianfoodbank.com/",
       "methods": ["Cash", "Clothes", "Volunteer"],
-      "donationFor": ["Society"],
+      "donationFor": ["Society", "Gaza"],
       "states": [
         "Cairo",
         "Giza",

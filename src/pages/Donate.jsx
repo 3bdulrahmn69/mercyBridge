@@ -11,16 +11,20 @@ import FoundShape from '../components/FoundShape';
 import NoSomethingFound from '../components/NoSomethingFound';
 import getCurrentLocation from '../components/utilities';
 import { getStates, getCharities } from '../components/utilities';
+import { useLocation } from 'react-router-dom';
 
 const Donate = () => {
   const { t } = useTranslation();
+  const query = new URLSearchParams(useLocation().search);
+  const methodFromQuery = query.get('for');
+
   const [errorWithLocation, setErrorWithLocation] = useState(null);
   const [errorWithCharities, setErrorWithCharities] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
   const [states, setStates] = useState([]);
   const [locationSelected, setLocationSelected] = useState('');
-  const [methodSelected, setMethodSelected] = useState('All');
-  const [forSelected, setForSelected] = useState('All');
+  const [methodSelected, setMethodSelected] = useState('All'); 
+  const [forSelected, setForSelected] = useState(methodFromQuery || 'All');
   const [searchQuery, setSearchQuery] = useState('');
   const [charities, setCharities] = useState([]);
 
@@ -143,6 +147,7 @@ const Donate = () => {
                 { name: 'Cash' },
                 { name: 'Food' },
                 { name: 'Clothes' },
+                { name: 'Medicine' },
                 { name: 'Volunteer' },
               ]}
               selectedValue={methodSelected}

@@ -8,11 +8,12 @@ const Footer = () => {
   const { t } = useTranslation();
   const Year = new Date().getFullYear();
   const donateLinks = [
-    { name: 'money', link: '/donate/money' },
-    { name: 'medicine', link: '/donate/medicine' },
-    { name: 'food', link: '/donate/food' },
-    { name: 'clothes', link: '/donate/clothes' },
-    { name: 'other', link: '/donate/other' },
+    { name: 'Gaza', link: '/donate?for=Gaza' },
+    { name: 'Children', link: '/donate?for=Children' },
+    { name: 'Women', link: '/donate?for=Women' },
+    { name: 'Health', link: '/donate?for=Health' },
+    { name: 'Education', link: '/donate?for=Education' },
+    { name: 'Society', link: '/donate?for=Society' },
   ];
 
   return (
