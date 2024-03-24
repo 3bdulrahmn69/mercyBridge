@@ -29,7 +29,8 @@
   "newsProfile": {
     "snapshots": "Snapshots",
     "back": "Previous",
-    "next": "Next"
+    "next": "Next",
+    "DonateFor": "Donate For"
   },
   "ContactSection": "__________________Contact_______________________________",
   "Contact_Description": "Have a question or need more information? Contact us!",

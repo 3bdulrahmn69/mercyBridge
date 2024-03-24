@@ -1,4 +1,4 @@
-import i18next from 'i18next';
+import i18next, { t } from 'i18next';
 import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { useLenis } from '@studio-freight/react-lenis';
@@ -115,6 +115,14 @@ const NewsProfile = () => {
                 />
               </figure>
             ))}
+          </div>
+          <div className="flex items-center justify-center my-4">
+            <Link
+              to={`/donate?for=${news.donateFor}`}
+              className="bg-green-500 text-white rounded-md w-40 h-fit py-2 flex justify-center items-center gap-1 hover:bg-green-600 duration-300"
+            >
+              {t('newsProfile.DonateFor')} {news.donateFor}
+            </Link>
           </div>
           <p className="flex justify-end mt-4 md:mb-20 mb-10">{news.date}</p>
         </article>
