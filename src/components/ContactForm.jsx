@@ -13,6 +13,11 @@ const ContactForm = () => {
       onSubmit={(e) => {
         e.preventDefault();
         console.log(formData);
+        setFormData({
+          name: '',
+          email: '',
+          message: '',
+        });
       }}
       className="flex flex-col gap-2 w-full"
     >
