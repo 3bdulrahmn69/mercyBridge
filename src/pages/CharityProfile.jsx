@@ -9,7 +9,7 @@ import Loading from '../components/Loading';
 import Error from '../components/Error';
 import ImageModal from '../components/ImageModal';
 import { getCharityById } from '../components/utilities';
-import { LiaAngleLeftSolid } from 'react-icons/lia';
+import { LiaAngleLeftSolid, LiaExternalLinkAltSolid } from 'react-icons/lia';
 
 const CharityProfile = () => {
   const { t } = useTranslation();
@@ -96,6 +96,15 @@ const CharityProfile = () => {
               {charity.name}
             </h1>
           </div>
+          <a
+            href={charity.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Visit charity website"
+            className="absolute top-4 right-4 bg-white px-4 py-2 rounded-md hover:bg-green-600 hover:text-white duration-300"
+          >
+            <LiaExternalLinkAltSolid />
+          </a>
         </Container>
         <Link
           to="/donate"
