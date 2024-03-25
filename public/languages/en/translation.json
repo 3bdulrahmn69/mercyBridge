@@ -28,6 +28,7 @@
   "read_more": "Read More",
   "newsProfile": {
     "snapshots": "Snapshots",
+    "noSnapshots": "No snapshots available",
     "back": "Previous",
     "next": "Next",
     "DonateFor": "Donate For",
@@ -42,6 +43,8 @@
   "Contact_Info": "Contact Info",
   "send_us_message": "Send us a message",
   "WorksSection": "________________________Works______________________________",
+  "ourWorks": "Our Works",
+  "ourWorks_description": "We works with many Charities.",
   "ourLaunch": "Our Launch",
   "ourLaunch_description": "We have launched our website to help people to donate and help others.",
   "FirstMove": "First Move",
@@ -92,7 +95,9 @@
     "charity_donate_BTN": "Donate",
     "locationIn": "Our location in",
     "description": "Description",
-    "donationMethods": "Donation Methods"
+    "donationMethods": "Donation Methods",
+    "address": "Address",
+    "phone": "Phone"
   },
   "Error_404": "__________________________Error_404_______________________________",
   "backToHome": "Back to Home",

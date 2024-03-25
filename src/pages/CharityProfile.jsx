@@ -135,15 +135,15 @@ const CharityProfile = () => {
               <p className="text-xl">{charity.description}</p>
             </article>
             <hr className="w-full my-8 border-4 rounded-lg" />
-            <article className="bg-green-500 rounded text-white px-2 py-1">
+            <article className="bg-green-500 rounded text-white px-4 py-2">
               <h2 className="font-bold text-3xl mb-4">
                 {t('donate.locationIn')} {selectedLocation.states}
               </h2>
               <p className="text-xl">
-                {t('phone')}: {selectedLocation.phone}
+                {t('donate.phone')}: {selectedLocation.phone}
               </p>
               <p className="text-xl">
-                {t('address')}: {selectedLocation.address}
+                {t('donate.address')}: {selectedLocation.address}
               </p>
             </article>
           </section>
@@ -172,16 +172,22 @@ const CharityProfile = () => {
                 {t('newsProfile.snapshots')}
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                {charity.snapshots.map((snapshot, idx) => (
-                  <figure key={idx} className="w-full h-96 relative">
-                    <img
-                      src={snapshot}
-                      alt={charity.name}
-                      className="w-full h-full object-cover opacity-80 hover:opacity-100 duration-300 cursor-pointer rounded"
-                      onClick={() => handleImageClick(idx)}
-                    />
-                  </figure>
-                ))}
+                {charity.snapshots &&
+                  charity.snapshots.map((snapshot, idx) => (
+                    <figure key={idx} className="w-full h-96 relative">
+                      <img
+                        src={snapshot}
+                        alt={charity.name}
+                        className="w-full h-full object-cover opacity-80 hover:opacity-100 duration-300 cursor-pointer rounded"
+                        onClick={() => handleImageClick(idx)}
+                      />
+                    </figure>
+                  ))}
+                {!charity.snapshots && (
+                  <div className="text-2xl text-center text-red-500 font-bold">
+                    {t('newsProfile.noSnapshots')}
+                  </div>
+                )}
               </div>
             </article>
           </Container>

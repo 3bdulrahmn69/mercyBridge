@@ -12,8 +12,8 @@ const Works = () => {
     <main className="min-h-screen">
       <Container>
         <SectionHeader
-          title="Our Works"
-          description="We works with many Charities."
+          title={t('ourWorks')}
+          description={t('ourWorks_description')}
           center={true}
         />
       </Container>
