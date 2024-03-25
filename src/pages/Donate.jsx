@@ -155,7 +155,6 @@ const Donate = () => {
                 { name: 'Cash' },
                 { name: 'Food' },
                 { name: 'Clothes' },
-                { name: 'Medicine' },
                 { name: 'Volunteer' },
               ]}
               selectedValue={methodSelected}
@@ -181,10 +180,10 @@ const Donate = () => {
           {filteredCharities.map((charity) => (
             <CharityCard
               key={charity.id}
-              id={charity.id}
+              id={+charity.id}
               name={charity.name}
               description={charity.description}
-              image={charity.img}
+              image={charity.logo}
               methods={charity.methods}
             />
           ))}

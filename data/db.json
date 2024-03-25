@@ -398,33 +398,31 @@
     {
       "id": 1,
       "name": "Egyptian Food Bank",
-      "description": "The Egyptian Food Bank is a non-profit organization that aims to alleviate hunger in Egypt. It was founded in 2006 by Moez Masoud and is based in Cairo.",
+      "description": "The first neutral Egyptian charitable organization specialized in combating hunger and funded by zakat funds, alms, and donations, which are professionally transformed into services and programs to provide healthy food and a safe life opportunity for those who deserve it, and whose impact on their lives is measured in a scientific way. Through more than 15 years of professional work, we have become experts in the Arab region on the issue of combating hunger, which is the most important issue concerned with human development throughout the entire world.",
       "link": "http://www.egyptianfoodbank.com/",
-      "methods": ["Cash", "Clothes", "Volunteer"],
+      "methods": ["Cash"],
       "donationFor": ["Society", "Gaza"],
       "donationDetails": [
         {
           "method": "Cash",
           "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
+            "Bank": " 888777",
+            "Online": "https://www.efb.eg/other-ways-to-donate",
+            "outlets": "Fawry, Aman, Bee, Msary",
+            "Services": "Vodafone Cash, Orange Cash, Etisalat Cash, WE Pay",
+            "SMS": "9595   5EG",
+            "Home": "call 16060"
           }
         },
         {
-          "method": "Clothes",
+          "method": "Food",
           "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
-          }
-        },
-        {
-          "method": "Volunteer",
-          "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
+            "Bank": " 888777",
+            "Online": "https://www.efb.eg/other-ways-to-donate",
+            "outlets": "Fawry, Aman, Bee, Msary",
+            "Services": "Vodafone Cash, Orange Cash, Etisalat Cash, WE Pay",
+            "SMS 5EG": "9595",
+            "Home": "call 16060"
           }
         }
       ],
@@ -433,29 +431,9 @@
           "states": "Cairo",
           "address": "Cairo, Egypt",
           "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Giza",
-          "address": "Giza, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Alexandria",
-          "address": "Alexandria, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Al Qalyubiya",
-          "address": "Al Qalyubiya, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Suez",
-          "address": "Suez, Egypt",
-          "phone": "+20 2 333 3333"
         }
       ],
-      "img": "https://i.ibb.co/cgPVD48/Egyptian-Food-Bank-png-144x144.png",
+      "logo": "https://i.ibb.co/cgPVD48/Egyptian-Food-Bank-png-144x144.png",
       "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
       "snapshots": [
         "https://images.pexels.com/photos/2339009/pexels-photo-2339009.jpeg",
@@ -523,7 +501,7 @@
           "phone": "+20 2 333 3333"
         }
       ],
-      "img": "https://i.ibb.co/r4LY9nL/Misr-El-Khair.png",
+      "logo": "https://i.ibb.co/r4LY9nL/Misr-El-Khair.png",
       "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
       "snapshots": [
         "https://i.ibb.co/7y3vJ2v/Basma.png",
@@ -591,7 +569,7 @@
           "phone": "+20 2 333 3333"
         }
       ],
-      "img": "https://i.ibb.co/W3QsgPW/Resala.png",
+      "logo": "https://i.ibb.co/W3QsgPW/Resala.png",
       "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
       "snapshots": [
         "https://i.ibb.co/7y3vJ2v/Basma.png",
@@ -659,7 +637,7 @@
           "phone": "+20 2 333 3333"
         }
       ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "logo": "https://i.ibb.co/8xwDBwm/25jan.png",
       "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
       "snapshots": [
         "https://i.ibb.co/7y3vJ2v/Basma.png",
@@ -727,7 +705,7 @@
           "phone": "+20 2 333 3333"
         }
       ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "logo": "https://i.ibb.co/9p1XKtN/Magdi-Yacoub.png",
       "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
       "snapshots": [
         "https://i.ibb.co/7y3vJ2v/Basma.png",
@@ -795,143 +773,7 @@
           "phone": "+20 2 333 3333"
         }
       ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
-      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
-      "snapshots": [
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png"
-      ]
-    },
-    {
-      "id": 7,
-      "name": "Dar Al Orman",
-      "description": "Dar Al Orman is an Egyptian non-profit organization that was established in 2002. It aims to develop the Egyptian society and to alleviate poverty.",
-      "link": "http://www.orman.org/",
-      "methods": ["Cash", "Food", "Clothes", "Volunteer"],
-      "donationFor": ["Health"],
-      "donationDetails": [
-        {
-          "method": "Cash",
-          "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
-          }
-        },
-        {
-          "method": "Clothes",
-          "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
-          }
-        },
-        {
-          "method": "Volunteer",
-          "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
-          }
-        }
-      ],
-      "location": [
-        {
-          "states": "Cairo",
-          "address": "Cairo, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Giza",
-          "address": "Giza, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Alexandria",
-          "address": "Alexandria, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Al Qalyubiya",
-          "address": "Al Qalyubiya, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Suez",
-          "address": "Suez, Egypt",
-          "phone": "+20 2 333 3333"
-        }
-      ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
-      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
-      "snapshots": [
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png"
-      ]
-    },
-    {
-      "id": 8,
-      "name": "Egyptian Cancer Network",
-      "description": "The Egyptian Cancer Network is an Egyptian non-profit organization that was established in 2007. It aims to provide free medical care to patients with cancer.",
-      "link": "http://www.egyptcancernetwork.org/",
-      "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health"],
-      "donationDetails": [
-        {
-          "method": "Cash",
-          "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
-          }
-        },
-        {
-          "method": "Clothes",
-          "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
-          }
-        },
-        {
-          "method": "Volunteer",
-          "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
-          }
-        }
-      ],
-      "location": [
-        {
-          "states": "Cairo",
-          "address": "Cairo, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Giza",
-          "address": "Giza, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Alexandria",
-          "address": "Alexandria, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Al Qalyubiya",
-          "address": "Al Qalyubiya, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Suez",
-          "address": "Suez, Egypt",
-          "phone": "+20 2 333 3333"
-        }
-      ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "logo": "https://i.ibb.co/ypL1pSf/57357.png",
       "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
       "snapshots": [
         "https://i.ibb.co/7y3vJ2v/Basma.png",
@@ -999,7 +841,7 @@
           "phone": "+20 2 333 3333"
         }
       ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "logo": "https://i.ibb.co/YfXQGrT/egyptian-red-crescent.png",
       "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
       "snapshots": [
         "https://i.ibb.co/7y3vJ2v/Basma.png",
@@ -1067,75 +909,7 @@
           "phone": "+20 2 333 3333"
         }
       ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
-      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
-      "snapshots": [
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png"
-      ]
-    },
-    {
-      "id": 11,
-      "name": "Nour El Hayah",
-      "description": "Nour El Hayah is an Egyptian non-profit organization that was established in 2007. It aims to provide free medical care to patients with cancer.",
-      "link": "http://www.nourelhayah.org/",
-      "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health"],
-      "donationDetails": [
-        {
-          "method": "Cash",
-          "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
-          }
-        },
-        {
-          "method": "Clothes",
-          "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
-          }
-        },
-        {
-          "method": "Volunteer",
-          "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
-          }
-        }
-      ],
-      "location": [
-        {
-          "states": "Cairo",
-          "address": "Cairo, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Giza",
-          "address": "Giza, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Alexandria",
-          "address": "Alexandria, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Al Qalyubiya",
-          "address": "Al Qalyubiya, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Suez",
-          "address": "Suez, Egypt",
-          "phone": "+20 2 333 3333"
-        }
-      ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "logo": "https://i.ibb.co/NxJLzcz/mersal.png",
       "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
       "snapshots": [
         "https://i.ibb.co/7y3vJ2v/Basma.png",
@@ -1145,7 +919,7 @@
     },
     {
       "id": 12,
-      "name": "NationalCancer Institute",
+      "name": "National Cancer Institute",
       "description": "The National Cancer Institute is an Egyptian non-profit organization that was established in 2007. It aims to provide free medical care to patients with cancer.",
       "link": "http://www.nci.cu.edu.eg/",
       "methods": ["Cash", "Volunteer"],
@@ -1203,7 +977,7 @@
           "phone": "+20 2 333 3333"
         }
       ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "logo": "https://i.ibb.co/ZJDMVy9/somw.png",
       "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
       "snapshots": [
         "https://i.ibb.co/7y3vJ2v/Basma.png",
@@ -1271,75 +1045,7 @@
           "phone": "+20 2 333 3333"
         }
       ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
-      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
-      "snapshots": [
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png"
-      ]
-    },
-    {
-      "id": 14,
-      "name": "Hayat Foundation",
-      "description": "The Hayat Foundation is an Egyptian non-profit organization that was established in 2015. It aims to provide free medical care to patients with cancer.",
-      "link": "http://www.hayatfoundation.org/",
-      "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health"],
-      "donationDetails": [
-        {
-          "method": "Cash",
-          "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
-          }
-        },
-        {
-          "method": "Clothes",
-          "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
-          }
-        },
-        {
-          "method": "Volunteer",
-          "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
-          }
-        }
-      ],
-      "location": [
-        {
-          "states": "Cairo",
-          "address": "Cairo, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Giza",
-          "address": "Giza, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Alexandria",
-          "address": "Alexandria, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Al Qalyubiya",
-          "address": "Al Qalyubiya, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Suez",
-          "address": "Suez, Egypt",
-          "phone": "+20 2 333 3333"
-        }
-      ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "logo": "https://i.ibb.co/pvHdLXc/bahya.png",
       "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
       "snapshots": [
         "https://i.ibb.co/7y3vJ2v/Basma.png",
@@ -1407,577 +1113,7 @@
           "phone": "+20 2 333 3333"
         }
       ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
-      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
-      "snapshots": [
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png"
-      ]
-    },
-    {
-      "id": 16,
-      "name": "Al Shifa Foundation",
-      "description": "The Al Shifa Foundation is an Egyptian non-profit organization that was established in 2015. It aims to provide free medical care to patients with cancer.",
-      "link": "http://www.alshifafoundation.org/",
-      "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health"],
-      "donationDetails": [
-        {
-          "method": "Cash",
-          "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
-          }
-        },
-        {
-          "method": "Clothes",
-          "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
-          }
-        },
-        {
-          "method": "Volunteer",
-          "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
-          }
-        }
-      ],
-      "location": [
-        {
-          "states": "Cairo",
-          "address": "Cairo, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Giza",
-          "address": "Giza, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Alexandria",
-          "address": "Alexandria, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Al Qalyubiya",
-          "address": "Al Qalyubiya, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Suez",
-          "address": "Suez, Egypt",
-          "phone": "+20 2 333 3333"
-        }
-      ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
-      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
-      "snapshots": [
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png"
-      ]
-    },
-    {
-      "id": 17,
-      "name": "Al Mostakbal Foundation",
-      "description": "The Al Mostakbal Foundation is an Egyptian non-profit organization that was established in 2015. It aims to provide free medical care to patients with cancer.",
-      "link": "http://www.almostakbalfoundation.org/",
-      "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health"],
-      "donationDetails": [
-        {
-          "method": "Cash",
-          "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
-          }
-        },
-        {
-          "method": "Clothes",
-          "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
-          }
-        },
-        {
-          "method": "Volunteer",
-          "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
-          }
-        }
-      ],
-      "location": [
-        {
-          "states": "Cairo",
-          "address": "Cairo, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Giza",
-          "address": "Giza, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Alexandria",
-          "address": "Alexandria, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Al Qalyubiya",
-          "address": "Al Qalyubiya, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Suez",
-          "address": "Suez, Egypt",
-          "phone": "+20 2 333 3333"
-        }
-      ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
-      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
-      "snapshots": [
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png"
-      ]
-    },
-    {
-      "id": 18,
-      "name": "Al Nour Foundation",
-      "description": "The Al Nour Foundation is an Egyptian non-profit organization that was established in 2015. It aims to provide free medical care to patients with cancer.",
-      "link": "http://www.alnourfoundation.org/",
-      "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health"],
-      "donationDetails": [
-        {
-          "method": "Cash",
-          "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
-          }
-        },
-        {
-          "method": "Clothes",
-          "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
-          }
-        },
-        {
-          "method": "Volunteer",
-          "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
-          }
-        }
-      ],
-      "location": [
-        {
-          "states": "Cairo",
-          "address": "Cairo, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Giza",
-          "address": "Giza, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Alexandria",
-          "address": "Alexandria, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Al Qalyubiya",
-          "address": "Al Qalyubiya, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Suez",
-          "address": "Suez, Egypt",
-          "phone": "+20 2 333 3333"
-        }
-      ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
-      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
-      "snapshots": [
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png"
-      ]
-    },
-    {
-      "id": 19,
-      "name": "Al Shorouk Foundation",
-      "description": "The Al Shorouk Foundation is an Egyptian non-profit organization that was established in 2015. It aims to provide free medical care to patients with cancer.",
-      "link": "http://www.alshoroukfoundation.org/",
-      "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health"],
-      "donationDetails": [
-        {
-          "method": "Cash",
-          "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
-          }
-        },
-        {
-          "method": "Clothes",
-          "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
-          }
-        },
-        {
-          "method": "Volunteer",
-          "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
-          }
-        }
-      ],
-      "location": [
-        {
-          "states": "Cairo",
-          "address": "Cairo, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Giza",
-          "address": "Giza, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Alexandria",
-          "address": "Alexandria, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Al Qalyubiya",
-          "address": "Al Qalyubiya, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Suez",
-          "address": "Suez, Egypt",
-          "phone": "+20 2 333 3333"
-        }
-      ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
-      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
-      "snapshots": [
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png"
-      ]
-    },
-    {
-      "id": 20,
-      "name": "Al Amal Foundation",
-      "description": "The Al Amal Foundation is an Egyptian non-profit organization that was established in 2015. It aims to provide free medical care to patients with cancer.",
-      "link": "http://www.alamalfoundation.org/",
-      "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health"],
-      "donationDetails": [
-        {
-          "method": "Cash",
-          "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
-          }
-        },
-        {
-          "method": "Clothes",
-          "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
-          }
-        },
-        {
-          "method": "Volunteer",
-          "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
-          }
-        }
-      ],
-      "location": [
-        {
-          "states": "Cairo",
-          "address": "Cairo, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Giza",
-          "address": "Giza, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Alexandria",
-          "address": "Alexandria, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Al Qalyubiya",
-          "address": "Al Qalyubiya, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Suez",
-          "address": "Suez, Egypt",
-          "phone": "+20 2 333 3333"
-        }
-      ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
-      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
-      "snapshots": [
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png"
-      ]
-    },
-    {
-      "id": 21,
-      "name": "Al Salam Foundation",
-      "description": "The Al Salam Foundation is an Egyptian non-profit organization that was established in 2015. It aims to provide free medical care to patients with cancer.",
-      "link": "http://www.alsalamfoundation.org/",
-      "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health"],
-      "donationDetails": [
-        {
-          "method": "Cash",
-          "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
-          }
-        },
-        {
-          "method": "Clothes",
-          "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
-          }
-        },
-        {
-          "method": "Volunteer",
-          "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
-          }
-        }
-      ],
-      "location": [
-        "Cairo",
-        "Giza",
-        "Alexandria",
-        "Al Qalyubiya",
-        "Suez",
-        "Ismailia",
-        "Port Said",
-        "Dakahlia",
-        "Sharqia",
-        "Beheira"
-      ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
-      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
-      "snapshots": [
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png"
-      ]
-    },
-    {
-      "id": 22,
-      "name": "Al Ihsan Foundation",
-      "description": "The Al Ihsan Foundation is an Egyptian non-profit organization that was established in 2015. It aims to provide free medical care to patients with cancer.",
-      "link": "http://www.alihsanfoundation.org/",
-      "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health"],
-      "donationDetails": [
-        {
-          "method": "Cash",
-          "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
-          }
-        },
-        {
-          "method": "Clothes",
-          "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
-          }
-        },
-        {
-          "method": "Volunteer",
-          "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
-          }
-        }
-      ],
-      "location": [
-        "Cairo",
-        "Giza",
-        "Alexandria",
-        "Al Qalyubiya",
-        "Suez",
-        "Ismailia",
-        "Port Said",
-        "Dakahlia"
-      ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
-      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
-      "snapshots": [
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png"
-      ]
-    },
-    {
-      "id": 23,
-      "name": "Al Iman Foundation",
-      "description": "The Al Iman Foundation is an Egyptian non-profit organization that was established in 2015. It aims to provide free medical care to patients with cancer.",
-      "link": "http://www.alimanfoundation.org/",
-      "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health"],
-      "donationDetails": [
-        {
-          "method": "Cash",
-          "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
-          }
-        },
-        {
-          "method": "Clothes",
-          "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
-          }
-        },
-        {
-          "method": "Volunteer",
-          "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
-          }
-        }
-      ],
-      "location": ["Cairo", "Giza", "Alexandria", "Al Qalyubiya"],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
-      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
-      "snapshots": [
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png"
-      ]
-    },
-    {
-      "id": 24,
-      "name": "Al Karama Foundation",
-      "description": "The Al Karama Foundation is an Egyptian non-profit organization that was established in 2015. It aims to provide free medical care to patients with cancer.",
-      "link": "http://www.alkaramafoundation.org/",
-      "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health"],
-      "donationDetails": [
-        {
-          "method": "Cash",
-          "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
-          }
-        },
-        {
-          "method": "Clothes",
-          "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
-          }
-        },
-        {
-          "method": "Volunteer",
-          "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
-          }
-        }
-      ],
-      "location": ["Cairo", "Giza", "Alexandria"],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
-      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
-      "snapshots": [
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png"
-      ]
-    },
-    {
-      "id": 25,
-      "name": "Al Amal Foundation",
-      "description": "The Al Amal Foundation is an Egyptian non-profit organization that was established in 2015. It aims to provide free medical care to patients with cancer.",
-      "link": "http://www.alamalfoundation.org/",
-      "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health"],
-      "donationDetails": [
-        {
-          "method": "Cash",
-          "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
-          }
-        },
-        {
-          "method": "Clothes",
-          "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
-          }
-        },
-        {
-          "method": "Volunteer",
-          "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
-          }
-        }
-      ],
-      "location": ["Cairo", "Giza"],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "logo": "https://i.ibb.co/ZX1hXrY/bnati-removebg.png",
       "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
       "snapshots": [
         "https://i.ibb.co/7y3vJ2v/Basma.png",
@@ -2019,7 +1155,7 @@
         }
       ],
       "location": ["Cairo"],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "logo": "https://i.ibb.co/8sHM78Q/auady.png",
       "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
       "snapshots": [
         "https://i.ibb.co/7y3vJ2v/Basma.png",
@@ -2061,7 +1197,7 @@
         }
       ],
       "location": ["Cairo"],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "logo": "https://i.ibb.co/Bjnjy7m/ahl.png",
       "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
       "snapshots": [
         "https://i.ibb.co/7y3vJ2v/Basma.png",
@@ -2071,29 +1207,11 @@
     },
     {
       "id": 28,
-      "name": "Alexandria Pediatric Oncology Center",
+      "name": "Alexandria Pediatric Oncology Charity",
       "description": "The Alexandria Pediatric Oncology Center is an Egyptian non-profit organization that was established in 2015. It aims to provide free medical care to patients with cancer.",
       "link": "https://www.apoc39.com",
       "methods": ["Cash"],
       "donationFor": ["Health", "Children"],
-      "location": ["Alexandria"],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
-      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
-      "snapshots": [
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png"
-      ]
-    }
-  ],
-  "charities-ar": [
-    {
-      "id": 1,
-      "name": "البنك الغذائي المصري",
-      "description": "The Egyptian Food Bank is a non-profit organization that aims to alleviate hunger in Egypt. It was founded in 2006 by Moez Masoud and is based in Cairo.",
-      "link": "http://www.egyptianfoodbank.com/",
-      "methods": ["Cash", "Clothes", "Volunteer"],
-      "donationFor": ["Society"],
       "donationDetails": [
         {
           "method": "Cash",
@@ -2120,38 +1238,60 @@
           }
         }
       ],
+      "location": ["Alexandria"],
+      "logo": "https://i.ibb.co/9pGvfMz/alezzzzx.png",
+      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
+      "snapshots": [
+        "https://i.ibb.co/7y3vJ2v/Basma.png",
+        "https://i.ibb.co/7y3vJ2v/Basma.png",
+        "https://i.ibb.co/7y3vJ2v/Basma.png"
+      ]
+    }
+  ],
+  "charities-ar": [
+    {
+      "id": 1,
+      "name": "Egyptian Food Bank",
+      "description": "The first neutral Egyptian charitable organization specialized in combating hunger and funded by zakat funds, alms, and donations, which are professionally transformed into services and programs to provide healthy food and a safe life opportunity for those who deserve it, and whose impact on their lives is measured in a scientific way. Through more than 15 years of professional work, we have become experts in the Arab region on the issue of combating hunger, which is the most important issue concerned with human development throughout the entire world.",
+      "link": "http://www.egyptianfoodbank.com/",
+      "methods": ["Cash"],
+      "donationFor": ["Society", "Gaza"],
+      "donationDetails": [
+        {
+          "method": "Cash",
+          "ways": {
+            "Bank": " 888777",
+            "Online": "https://www.efb.eg/other-ways-to-donate",
+            "outlets": "Fawry, Aman, Bee, Msary",
+            "Services": "Vodafone Cash, Orange Cash, Etisalat Cash, WE Pay",
+            "SMS 5EG": "9595",
+            "Home": "call 16060"
+          }
+        },
+        {
+          "method": "Food",
+          "ways": {
+            "Bank": " 888777",
+            "Online": "https://www.efb.eg/other-ways-to-donate",
+            "outlets": "Fawry, Aman, Bee, Msary",
+            "Services": "Vodafone Cash, Orange Cash, Etisalat Cash, WE Pay",
+            "SMS": "9595",
+            "Home": "call 16060"
+          }
+        }
+      ],
       "location": [
         {
           "states": "Cairo",
           "address": "Cairo, Egypt",
           "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Giza",
-          "address": "Giza, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Alexandria",
-          "address": "Alexandria, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Al Qalyubiya",
-          "address": "Al Qalyubiya, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Suez",
-          "address": "Suez, Egypt",
-          "phone": "+20 2 333 3333"
         }
       ],
-      "img": "https://i.ibb.co/cgPVD48/Egyptian-Food-Bank-png-144x144.png",
+      "logo": "https://i.ibb.co/cgPVD48/Egyptian-Food-Bank-png-144x144.png",
       "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
       "snapshots": [
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
+        "https://images.pexels.com/photos/2339009/pexels-photo-2339009.jpeg",
+        "https://images.pexels.com/photos/802024/pexels-photo-802024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "https://i.ibb.co/7y3vJ2v/Basma.png"
       ]
     },
@@ -2215,7 +1355,7 @@
           "phone": "+20 2 333 3333"
         }
       ],
-      "img": "https://i.ibb.co/r4LY9nL/Misr-El-Khair.png",
+      "logo": "https://i.ibb.co/r4LY9nL/Misr-El-Khair.png",
       "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
       "snapshots": [
         "https://i.ibb.co/7y3vJ2v/Basma.png",
@@ -2283,7 +1423,7 @@
           "phone": "+20 2 333 3333"
         }
       ],
-      "img": "https://i.ibb.co/W3QsgPW/Resala.png",
+      "logo": "https://i.ibb.co/W3QsgPW/Resala.png",
       "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
       "snapshots": [
         "https://i.ibb.co/7y3vJ2v/Basma.png",
@@ -2351,7 +1491,7 @@
           "phone": "+20 2 333 3333"
         }
       ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "logo": "https://i.ibb.co/8xwDBwm/25jan.png",
       "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
       "snapshots": [
         "https://i.ibb.co/7y3vJ2v/Basma.png",
@@ -2419,7 +1559,7 @@
           "phone": "+20 2 333 3333"
         }
       ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "logo": "https://i.ibb.co/9p1XKtN/Magdi-Yacoub.png",
       "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
       "snapshots": [
         "https://i.ibb.co/7y3vJ2v/Basma.png",
@@ -2487,143 +1627,7 @@
           "phone": "+20 2 333 3333"
         }
       ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
-      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
-      "snapshots": [
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png"
-      ]
-    },
-    {
-      "id": 7,
-      "name": "Dar Al Orman",
-      "description": "Dar Al Orman is an Egyptian non-profit organization that was established in 2002. It aims to develop the Egyptian society and to alleviate poverty.",
-      "link": "http://www.orman.org/",
-      "methods": ["Cash", "Food", "Clothes", "Volunteer"],
-      "donationFor": ["Health"],
-      "donationDetails": [
-        {
-          "method": "Cash",
-          "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
-          }
-        },
-        {
-          "method": "Clothes",
-          "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
-          }
-        },
-        {
-          "method": "Volunteer",
-          "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
-          }
-        }
-      ],
-      "location": [
-        {
-          "states": "Cairo",
-          "address": "Cairo, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Giza",
-          "address": "Giza, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Alexandria",
-          "address": "Alexandria, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Al Qalyubiya",
-          "address": "Al Qalyubiya, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Suez",
-          "address": "Suez, Egypt",
-          "phone": "+20 2 333 3333"
-        }
-      ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
-      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
-      "snapshots": [
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png"
-      ]
-    },
-    {
-      "id": 8,
-      "name": "Egyptian Cancer Network",
-      "description": "The Egyptian Cancer Network is an Egyptian non-profit organization that was established in 2007. It aims to provide free medical care to patients with cancer.",
-      "link": "http://www.egyptcancernetwork.org/",
-      "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health"],
-      "donationDetails": [
-        {
-          "method": "Cash",
-          "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
-          }
-        },
-        {
-          "method": "Clothes",
-          "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
-          }
-        },
-        {
-          "method": "Volunteer",
-          "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
-          }
-        }
-      ],
-      "location": [
-        {
-          "states": "Cairo",
-          "address": "Cairo, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Giza",
-          "address": "Giza, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Alexandria",
-          "address": "Alexandria, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Al Qalyubiya",
-          "address": "Al Qalyubiya, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Suez",
-          "address": "Suez, Egypt",
-          "phone": "+20 2 333 3333"
-        }
-      ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "logo": "https://i.ibb.co/ypL1pSf/57357.png",
       "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
       "snapshots": [
         "https://i.ibb.co/7y3vJ2v/Basma.png",
@@ -2691,7 +1695,7 @@
           "phone": "+20 2 333 3333"
         }
       ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "logo": "https://i.ibb.co/YfXQGrT/egyptian-red-crescent.png",
       "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
       "snapshots": [
         "https://i.ibb.co/7y3vJ2v/Basma.png",
@@ -2759,75 +1763,7 @@
           "phone": "+20 2 333 3333"
         }
       ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
-      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
-      "snapshots": [
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png"
-      ]
-    },
-    {
-      "id": 11,
-      "name": "Nour El Hayah",
-      "description": "Nour El Hayah is an Egyptian non-profit organization that was established in 2007. It aims to provide free medical care to patients with cancer.",
-      "link": "http://www.nourelhayah.org/",
-      "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health"],
-      "donationDetails": [
-        {
-          "method": "Cash",
-          "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
-          }
-        },
-        {
-          "method": "Clothes",
-          "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
-          }
-        },
-        {
-          "method": "Volunteer",
-          "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
-          }
-        }
-      ],
-      "location": [
-        {
-          "states": "Cairo",
-          "address": "Cairo, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Giza",
-          "address": "Giza, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Alexandria",
-          "address": "Alexandria, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Al Qalyubiya",
-          "address": "Al Qalyubiya, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Suez",
-          "address": "Suez, Egypt",
-          "phone": "+20 2 333 3333"
-        }
-      ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "logo": "https://i.ibb.co/NxJLzcz/mersal.png",
       "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
       "snapshots": [
         "https://i.ibb.co/7y3vJ2v/Basma.png",
@@ -2837,7 +1773,7 @@
     },
     {
       "id": 12,
-      "name": "NationalCancer Institute",
+      "name": "National Cancer Institute",
       "description": "The National Cancer Institute is an Egyptian non-profit organization that was established in 2007. It aims to provide free medical care to patients with cancer.",
       "link": "http://www.nci.cu.edu.eg/",
       "methods": ["Cash", "Volunteer"],
@@ -2895,7 +1831,7 @@
           "phone": "+20 2 333 3333"
         }
       ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "logo": "https://i.ibb.co/ZJDMVy9/somw.png",
       "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
       "snapshots": [
         "https://i.ibb.co/7y3vJ2v/Basma.png",
@@ -2963,75 +1899,7 @@
           "phone": "+20 2 333 3333"
         }
       ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
-      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
-      "snapshots": [
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png"
-      ]
-    },
-    {
-      "id": 14,
-      "name": "Hayat Foundation",
-      "description": "The Hayat Foundation is an Egyptian non-profit organization that was established in 2015. It aims to provide free medical care to patients with cancer.",
-      "link": "http://www.hayatfoundation.org/",
-      "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health"],
-      "donationDetails": [
-        {
-          "method": "Cash",
-          "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
-          }
-        },
-        {
-          "method": "Clothes",
-          "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
-          }
-        },
-        {
-          "method": "Volunteer",
-          "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
-          }
-        }
-      ],
-      "location": [
-        {
-          "states": "Cairo",
-          "address": "Cairo, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Giza",
-          "address": "Giza, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Alexandria",
-          "address": "Alexandria, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Al Qalyubiya",
-          "address": "Al Qalyubiya, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Suez",
-          "address": "Suez, Egypt",
-          "phone": "+20 2 333 3333"
-        }
-      ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "logo": "https://i.ibb.co/pvHdLXc/bahya.png",
       "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
       "snapshots": [
         "https://i.ibb.co/7y3vJ2v/Basma.png",
@@ -3099,577 +1967,7 @@
           "phone": "+20 2 333 3333"
         }
       ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
-      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
-      "snapshots": [
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png"
-      ]
-    },
-    {
-      "id": 16,
-      "name": "Al Shifa Foundation",
-      "description": "The Al Shifa Foundation is an Egyptian non-profit organization that was established in 2015. It aims to provide free medical care to patients with cancer.",
-      "link": "http://www.alshifafoundation.org/",
-      "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health"],
-      "donationDetails": [
-        {
-          "method": "Cash",
-          "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
-          }
-        },
-        {
-          "method": "Clothes",
-          "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
-          }
-        },
-        {
-          "method": "Volunteer",
-          "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
-          }
-        }
-      ],
-      "location": [
-        {
-          "states": "Cairo",
-          "address": "Cairo, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Giza",
-          "address": "Giza, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Alexandria",
-          "address": "Alexandria, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Al Qalyubiya",
-          "address": "Al Qalyubiya, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Suez",
-          "address": "Suez, Egypt",
-          "phone": "+20 2 333 3333"
-        }
-      ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
-      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
-      "snapshots": [
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png"
-      ]
-    },
-    {
-      "id": 17,
-      "name": "Al Mostakbal Foundation",
-      "description": "The Al Mostakbal Foundation is an Egyptian non-profit organization that was established in 2015. It aims to provide free medical care to patients with cancer.",
-      "link": "http://www.almostakbalfoundation.org/",
-      "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health"],
-      "donationDetails": [
-        {
-          "method": "Cash",
-          "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
-          }
-        },
-        {
-          "method": "Clothes",
-          "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
-          }
-        },
-        {
-          "method": "Volunteer",
-          "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
-          }
-        }
-      ],
-      "location": [
-        {
-          "states": "Cairo",
-          "address": "Cairo, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Giza",
-          "address": "Giza, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Alexandria",
-          "address": "Alexandria, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Al Qalyubiya",
-          "address": "Al Qalyubiya, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Suez",
-          "address": "Suez, Egypt",
-          "phone": "+20 2 333 3333"
-        }
-      ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
-      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
-      "snapshots": [
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png"
-      ]
-    },
-    {
-      "id": 18,
-      "name": "Al Nour Foundation",
-      "description": "The Al Nour Foundation is an Egyptian non-profit organization that was established in 2015. It aims to provide free medical care to patients with cancer.",
-      "link": "http://www.alnourfoundation.org/",
-      "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health"],
-      "donationDetails": [
-        {
-          "method": "Cash",
-          "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
-          }
-        },
-        {
-          "method": "Clothes",
-          "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
-          }
-        },
-        {
-          "method": "Volunteer",
-          "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
-          }
-        }
-      ],
-      "location": [
-        {
-          "states": "Cairo",
-          "address": "Cairo, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Giza",
-          "address": "Giza, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Alexandria",
-          "address": "Alexandria, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Al Qalyubiya",
-          "address": "Al Qalyubiya, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Suez",
-          "address": "Suez, Egypt",
-          "phone": "+20 2 333 3333"
-        }
-      ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
-      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
-      "snapshots": [
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png"
-      ]
-    },
-    {
-      "id": 19,
-      "name": "Al Shorouk Foundation",
-      "description": "The Al Shorouk Foundation is an Egyptian non-profit organization that was established in 2015. It aims to provide free medical care to patients with cancer.",
-      "link": "http://www.alshoroukfoundation.org/",
-      "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health"],
-      "donationDetails": [
-        {
-          "method": "Cash",
-          "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
-          }
-        },
-        {
-          "method": "Clothes",
-          "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
-          }
-        },
-        {
-          "method": "Volunteer",
-          "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
-          }
-        }
-      ],
-      "location": [
-        {
-          "states": "Cairo",
-          "address": "Cairo, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Giza",
-          "address": "Giza, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Alexandria",
-          "address": "Alexandria, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Al Qalyubiya",
-          "address": "Al Qalyubiya, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Suez",
-          "address": "Suez, Egypt",
-          "phone": "+20 2 333 3333"
-        }
-      ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
-      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
-      "snapshots": [
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png"
-      ]
-    },
-    {
-      "id": 20,
-      "name": "Al Amal Foundation",
-      "description": "The Al Amal Foundation is an Egyptian non-profit organization that was established in 2015. It aims to provide free medical care to patients with cancer.",
-      "link": "http://www.alamalfoundation.org/",
-      "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health"],
-      "donationDetails": [
-        {
-          "method": "Cash",
-          "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
-          }
-        },
-        {
-          "method": "Clothes",
-          "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
-          }
-        },
-        {
-          "method": "Volunteer",
-          "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
-          }
-        }
-      ],
-      "location": [
-        {
-          "states": "Cairo",
-          "address": "Cairo, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Giza",
-          "address": "Giza, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Alexandria",
-          "address": "Alexandria, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Al Qalyubiya",
-          "address": "Al Qalyubiya, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Suez",
-          "address": "Suez, Egypt",
-          "phone": "+20 2 333 3333"
-        }
-      ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
-      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
-      "snapshots": [
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png"
-      ]
-    },
-    {
-      "id": 21,
-      "name": "Al Salam Foundation",
-      "description": "The Al Salam Foundation is an Egyptian non-profit organization that was established in 2015. It aims to provide free medical care to patients with cancer.",
-      "link": "http://www.alsalamfoundation.org/",
-      "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health"],
-      "donationDetails": [
-        {
-          "method": "Cash",
-          "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
-          }
-        },
-        {
-          "method": "Clothes",
-          "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
-          }
-        },
-        {
-          "method": "Volunteer",
-          "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
-          }
-        }
-      ],
-      "location": [
-        "Cairo",
-        "Giza",
-        "Alexandria",
-        "Al Qalyubiya",
-        "Suez",
-        "Ismailia",
-        "Port Said",
-        "Dakahlia",
-        "Sharqia",
-        "Beheira"
-      ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
-      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
-      "snapshots": [
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png"
-      ]
-    },
-    {
-      "id": 22,
-      "name": "Al Ihsan Foundation",
-      "description": "The Al Ihsan Foundation is an Egyptian non-profit organization that was established in 2015. It aims to provide free medical care to patients with cancer.",
-      "link": "http://www.alihsanfoundation.org/",
-      "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health"],
-      "donationDetails": [
-        {
-          "method": "Cash",
-          "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
-          }
-        },
-        {
-          "method": "Clothes",
-          "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
-          }
-        },
-        {
-          "method": "Volunteer",
-          "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
-          }
-        }
-      ],
-      "location": [
-        "Cairo",
-        "Giza",
-        "Alexandria",
-        "Al Qalyubiya",
-        "Suez",
-        "Ismailia",
-        "Port Said",
-        "Dakahlia"
-      ],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
-      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
-      "snapshots": [
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png"
-      ]
-    },
-    {
-      "id": 23,
-      "name": "Al Iman Foundation",
-      "description": "The Al Iman Foundation is an Egyptian non-profit organization that was established in 2015. It aims to provide free medical care to patients with cancer.",
-      "link": "http://www.alimanfoundation.org/",
-      "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health"],
-      "donationDetails": [
-        {
-          "method": "Cash",
-          "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
-          }
-        },
-        {
-          "method": "Clothes",
-          "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
-          }
-        },
-        {
-          "method": "Volunteer",
-          "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
-          }
-        }
-      ],
-      "location": ["Cairo", "Giza", "Alexandria", "Al Qalyubiya"],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
-      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
-      "snapshots": [
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png"
-      ]
-    },
-    {
-      "id": 24,
-      "name": "Al Karama Foundation",
-      "description": "The Al Karama Foundation is an Egyptian non-profit organization that was established in 2015. It aims to provide free medical care to patients with cancer.",
-      "link": "http://www.alkaramafoundation.org/",
-      "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health"],
-      "donationDetails": [
-        {
-          "method": "Cash",
-          "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
-          }
-        },
-        {
-          "method": "Clothes",
-          "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
-          }
-        },
-        {
-          "method": "Volunteer",
-          "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
-          }
-        }
-      ],
-      "location": ["Cairo", "Giza", "Alexandria"],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
-      "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
-      "snapshots": [
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png",
-        "https://i.ibb.co/7y3vJ2v/Basma.png"
-      ]
-    },
-    {
-      "id": 25,
-      "name": "Al Amal Foundation",
-      "description": "The Al Amal Foundation is an Egyptian non-profit organization that was established in 2015. It aims to provide free medical care to patients with cancer.",
-      "link": "http://www.alamalfoundation.org/",
-      "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health"],
-      "donationDetails": [
-        {
-          "method": "Cash",
-          "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
-          }
-        },
-        {
-          "method": "Clothes",
-          "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
-          }
-        },
-        {
-          "method": "Volunteer",
-          "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
-          }
-        }
-      ],
-      "location": ["Cairo", "Giza"],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "logo": "https://i.ibb.co/ZX1hXrY/bnati-removebg.png",
       "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
       "snapshots": [
         "https://i.ibb.co/7y3vJ2v/Basma.png",
@@ -3711,7 +2009,7 @@
         }
       ],
       "location": ["Cairo"],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "logo": "https://i.ibb.co/8sHM78Q/auady.png",
       "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
       "snapshots": [
         "https://i.ibb.co/7y3vJ2v/Basma.png",
@@ -3753,7 +2051,7 @@
         }
       ],
       "location": ["Cairo"],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "logo": "https://i.ibb.co/Bjnjy7m/ahl.png",
       "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
       "snapshots": [
         "https://i.ibb.co/7y3vJ2v/Basma.png",
@@ -3763,13 +2061,39 @@
     },
     {
       "id": 28,
-      "name": "Alexandria Pediatric Oncology Center",
+      "name": "Alexandria Pediatric Oncology Charity",
       "description": "The Alexandria Pediatric Oncology Center is an Egyptian non-profit organization that was established in 2015. It aims to provide free medical care to patients with cancer.",
       "link": "https://www.apoc39.com",
       "methods": ["Cash"],
       "donationFor": ["Health", "Children"],
+      "donationDetails": [
+        {
+          "method": "Cash",
+          "ways": {
+            "Vodafone Cash": "0100 000 0000",
+            "Fawry": "1234567",
+            "Bank Transfer": "1234567",
+            "Online": "http://www.egyptianfoodbank.com/",
+            "SMS": "1234"
+          }
+        },
+        {
+          "method": "Clothes",
+          "ways": {
+            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
+            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
+          }
+        },
+        {
+          "method": "Volunteer",
+          "ways": {
+            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
+            "Call": "You can call +20 2 333 3333 to volunteer."
+          }
+        }
+      ],
       "location": ["Alexandria"],
-      "img": "https://i.ibb.co/7y3vJ2v/Basma.png",
+      "logo": "https://i.ibb.co/9pGvfMz/alezzzzx.png",
       "banner": "https://i.ibb.co/gVw2vbG/Egyptian-Food-Bank.jpg",
       "snapshots": [
         "https://i.ibb.co/7y3vJ2v/Basma.png",

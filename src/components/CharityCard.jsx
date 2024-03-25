@@ -28,7 +28,11 @@ const CharityCard = ({ id, name, description, image, methods }) => {
       <div>
         <div>
           <h3 className="md:text-2xl text-xl mb-2 font-bold">{name}</h3>
-          <p>{description}</p>
+          <p>
+            {description.length > 180
+              ? description.slice(0, 180) + '...'
+              : description}
+          </p>
         </div>
         <div className="flex items-center mt-2 justify-between">
           <div className="flex items-center">
@@ -75,7 +79,7 @@ const CharityCard = ({ id, name, description, image, methods }) => {
 };
 
 CharityCard.propTypes = {
-  id: PropTypes.string.isRequired,
+  id: PropTypes.number.isRequired,
   name: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,

@@ -87,7 +87,7 @@ const CharityProfile = () => {
           <div className="flex items-center gap-4 absolute -bottom-1/4">
             <figure className="w-40 h-40 p-4 bg-white rounded-full border-4 border-green-500 overflow-hidden">
               <img
-                src={charity.img}
+                src={charity.logo}
                 alt={charity.name}
                 className="w-full h-full object-contain"
               />
@@ -107,7 +107,7 @@ const CharityProfile = () => {
       </figure>
       <div className="lg:px-0 px-4">
         <section className="flex md:flex-row flex-col-reverse justify-evenly mb-8">
-          <aside className="bg-green-500 text-white md:w-2/12 w-full md:mt-0 mt-4 px-8 py-4 rounded-lg">
+          <aside className="bg-green-500 text-white md:w-2/12 w-full md:mt-0 mt-4 px-8 py-4 rounded-lg h-fit max-h-80">
             <h2 className="font-bold text-3xl text-center mb-4">
               {t('states')}
             </h2>
@@ -135,7 +135,7 @@ const CharityProfile = () => {
               <p className="text-xl">{charity.description}</p>
             </article>
             <hr className="w-full my-8 border-4 rounded-lg" />
-            <article>
+            <article className="bg-green-500 rounded text-white px-2 py-1">
               <h2 className="font-bold text-3xl mb-4">
                 {t('donate.locationIn')} {selectedLocation.states}
               </h2>
