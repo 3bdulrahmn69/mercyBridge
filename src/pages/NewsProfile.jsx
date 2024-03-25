@@ -70,7 +70,10 @@ const NewsProfile = () => {
   };
 
   return (
-    <main className={`pb-4 ${showModal ? 'overflow-hidden h-screen' : ''}`}>
+    <main
+      className={`pb-4 ${showModal ? 'overflow-hidden h-screen' : ''}`}
+      dir={lang === 'ar' ? 'rtl' : 'ltr'}
+    >
       {showModal && (
         <ImageModal
           img={news.img}
@@ -92,13 +95,35 @@ const NewsProfile = () => {
         >
           <LiaAngleLeftSolid />
         </Link>
-        <h1 className="absolute md:-bottom-6 bottom-0 md:left-40 left-0 bg-white md:border-4 border-0 border-green-500 py-2 px-4 font-bold md:rounded-md rounded-none md:text-2xl text-base uppercase">
+        <h1
+          className={`absolute md:-bottom-6 bottom-0 ${
+            lang == 'ar' ? 'md:right-40 right-0' : 'md:left-40 left-0'
+          } bg-white md:border-4 border-0 border-green-500 py-2 px-4 font-bold md:rounded-md rounded-none md:text-2xl text-base uppercase`}
+        >
           {news.title}
         </h1>
       </figure>
       <Container>
         <article>
-          <p className="font-medium leading-7 lg:px-0 px-2">{news.content}</p>
+          {news.content.map((article, index) => (
+            <p key={index}>
+              {article}
+              <br />
+              <br />
+            </p>
+          ))}
+          <div className="flex justify-end">
+            {news.link && (
+              <a
+                href={news.link}
+                target="_blank"
+                rel="noreferrer noopener"
+                className="bg-yellow-400 text-white py-2 px-4 rounded-md hover:bg-yellow-500 duration-300"
+              >
+                {t('newsProfile.readMore')}
+              </a>
+            )}
+          </div>
         </article>
         <article className="md:px-0 px-2 mt-4">
           <h2 className="font-bold text-3xl mb-4">
@@ -121,10 +146,12 @@ const NewsProfile = () => {
               to={`/donate?for=${news.donateFor}`}
               className="bg-green-500 text-white rounded-md w-40 h-fit py-2 flex justify-center items-center gap-1 hover:bg-green-600 duration-300"
             >
-              {t('newsProfile.DonateFor')} {news.donateFor}
+              {t('newsProfile.DonateFor')} {t(news.donateFor)}
             </Link>
           </div>
-          <p className="flex justify-end mt-4 md:mb-20 mb-10">{news.date}</p>
+          <p className="flex justify-end mt-4 md:mb-20 mb-10 bg-green-200 text-black px-2 py-1">
+            {news.date}
+          </p>
         </article>
         <div className="flex md:justify-between justify-center gap-5" dir="ltr">
           <Link

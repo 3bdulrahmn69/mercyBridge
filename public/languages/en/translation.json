@@ -30,7 +30,8 @@
     "snapshots": "Snapshots",
     "back": "Previous",
     "next": "Next",
-    "DonateFor": "Donate For"
+    "DonateFor": "Donate For",
+    "readMore": "Read More"
   },
   "ContactSection": "__________________Contact_______________________________",
   "Contact_Description": "Have a question or need more information? Contact us!",

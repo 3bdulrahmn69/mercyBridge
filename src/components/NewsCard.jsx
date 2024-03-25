@@ -28,7 +28,7 @@ const NewsCard = ({ right, title, content, id, date, img }) => {
               {title.slice(0, 40) + '...'}
             </h2>
             <p className="text-gray-600 mt-2">
-              {content.slice(0, 120) + '...'}
+              {content.join(' ').slice(0, 120) + '...'}
             </p>
             <div
               className={`flex ${
