@@ -1,6 +1,6 @@
+import { useState } from 'react';
 import Nav from '../components/Nav';
 import SiteName from '../components/SiteName';
-import { useState } from 'react';
 
 const Header = () => {
   const [checkboxValue, setCheckboxValue] = useState(false);

@@ -10,7 +10,7 @@ const UltimateSelector = ({
   const { t } = useTranslation();
 
   return (
-    <label htmlFor="state">
+    <label htmlFor="state" className="flex items-center">
       {label}:
       <select
         className="state-selector p-2 mx-2 border border-green-500 rounded-md font-bold focus:outline-none"

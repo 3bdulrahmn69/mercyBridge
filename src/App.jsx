@@ -53,10 +53,10 @@ const InnerApp = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/donate" element={<Donate />} />
         <Route path="/donate/:id" element={<CharityProfile />} />
-        <Route path="*" element={<NotFound />} />
         <Route path="/privacy" element={<Privacy />} />
         <Route path="/terms" element={<Terms />} />
         <Route path="/help" element={<Help />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <GoTopBtn />
       <Footer />

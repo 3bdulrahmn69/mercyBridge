@@ -1,12 +1,12 @@
-import { useEffect, useState, useMemo } from 'react';
 import i18next from 'i18next';
+import { useEffect, useState, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import SectionHeader from '../components/SectionHeader';
 import Container from '../components/Container';
 import NewsCard from '../components/NewsCard';
-import { getNews } from '../components/utilities';
 import Loading from '../components/Loading';
 import Error from '../components/Error';
+import { getNews } from '../components/utilities';
 
 const News = () => {
   const [newsData, setNewsData] = useState([]);

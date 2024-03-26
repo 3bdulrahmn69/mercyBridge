@@ -1,5 +1,6 @@
 import { useState, useEffect, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
+import { useLocation } from 'react-router-dom';
 import Container from '../components/Container';
 import SectionHeader from '../components/SectionHeader';
 import UltimateSelector from '../components/UltimateSelector';
@@ -11,7 +12,6 @@ import FoundShape from '../components/FoundShape';
 import NoSomethingFound from '../components/NoSomethingFound';
 import getCurrentLocation from '../components/utilities';
 import { getStates, getCharities } from '../components/utilities';
-import { useLocation } from 'react-router-dom';
 
 const Donate = () => {
   const { t } = useTranslation();
@@ -134,15 +134,17 @@ const Donate = () => {
         center={true}
       />
       <Container className="md:px-4">
-        <div className="flex mb-4 md:items-center md:justify-between md:flex-row flex-col justify-center items-start">
-          <div className="flex md:flex-row flex-col md:gap-4 gap-2 md:mb-0 mb-2">
+        <div className="flex md:justify-between mb-4 flex-col lg:flex-row">
+          <div className="lg:w-1/3 w-full lg:mb-0 mb-2">
             <input
               type="text"
               placeholder="Search charities..."
               value={searchQuery}
               onChange={handleSearchChange}
-              className="px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:border-green-500"
+              className="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:border-green-500"
             />
+          </div>
+          <div className="flex flex-wrap gap-y-2 justify-between">
             <UltimateSelector
               label={t('filter_by_state')}
               arrToSelectFrom={translatedStates}
@@ -173,8 +175,8 @@ const Donate = () => {
               selectedValue={forSelected}
               setSelectedValue={setForSelected}
             />
+            <FoundShape number={filteredCharities.length} />
           </div>
-          <FoundShape number={filteredCharities.length} />
         </div>
         <div className="flex flex-wrap justify-evenly gap-2">
           {filteredCharities.map((charity) => (
