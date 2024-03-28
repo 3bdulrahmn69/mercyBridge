@@ -179,9 +179,9 @@ const CharityProfile = () => {
                             href={value}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-blue-500 hover:text-blue-700"
+                            className="text-green-500 hover:text-green-700"
                           >
-                            click here
+                            <span className="px-2 capitalize">click here</span>
                           </a>
                         ) : (
                           ` ${value}`
