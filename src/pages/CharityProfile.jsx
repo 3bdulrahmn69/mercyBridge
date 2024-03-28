@@ -168,11 +168,27 @@ const CharityProfile = () => {
                   <h3 className="text-2xl font-bold uppercase bg-green-500 text-white px-4">
                     {donationDetail.method}:
                   </h3>
-                  {Object.entries(donationDetail.ways).map(([way, value]) => (
-                    <p key={way} className="text-xl mx-8">
-                      <span className="font-bold">{way}</span>: {value}
-                    </p>
-                  ))}
+                  {Object.entries(donationDetail.ways).map(([way, value]) => {
+                    const isOnlineMethod =
+                      way === 'Online' && value.startsWith('http');
+                    return (
+                      <p key={way} className="text-xl mx-8">
+                        <span className="font-bold">{way}</span>:
+                        {isOnlineMethod ? (
+                          <a
+                            href={value}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-blue-500 hover:text-blue-700"
+                          >
+                            click here
+                          </a>
+                        ) : (
+                          ` ${value}`
+                        )}
+                      </p>
+                    );
+                  })}
                 </div>
               ))}
             </article>
