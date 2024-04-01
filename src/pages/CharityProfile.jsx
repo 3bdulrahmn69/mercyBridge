@@ -127,7 +127,7 @@ const CharityProfile = () => {
                   key={location.states}
                   className={`mb-2 hover:underline cursor-pointer ${
                     location === selectedLocation
-                      ? 'bg-white text-green-500 w-fit px-2 py-1 rounded'
+                      ? 'bg-white text-green-500 px-2 py-1 rounded'
                       : ''
                   }`}
                   onClick={() => handleLocationClick(location)}
@@ -153,17 +153,10 @@ const CharityProfile = () => {
                 {selectedLocation.address.map((address, idx) => (
                   <div
                     key={idx}
-                    className="bg-white text-green-600 px-4 py-2 rounded-lg shadow"
+                    className="bg-white text-green-600 px-4 py-2 rounded-lg shadow h-fit"
                   >
                     {address.address && (
-                      <p className="text-lg">
-                        {t('donate.address')}: {address.address}
-                      </p>
-                    )}
-                    {address.phone && (
-                      <p className="text-lg">
-                        {t('donate.phone')}: {address.phone}
-                      </p>
+                      <p className="text-lg"> {address.address}</p>
                     )}
                   </div>
                 ))}
@@ -173,6 +166,19 @@ const CharityProfile = () => {
         </section>
         <section className="mt-8">
           <Container>
+            <article>
+              <h2 className="font-bold text-2xl md:text-3xl mb-4">
+                {t('donate.numbers')}
+              </h2>
+              {charity.phone.map((phone, idx) => (
+                <div
+                  key={idx}
+                  className="text-lg mx-8 mb-2 bg-white px-4 py-2 rounded-b-lg shadow-lg last:rounded-lg"
+                >
+                  {phone}
+                </div>
+              ))}
+            </article>
             <article>
               <h2 className="font-bold text-2xl md:text-3xl mb-4">
                 {t('donate.donationMethods')}

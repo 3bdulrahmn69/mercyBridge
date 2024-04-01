@@ -97,7 +97,7 @@
     "description": "Description",
     "donationMethods": "Donation Methods",
     "address": "Address",
-    "phone": "Phone"
+    "numbers": "Numbers"
   },
   "Error_404": "__________________________Error_404_______________________________",
   "backToHome": "Back to Home",

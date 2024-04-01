@@ -406,7 +406,7 @@
         {
           "method": "Cash",
           "ways": {
-            "Bank": "888777",
+            "Bank": "Unified account 888777 in all banks",
             "Online": "https://www.efb.eg/other-ways-to-donate",
             "Outlets": "Fawry, Aman, Bee, Msary",
             "Services": "Vodafone Cash, Orange Cash, Etisalat Cash, WE Pay",
@@ -426,26 +426,51 @@
           "states": "Cairo",
           "address": [
             {
-              "phone": "+20 2 333 3333"
+              "address": "New Cairo, Third Adaptation, Gamal Abdel Nasser Axis, Block 44."
             },
             {
-              "address": "Giza, Egypt",
-              "phone": "+20 2 333 3333"
+              "address": "Greater Cairo, Carrefour Egypt, City Center, Maadi area."
             },
             {
-              "address": "qena, Egypt",
-              "phone": "+20 2 333 3333"
+              "address": "6 Al Nafoura Square, Mokattam, Cairo, next to the Arab African International Bank."
             },
             {
-              "address": "Suez, Egypt",
-              "phone": "+20 2 333 3333"
+              "address": "3 Ramses Street, Red Crescent."
             },
             {
-              "address": "Alexandria, Egypt",
-              "phone": "+20 2 333 3333"
+              "address": "Al-Khalifa Al-Maamoun Street, Ain Shams Specialized Hospital, next to the Faculty of Commerce."
+            },
+            {
+              "address": "Al-Zohour Hospital in the 7th District, 6th of October City."
+            },
+            {
+              "address": "104 Al Haram Street, Al Haram Hospital."
+            },
+            {
+              "address": "10 Al-Baramuni Street, Al-Gomhouria Hospital, Abdeen."
+            },
+            {
+              "address": "Dar Al Fouad Hospital, 6th of October."
+            },
+            {
+              "address": "Department of Productive Efficiency, Cadres Training Institute, Giza."
+            },
+            {
+              "address": "Arab Academy for Financial Sciences."
+            },
+            {
+              "address": "Tahrir Square, League of Arab States."
             }
           ]
         }
+      ],
+      "phone": [
+        "0225844217",
+        "02225844208",
+        "0225844200",
+        "0225844218",
+        "0225844216",
+        "0225844201"
       ],
       "logo": "https://i.ibb.co/cgPVD48/Egyptian-Food-Bank-png-144x144.png",
       "banner": "https://www.fondation-bel.org/wp-content/uploads/2021/09/efb-logo-en-n-scaled.jpg",
@@ -538,6 +563,14 @@
             }
           ]
         }
+      ],
+      "phone": [
+        "0225844217",
+        "02225844208",
+        "0225844200",
+        "0225844218",
+        "0225844216",
+        "0225844201"
       ],
       "logo": "https://i.ibb.co/r4LY9nL/Misr-El-Khair.png",
       "banner": "https://i0.wp.com/egyincs.com/wp-content/uploads/2023/12/1615458772_786_107958_logoforprs2.jpg?fit=987%2C484&ssl=1&resize=770%2C250&crop=0%2C0%2C770px%2C250px",
