@@ -80,53 +80,54 @@ const CharityProfile = () => {
         <img
           src={charity.banner}
           alt={charity.name}
-          className="w-full h-full"
+          className="w-full h-full object-cover"
         />
-        <div className="w-full h-full pb-5 bg-black/20 absolute top-0 hover:bg-black/40 duration-300"></div>
-        <Container>
-          <div className="flex items-center gap-4 absolute -bottom-1/4">
-            <figure className="w-40 h-40 p-4 bg-white rounded-full border-4 border-green-500 overflow-hidden">
-              <img
-                src={charity.logo}
-                alt={charity.name}
-                className="w-full h-full object-contain"
-              />
-            </figure>
-            <h1 className="bg-green-500 text-white text-4xl rounded-md h-fit py-2 px-6 font-bold">
-              {charity.name}
-            </h1>
-          </div>
+        <div className="w-full h-full pb-5 bg-black/30 absolute top-0 hover:bg-black/50 duration-300 flex justify-between items-center p-4">
+          <Link
+            to="/donate"
+            className="inline-block bg-white/80 hover:bg-green-600 hover:text-white text-green-600 font-bold py-2 px-4 rounded-lg shadow transition-colors duration-300"
+            title="Back to news page"
+          >
+            <LiaAngleLeftSolid className="text-2xl" />
+          </Link>
           <a
             href={charity.link}
             target="_blank"
             rel="noopener noreferrer"
             title="Visit charity website"
-            className="absolute top-4 right-4 bg-white px-4 py-2 rounded-md hover:bg-green-600 hover:text-white duration-300"
+            className="inline-block bg-white/80 hover:bg-green-600 hover:text-white text-green-600 font-bold py-2 px-4 rounded-lg shadow transition-colors duration-300"
           >
-            <LiaExternalLinkAltSolid />
+            <LiaExternalLinkAltSolid className="text-2xl" />
           </a>
-        </Container>
-        <Link
-          to="/donate"
-          className="absolute top-4 left-4 bg-white px-4 py-2 rounded-md hover:bg-green-600 hover:text-white duration-300 text-2xl"
-          title="Back to news page"
-        >
-          <LiaAngleLeftSolid />
-        </Link>
+        </div>
       </figure>
-      <div className="lg:px-0 px-4">
-        <section className="flex md:flex-row flex-col-reverse justify-evenly mb-8">
-          <aside className="bg-green-500 text-white md:w-2/12 w-full md:mt-0 mt-4 px-8 py-4 rounded-lg h-fit max-h-80">
-            <h2 className="font-bold text-3xl text-center mb-4">
+      <Container>
+        <div className="flex items-center gap-4 -mb-11 transform -translate-y-1/2">
+          <figure className="w-32 h-32 md:w-40 md:h-40 p-4 bg-white rounded-full border-8 border-green-500 overflow-hidden shadow-lg">
+            <img
+              src={charity.logo}
+              alt={charity.name}
+              className="w-full h-full object-contain"
+            />
+          </figure>
+          <h1 className="text-3xl md:text-4xl font-bold text-green-600">
+            {charity.name}
+          </h1>
+        </div>
+      </Container>
+      <div className="px-4 lg:px-16">
+        <section className="flex flex-col-reverse md:flex-row justify-between gap-8">
+          <aside className="bg-green-500 text-white w-full md:w-1/4 px-6 py-8 rounded-lg shadow-lg">
+            <h2 className="font-bold text-2xl md:text-3xl text-center mb-4">
               {t('states')}
             </h2>
-            <ul className="text-xl">
+            <ul className="text-lg md:text-xl">
               {charity.location.map((location) => (
                 <li
                   key={location.states}
                   className={`mb-2 hover:underline cursor-pointer ${
                     location === selectedLocation
-                      ? 'bg-white w-fit px-2 py-1 text-green-500 rounded duration-300'
+                      ? 'bg-white text-green-500 w-fit px-2 py-1 rounded'
                       : ''
                   }`}
                   onClick={() => handleLocationClick(location)}
@@ -136,68 +137,71 @@ const CharityProfile = () => {
               ))}
             </ul>
           </aside>
-          <section className="md:w-8/12 w-full">
+          <section className="w-full md:w-3/4">
             <article>
-              <h2 className="font-bold text-3xl mb-4">
+              <h2 className="font-bold text-2xl md:text-3xl mb-4">
                 {t('donate.description')}
               </h2>
-              <p className="text-xl">{charity.description}</p>
+              <p className="text-lg md:text-xl">{charity.description}</p>
             </article>
-            <hr className="w-full my-8 border-4 rounded-lg" />
+            <hr className="my-8 border-t-4 border-green-500 rounded-lg" />
             <article className="px-4 py-2">
-              <h2 className="font-bold text-3xl mb-4">
+              <h2 className="font-bold text-2xl md:text-3xl mb-4">
                 {t('donate.locationIn')} {selectedLocation.states}
               </h2>
-              <div className="flex flex-col md:flex-row flex-wrap">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 {selectedLocation.address.map((address, idx) => (
                   <div
                     key={idx}
-                    className="md:w-1/3 md:pr-4 mb-4 bg-green-500 text-white px-4 py-2 rounded mx-2"
+                    className="bg-white text-green-600 px-4 py-2 rounded-lg shadow"
                   >
-                    <p className="text-xl">
-                      {t('donate.address')}: {address.address}
-                    </p>
-                    <p className="text-xl">
-                      {t('donate.phone')}: {address.phone}
-                    </p>
+                    {address.address && (
+                      <p className="text-lg">
+                        {t('donate.address')}: {address.address}
+                      </p>
+                    )}
+                    {address.phone && (
+                      <p className="text-lg">
+                        {t('donate.phone')}: {address.phone}
+                      </p>
+                    )}
                   </div>
                 ))}
               </div>
             </article>
           </section>
         </section>
-        <section>
+        <section className="mt-8">
           <Container>
             <article>
-              <h2 className="font-bold text-3xl mb-4">
+              <h2 className="font-bold text-2xl md:text-3xl mb-4">
                 {t('donate.donationMethods')}
               </h2>
-              {charity.donationDetails.map((donationDetail) => (
-                <div key={donationDetail.method} className="mb-4">
-                  <h3 className="text-2xl font-bold uppercase bg-green-500 text-white px-4">
+              {charity.donationDetails.map((donationDetail, idx) => (
+                <div key={idx} className="mb-4">
+                  <h3 className="text-xl md:text-2xl font-bold bg-green-500 text-white px-4 py-2 rounded-t-lg">
                     {donationDetail.method}:
                   </h3>
-                  {Object.entries(donationDetail.ways).map(([way, value]) => {
-                    const isOnlineMethod =
-                      way === 'Online' && value.startsWith('http');
-                    return (
-                      <p key={way} className="text-xl mx-8">
-                        <span className="font-bold">{way}</span>:
-                        {isOnlineMethod ? (
-                          <a
-                            href={value}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-green-500 hover:text-green-700"
-                          >
-                            <span className="px-2 capitalize">click here</span>
-                          </a>
-                        ) : (
-                          ` ${value}`
-                        )}
-                      </p>
-                    );
-                  })}
+                  {Object.entries(donationDetail.ways).map(([way, value]) => (
+                    <div
+                      key={way}
+                      className="text-lg mx-8 mb-2 bg-white px-4 py-2 rounded-b-lg shadow-lg last:rounded-lg"
+                    >
+                      <span className="font-semibold">{way}:</span>
+                      {value.startsWith('http') ? (
+                        <a
+                          href={value}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-green-500 hover:underline ml-2"
+                        >
+                          Click here
+                        </a>
+                      ) : (
+                        ` ${value}`
+                      )}
+                    </div>
+                  ))}
                 </div>
               ))}
             </article>
