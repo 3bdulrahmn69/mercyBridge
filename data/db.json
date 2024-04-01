@@ -406,9 +406,9 @@
         {
           "method": "Cash",
           "ways": {
-            "Bank": " 888777",
+            "Bank": "888777",
             "Online": "https://www.efb.eg/other-ways-to-donate",
-            "outlets": "Fawry, Aman, Bee, Msary",
+            "Outlets": "Fawry, Aman, Bee, Msary",
             "Services": "Vodafone Cash, Orange Cash, Etisalat Cash, WE Pay",
             "SMS": "9595   5EG",
             "Home": "call 16060"
@@ -417,15 +417,35 @@
         {
           "method": "Food",
           "ways": {
-            "call": "16060 and we will come to you"
+            "Call": "16060"
           }
         }
       ],
       "location": [
         {
           "states": "Cairo",
-          "address": "Cairo, Egypt",
-          "phone": "+20 2 333 3333"
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
         }
       ],
       "logo": "https://i.ibb.co/cgPVD48/Egyptian-Food-Bank-png-144x144.png",
@@ -471,28 +491,53 @@
       "location": [
         {
           "states": "Cairo",
-          "address": "Cairo, Egypt",
-          "phone": "+20 2 333 3333"
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
         },
         {
           "states": "Giza",
-          "address": "Giza, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Alexandria",
-          "address": "Alexandria, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Al Qalyubiya",
-          "address": "Al Qalyubiya, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Suez",
-          "address": "Suez, Egypt",
-          "phone": "+20 2 333 3333"
+          "address": [
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
         }
       ],
       "logo": "https://i.ibb.co/r4LY9nL/Misr-El-Khair.png",
@@ -539,28 +584,53 @@
       "location": [
         {
           "states": "Cairo",
-          "address": "Cairo, Egypt",
-          "phone": "+20 2 333 3333"
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
         },
         {
           "states": "Giza",
-          "address": "Giza, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Alexandria",
-          "address": "Alexandria, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Al Qalyubiya",
-          "address": "Al Qalyubiya, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Suez",
-          "address": "Suez, Egypt",
-          "phone": "+20 2 333 3333"
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
         }
       ],
       "logo": "https://i.ibb.co/W3QsgPW/Resala.png",
@@ -605,28 +675,53 @@
       "location": [
         {
           "states": "Cairo",
-          "address": "Cairo, Egypt",
-          "phone": "+20 2 333 3333"
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
         },
         {
           "states": "Giza",
-          "address": "Giza, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Alexandria",
-          "address": "Alexandria, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Al Qalyubiya",
-          "address": "Al Qalyubiya, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Suez",
-          "address": "Suez, Egypt",
-          "phone": "+20 2 333 3333"
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
         }
       ],
       "logo": "https://i.ibb.co/8xwDBwm/25jan.png",
@@ -673,28 +768,53 @@
       "location": [
         {
           "states": "Cairo",
-          "address": "Cairo, Egypt",
-          "phone": "+20 2 333 3333"
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
         },
         {
           "states": "Giza",
-          "address": "Giza, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Alexandria",
-          "address": "Alexandria, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Al Qalyubiya",
-          "address": "Al Qalyubiya, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Suez",
-          "address": "Suez, Egypt",
-          "phone": "+20 2 333 3333"
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
         }
       ],
       "logo": "https://i.ibb.co/9p1XKtN/Magdi-Yacoub.png",
@@ -740,28 +860,53 @@
       "location": [
         {
           "states": "Cairo",
-          "address": "Cairo, Egypt",
-          "phone": "+20 2 333 3333"
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
         },
         {
           "states": "Giza",
-          "address": "Giza, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Alexandria",
-          "address": "Alexandria, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Al Qalyubiya",
-          "address": "Al Qalyubiya, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Suez",
-          "address": "Suez, Egypt",
-          "phone": "+20 2 333 3333"
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
         }
       ],
       "logo": "https://i.ibb.co/ypL1pSf/57357.png",
@@ -808,28 +953,53 @@
       "location": [
         {
           "states": "Cairo",
-          "address": "Cairo, Egypt",
-          "phone": "+20 2 333 3333"
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
         },
         {
           "states": "Giza",
-          "address": "Giza, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Alexandria",
-          "address": "Alexandria, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Al Qalyubiya",
-          "address": "Al Qalyubiya, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Suez",
-          "address": "Suez, Egypt",
-          "phone": "+20 2 333 3333"
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
         }
       ],
       "logo": "https://i.ibb.co/YfXQGrT/egyptian-red-crescent.png",
@@ -875,28 +1045,53 @@
       "location": [
         {
           "states": "Cairo",
-          "address": "Cairo, Egypt",
-          "phone": "+20 2 333 3333"
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
         },
         {
           "states": "Giza",
-          "address": "Giza, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Alexandria",
-          "address": "Alexandria, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Al Qalyubiya",
-          "address": "Al Qalyubiya, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Suez",
-          "address": "Suez, Egypt",
-          "phone": "+20 2 333 3333"
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
         }
       ],
       "logo": "https://i.ibb.co/NxJLzcz/mersal.png",
@@ -942,28 +1137,53 @@
       "location": [
         {
           "states": "Cairo",
-          "address": "Cairo, Egypt",
-          "phone": "+20 2 333 3333"
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
         },
         {
           "states": "Giza",
-          "address": "Giza, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Alexandria",
-          "address": "Alexandria, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Al Qalyubiya",
-          "address": "Al Qalyubiya, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Suez",
-          "address": "Suez, Egypt",
-          "phone": "+20 2 333 3333"
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
         }
       ],
       "logo": "https://i.ibb.co/ZJDMVy9/somw.png",
@@ -1008,28 +1228,53 @@
       "location": [
         {
           "states": "Cairo",
-          "address": "Cairo, Egypt",
-          "phone": "+20 2 333 3333"
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
         },
         {
           "states": "Giza",
-          "address": "Giza, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Alexandria",
-          "address": "Alexandria, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Al Qalyubiya",
-          "address": "Al Qalyubiya, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Suez",
-          "address": "Suez, Egypt",
-          "phone": "+20 2 333 3333"
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
         }
       ],
       "logo": "https://i.ibb.co/pvHdLXc/bahya.png",
@@ -1076,28 +1321,53 @@
       "location": [
         {
           "states": "Cairo",
-          "address": "Cairo, Egypt",
-          "phone": "+20 2 333 3333"
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
         },
         {
           "states": "Giza",
-          "address": "Giza, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Alexandria",
-          "address": "Alexandria, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Al Qalyubiya",
-          "address": "Al Qalyubiya, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Suez",
-          "address": "Suez, Egypt",
-          "phone": "+20 2 333 3333"
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
         }
       ],
       "logo": "https://i.ibb.co/ZX1hXrY/bnati-removebg.png",
@@ -1139,8 +1409,53 @@
       "location": [
         {
           "states": "Cairo",
-          "address": "Cairo, Egypt",
-          "phone": "+20 2 333 3333"
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
+        },
+        {
+          "states": "Giza",
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
         }
       ],
       "logo": "https://i.ibb.co/8sHM78Q/auady.png",
@@ -1186,8 +1501,53 @@
       "location": [
         {
           "states": "Cairo",
-          "address": "Cairo, Egypt",
-          "phone": "+20 2 333 3333"
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
+        },
+        {
+          "states": "Giza",
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
         }
       ],
       "logo": "https://i.ibb.co/Bjnjy7m/ahl.png",
@@ -1233,8 +1593,53 @@
       "location": [
         {
           "states": "Cairo",
-          "address": "Cairo, Egypt",
-          "phone": "+20 2 333 3333"
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
+        },
+        {
+          "states": "Giza",
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
         }
       ],
       "logo": "https://i.ibb.co/9pGvfMz/alezzzzx.png",
@@ -1257,9 +1662,9 @@
         {
           "method": "Cash",
           "ways": {
-            "Bank": " 888777",
+            "Bank": "888777",
             "Online": "https://www.efb.eg/other-ways-to-donate",
-            "outlets": "Fawry, Aman, Bee, Msary",
+            "Outlets": "Fawry, Aman, Bee, Msary",
             "Services": "Vodafone Cash, Orange Cash, Etisalat Cash, WE Pay",
             "SMS": "9595   5EG",
             "Home": "call 16060"
@@ -1268,15 +1673,35 @@
         {
           "method": "Food",
           "ways": {
-            "call": "16060 and we will come to you"
+            "Call": "16060"
           }
         }
       ],
       "location": [
         {
           "states": "Cairo",
-          "address": "Cairo, Egypt",
-          "phone": "+20 2 333 3333"
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
         }
       ],
       "logo": "https://i.ibb.co/cgPVD48/Egyptian-Food-Bank-png-144x144.png",
@@ -1322,28 +1747,53 @@
       "location": [
         {
           "states": "Cairo",
-          "address": "Cairo, Egypt",
-          "phone": "+20 2 333 3333"
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
         },
         {
           "states": "Giza",
-          "address": "Giza, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Alexandria",
-          "address": "Alexandria, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Al Qalyubiya",
-          "address": "Al Qalyubiya, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Suez",
-          "address": "Suez, Egypt",
-          "phone": "+20 2 333 3333"
+          "address": [
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
         }
       ],
       "logo": "https://i.ibb.co/r4LY9nL/Misr-El-Khair.png",
@@ -1351,7 +1801,7 @@
       "snapshots": [
         "https://d1b3667xvzs6rz.cloudfront.net/2020/05/WhatsApp-Image-2020-05-16-at-5.24.48-PM.jpeg",
         "https://scoopempire.com/wp-content/uploads/2018/05/accsight.jpg",
-        "hhttps://english.ahram.org.eg/Media/News/2023/4/13/41_2023-638169934269679623-967.jpg"
+        "https://english.ahram.org.eg/Media/News/2023/4/13/41_2023-638169934269679623-967.jpg"
       ]
     },
     {
@@ -1390,28 +1840,53 @@
       "location": [
         {
           "states": "Cairo",
-          "address": "Cairo, Egypt",
-          "phone": "+20 2 333 3333"
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
         },
         {
           "states": "Giza",
-          "address": "Giza, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Alexandria",
-          "address": "Alexandria, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Al Qalyubiya",
-          "address": "Al Qalyubiya, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Suez",
-          "address": "Suez, Egypt",
-          "phone": "+20 2 333 3333"
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
         }
       ],
       "logo": "https://i.ibb.co/W3QsgPW/Resala.png",
@@ -1456,28 +1931,53 @@
       "location": [
         {
           "states": "Cairo",
-          "address": "Cairo, Egypt",
-          "phone": "+20 2 333 3333"
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
         },
         {
           "states": "Giza",
-          "address": "Giza, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Alexandria",
-          "address": "Alexandria, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Al Qalyubiya",
-          "address": "Al Qalyubiya, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Suez",
-          "address": "Suez, Egypt",
-          "phone": "+20 2 333 3333"
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
         }
       ],
       "logo": "https://i.ibb.co/8xwDBwm/25jan.png",
@@ -1524,28 +2024,53 @@
       "location": [
         {
           "states": "Cairo",
-          "address": "Cairo, Egypt",
-          "phone": "+20 2 333 3333"
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
         },
         {
           "states": "Giza",
-          "address": "Giza, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Alexandria",
-          "address": "Alexandria, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Al Qalyubiya",
-          "address": "Al Qalyubiya, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Suez",
-          "address": "Suez, Egypt",
-          "phone": "+20 2 333 3333"
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
         }
       ],
       "logo": "https://i.ibb.co/9p1XKtN/Magdi-Yacoub.png",
@@ -1591,28 +2116,53 @@
       "location": [
         {
           "states": "Cairo",
-          "address": "Cairo, Egypt",
-          "phone": "+20 2 333 3333"
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
         },
         {
           "states": "Giza",
-          "address": "Giza, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Alexandria",
-          "address": "Alexandria, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Al Qalyubiya",
-          "address": "Al Qalyubiya, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Suez",
-          "address": "Suez, Egypt",
-          "phone": "+20 2 333 3333"
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
         }
       ],
       "logo": "https://i.ibb.co/ypL1pSf/57357.png",
@@ -1659,28 +2209,53 @@
       "location": [
         {
           "states": "Cairo",
-          "address": "Cairo, Egypt",
-          "phone": "+20 2 333 3333"
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
         },
         {
           "states": "Giza",
-          "address": "Giza, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Alexandria",
-          "address": "Alexandria, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Al Qalyubiya",
-          "address": "Al Qalyubiya, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Suez",
-          "address": "Suez, Egypt",
-          "phone": "+20 2 333 3333"
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
         }
       ],
       "logo": "https://i.ibb.co/YfXQGrT/egyptian-red-crescent.png",
@@ -1726,28 +2301,53 @@
       "location": [
         {
           "states": "Cairo",
-          "address": "Cairo, Egypt",
-          "phone": "+20 2 333 3333"
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
         },
         {
           "states": "Giza",
-          "address": "Giza, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Alexandria",
-          "address": "Alexandria, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Al Qalyubiya",
-          "address": "Al Qalyubiya, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Suez",
-          "address": "Suez, Egypt",
-          "phone": "+20 2 333 3333"
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
         }
       ],
       "logo": "https://i.ibb.co/NxJLzcz/mersal.png",
@@ -1793,28 +2393,53 @@
       "location": [
         {
           "states": "Cairo",
-          "address": "Cairo, Egypt",
-          "phone": "+20 2 333 3333"
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
         },
         {
           "states": "Giza",
-          "address": "Giza, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Alexandria",
-          "address": "Alexandria, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Al Qalyubiya",
-          "address": "Al Qalyubiya, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Suez",
-          "address": "Suez, Egypt",
-          "phone": "+20 2 333 3333"
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
         }
       ],
       "logo": "https://i.ibb.co/ZJDMVy9/somw.png",
@@ -1859,28 +2484,53 @@
       "location": [
         {
           "states": "Cairo",
-          "address": "Cairo, Egypt",
-          "phone": "+20 2 333 3333"
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
         },
         {
           "states": "Giza",
-          "address": "Giza, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Alexandria",
-          "address": "Alexandria, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Al Qalyubiya",
-          "address": "Al Qalyubiya, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Suez",
-          "address": "Suez, Egypt",
-          "phone": "+20 2 333 3333"
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
         }
       ],
       "logo": "https://i.ibb.co/pvHdLXc/bahya.png",
@@ -1927,28 +2577,53 @@
       "location": [
         {
           "states": "Cairo",
-          "address": "Cairo, Egypt",
-          "phone": "+20 2 333 3333"
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
         },
         {
           "states": "Giza",
-          "address": "Giza, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Alexandria",
-          "address": "Alexandria, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Al Qalyubiya",
-          "address": "Al Qalyubiya, Egypt",
-          "phone": "+20 2 333 3333"
-        },
-        {
-          "states": "Suez",
-          "address": "Suez, Egypt",
-          "phone": "+20 2 333 3333"
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
         }
       ],
       "logo": "https://i.ibb.co/ZX1hXrY/bnati-removebg.png",
@@ -1987,7 +2662,58 @@
           }
         }
       ],
-      "location": ["Cairo"],
+      "location": [
+        {
+          "states": "Cairo",
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
+        },
+        {
+          "states": "Giza",
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
+        }
+      ],
       "logo": "https://i.ibb.co/8sHM78Q/auady.png",
       "banner": "https://www.ayady4040.org/home_welcome/20230712111952.jpg",
       "snapshots": [
@@ -2028,7 +2754,58 @@
           }
         }
       ],
-      "location": ["Cairo"],
+      "location": [
+        {
+          "states": "Cairo",
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
+        },
+        {
+          "states": "Giza",
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
+        }
+      ],
       "logo": "https://i.ibb.co/Bjnjy7m/ahl.png",
       "banner": "https://d1b3667xvzs6rz.cloudfront.net/2019/10/Ahl-Masr5.jpg",
       "snapshots": [
@@ -2041,8 +2818,8 @@
       "name": "Alexandria Pediatric Oncology Charity",
       "description": "The Alexandria Pediatric Oncology Center is an Egyptian non-profit organization that was established in 2015. It aims to provide free medical care to patients with cancer.",
       "link": "https://www.apoc39.com",
-      "methods": ["Cash"],
-      "donationFor": ["Health", "Children"],
+      "methods": ["Cash", "Volunteer"],
+      "donationFor": ["Health"],
       "donationDetails": [
         {
           "method": "Cash",
@@ -2069,7 +2846,58 @@
           }
         }
       ],
-      "location": ["Alexandria"],
+      "location": [
+        {
+          "states": "Cairo",
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
+        },
+        {
+          "states": "Giza",
+          "address": [
+            {
+              "address": "Cairo, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Giza, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "qena, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Suez, Egypt",
+              "phone": "+20 2 333 3333"
+            },
+            {
+              "address": "Alexandria, Egypt",
+              "phone": "+20 2 333 3333"
+            }
+          ]
+        }
+      ],
       "logo": "https://i.ibb.co/9pGvfMz/alezzzzx.png",
       "banner": "https://www.apoc39.com/img/logo/social-media-english.jpg",
       "snapshots": [

@@ -144,16 +144,25 @@ const CharityProfile = () => {
               <p className="text-xl">{charity.description}</p>
             </article>
             <hr className="w-full my-8 border-4 rounded-lg" />
-            <article className="bg-green-500 rounded text-white px-4 py-2">
+            <article className="px-4 py-2">
               <h2 className="font-bold text-3xl mb-4">
                 {t('donate.locationIn')} {selectedLocation.states}
               </h2>
-              <p className="text-xl">
-                {t('donate.phone')}: {selectedLocation.phone}
-              </p>
-              <p className="text-xl">
-                {t('donate.address')}: {selectedLocation.address}
-              </p>
+              <div className="flex flex-col md:flex-row flex-wrap">
+                {selectedLocation.address.map((address, idx) => (
+                  <div
+                    key={idx}
+                    className="md:w-1/3 md:pr-4 mb-4 bg-green-500 text-white px-4 py-2 rounded mx-2"
+                  >
+                    <p className="text-xl">
+                      {t('donate.address')}: {address.address}
+                    </p>
+                    <p className="text-xl">
+                      {t('donate.phone')}: {address.phone}
+                    </p>
+                  </div>
+                ))}
+              </div>
             </article>
           </section>
         </section>
