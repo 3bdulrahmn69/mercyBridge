@@ -10,7 +10,9 @@ const NewsCard = ({ right, title, content, id, date, img }) => {
       <Container>
         <div
           className={`flex md:justify-between justify-center items-center ${
-            right ? 'md:flex-row' : 'md:flex-row-reverse'
+            right
+              ? 'md:flex-row animate-FadeIn'
+              : 'md:flex-row-reverse animate-FadeInRev'
           } flex-col py-2 md:px-2`}
         >
           <figure className="h-56 md:w-5/12 w-11/12">
@@ -54,7 +56,7 @@ const NewsCard = ({ right, title, content, id, date, img }) => {
 NewsCard.propTypes = {
   right: PropTypes.bool,
   title: PropTypes.string.isRequired,
-  content: PropTypes.string.isRequired,
+  content: PropTypes.array.isRequired,
   id: PropTypes.string.isRequired,
   date: PropTypes.string.isRequired,
   img: PropTypes.array,

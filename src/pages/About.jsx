@@ -8,7 +8,7 @@ const About = () => {
   const { t } = useTranslation();
 
   return (
-    <main>
+    <main className='animate-slideUp'>
       <Container>
         <SectionHeader
           title={t('About')}

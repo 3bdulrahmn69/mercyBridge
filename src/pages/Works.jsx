@@ -1,5 +1,4 @@
 import { useTranslation } from 'react-i18next';
-import Container from '../components/Container';
 import SectionHeader from '../components/SectionHeader';
 import WorksCard from '../components/WorksCard';
 import ourLaunch from '../assets/ourLaunch.jpg';
@@ -10,13 +9,13 @@ const Works = () => {
   const { t } = useTranslation();
   return (
     <main className="min-h-screen">
-      <Container>
+      <div className="animate-slideDown">
         <SectionHeader
           title={t('ourWorks')}
           description={t('ourWorks_description')}
           center={true}
         />
-      </Container>
+      </div>
       <WorksCard
         title={t('ourLaunch')}
         description={t('ourLaunch_description')}

@@ -128,13 +128,15 @@ const Donate = () => {
 
   return (
     <main className="pb-6 lg:px-0 px-4">
-      <SectionHeader
-        title={t('Donate_BTN')}
-        description={t('donate_desc')}
-        center={true}
-      />
+      <div className='animate-slideDown'>
+        <SectionHeader
+          title={t('Donate_BTN')}
+          description={t('donate_desc')}
+          center={true}
+        />
+      </div>
       <Container className="md:px-4">
-        <div className="flex md:justify-between mb-4 flex-col lg:flex-row">
+        <div className="flex md:justify-between mb-4 flex-col lg:flex-row animate-FadeInRev">
           <div className="lg:w-1/3 w-full lg:mb-0 mb-2">
             <input
               type="text"

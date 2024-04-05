@@ -11,7 +11,7 @@ import {
 const CharityCard = ({ id, name, description, image, methods }) => {
   const { t } = useTranslation();
   return (
-    <div className="border border-green-600 flex gap-4 px-4 py-2 rounded flex-col items-center md:flex-row">
+    <div className="border border-green-600 flex gap-4 px-4 py-2 rounded flex-col items-center md:flex-row animate-FadeIn">
       <div className="flex">
         <figure className="w-36 h-36 rounded-full overflow-hidden border-2 border-green-500 p-4 ">
           {image ? (

@@ -81,7 +81,7 @@ const NewsProfile = () => {
           setShowModal={setShowModal}
         />
       )}
-      <figure className="w-full h-60 relative mb-8">
+      <figure className="w-full h-60 relative mb-8 animate-FadeIn">
         <img
           src={news.img[0]}
           alt={news.title}
@@ -103,7 +103,7 @@ const NewsProfile = () => {
           {news.title}
         </h1>
       </figure>
-      <Container>
+      <Container className="animate-slideUp">
         <article>
           {news.content.map((article, index) => (
             <p key={index}>

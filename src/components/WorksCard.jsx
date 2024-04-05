@@ -28,7 +28,7 @@ const WorksCard = ({ right, picture, title, description, date }) => {
   );
 
   return (
-    <div className="px-9 mb-7 flex md:justify-evenly justify-center items-center md:gap-36 gap-2 md:flex-row flex-col">
+    <div className="px-9 mb-7 flex md:justify-evenly justify-center items-center md:gap-36 gap-2 md:flex-row flex-col animate-slideUp">
       {right && <Content />}
       <figure
         className={`workImageBg ${getImageAlignmentClass(

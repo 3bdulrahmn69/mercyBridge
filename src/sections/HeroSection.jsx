@@ -20,7 +20,7 @@ const HeroSection = () => {
     <section className="min-h-screen w-full">
       <div className="h-screen flex relative">
         <div className="md:w-4/6 w-full h-full bg-slate-700 flex justify-center pt-40">
-          <div className="md:w-3/6 w-5/6 flex flex-col md:items-start items-center">
+          <div className="md:w-3/6 w-5/6 flex flex-col md:items-start items-center animate-FadeIn">
             <div className="shadow-md py-2 px-4 rounded mb-8 bg-white/20 text-white">
               <h1 className="text-4xl">{t('hero_title')}</h1>
               <p className="text-xl">{t('hero_subtitle')}</p>
@@ -29,13 +29,13 @@ const HeroSection = () => {
           </div>
         </div>
         <div className="md:w-2/6 w-0 h-full bg-green-300 heroCollection">
-          <div className={right}>
+          <div className={`${right} animate-FadeInRev`}>
             <img src={Hero} alt="some" className="w-full h-auto rounded" />
           </div>
-          <div className={mid}>
+          <div className={`${mid} animate-FadeInRev`}>
             <img src={Hero} alt="some" className="w-full h-auto rounded" />
           </div>
-          <div className={left}>
+          <div className={`${left} animate-FadeInRev`}>
             <img src={Hero} alt="some" className="w-full h-auto rounded" />
           </div>
         </div>

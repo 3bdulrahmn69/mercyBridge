@@ -76,7 +76,7 @@ const CharityProfile = () => {
           imgIndex={imgIndex}
         />
       )}
-      <figure className="w-full h-60 mb-16 relative">
+      <figure className="w-full h-60 mb-16 relative animate-FadeIn">
         <img
           src={charity.banner}
           alt={charity.name}
@@ -101,146 +101,148 @@ const CharityProfile = () => {
           </a>
         </div>
       </figure>
-      <Container>
-        <div className="flex items-center gap-4 -mb-11 transform -translate-y-1/2">
-          <figure className="w-32 h-32 md:w-40 md:h-40 p-4 bg-white rounded-full border-8 border-green-500 overflow-hidden shadow-lg">
-            <img
-              src={charity.logo}
-              alt={charity.name}
-              className="w-full h-full object-contain"
-            />
-          </figure>
-          <h1 className="text-3xl md:text-4xl font-bold text-green-600">
-            {charity.name}
-          </h1>
-        </div>
-      </Container>
-      <div className="px-4 lg:px-16">
-        <section className="flex flex-col-reverse md:flex-row justify-between gap-8">
-          <aside className="bg-green-500 text-white w-full md:w-1/4 px-6 py-8 rounded-lg shadow-lg">
-            <h2 className="font-bold text-2xl md:text-3xl text-center mb-4">
-              {t('states')}
-            </h2>
-            <ul className="text-lg md:text-xl">
-              {charity.location.map((location) => (
-                <li
-                  key={location.states}
-                  className={`mb-2 hover:underline cursor-pointer ${
-                    location === selectedLocation
-                      ? 'bg-white text-green-500 px-2 py-1 rounded'
-                      : ''
-                  }`}
-                  onClick={() => handleLocationClick(location)}
-                >
-                  {location.states}
-                </li>
-              ))}
-            </ul>
-          </aside>
-          <section className="w-full md:w-3/4">
-            <article>
-              <h2 className="font-bold text-2xl md:text-3xl mb-4">
-                {t('donate.description')}
+      <div className='animate-slideUp'>
+        <Container>
+          <div className="flex items-center gap-4 -mb-11 transform -translate-y-1/2">
+            <figure className="w-32 h-32 md:w-40 md:h-40 p-4 bg-white rounded-full border-8 border-green-500 overflow-hidden shadow-lg">
+              <img
+                src={charity.logo}
+                alt={charity.name}
+                className="w-full h-full object-contain"
+              />
+            </figure>
+            <h1 className="text-3xl md:text-4xl font-bold text-green-600">
+              {charity.name}
+            </h1>
+          </div>
+        </Container>
+        <div className="px-4 lg:px-16">
+          <section className="flex flex-col-reverse md:flex-row justify-between gap-8">
+            <aside className="bg-green-500 text-white w-full md:w-1/4 px-6 py-8 rounded-lg shadow-lg">
+              <h2 className="font-bold text-2xl md:text-3xl text-center mb-4">
+                {t('states')}
               </h2>
-              <p className="text-lg md:text-xl">{charity.description}</p>
-            </article>
-            <hr className="my-8 border-t-4 border-green-500 rounded-lg" />
-            <article className="px-4 py-2">
-              <h2 className="font-bold text-2xl md:text-3xl mb-4">
-                {t('donate.locationIn')} {selectedLocation.states}
-              </h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                {selectedLocation.address.map((address, idx) => (
-                  <div
-                    key={idx}
-                    className="bg-white text-green-600 px-4 py-2 rounded-lg shadow h-fit"
+              <ul className="text-lg md:text-xl">
+                {charity.location.map((location) => (
+                  <li
+                    key={location.states}
+                    className={`mb-2 hover:underline cursor-pointer ${
+                      location === selectedLocation
+                        ? 'bg-white text-green-500 px-2 py-1 rounded'
+                        : ''
+                    }`}
+                    onClick={() => handleLocationClick(location)}
                   >
-                    {address.address && (
-                      <p className="text-lg"> {address.address}</p>
-                    )}
-                    {address.phone && (
-                      <p className="text-lg border-t-2 border-gray-200 mt-4">
-                        {address.phone}
-                      </p>
-                    )}
-                  </div>
+                    {location.states}
+                  </li>
                 ))}
-              </div>
-            </article>
-          </section>
-        </section>
-        <section className="mt-8">
-          <Container>
-            <article>
-              <h2 className="font-bold text-2xl md:text-3xl mb-4">
-                {t('donate.numbers')}
-              </h2>
-              {charity.phone.map((phone, idx) => (
-                <div
-                  key={idx}
-                  className="text-lg mx-8 mb-2 bg-white px-4 py-2 rounded-b-lg shadow-lg last:rounded-lg"
-                >
-                  {phone}
-                </div>
-              ))}
-            </article>
-            <article>
-              <h2 className="font-bold text-2xl md:text-3xl mb-4">
-                {t('donate.donationMethods')}
-              </h2>
-              {charity.donationDetails.map((donationDetail, idx) => (
-                <div key={idx} className="mb-4">
-                  <h3 className="text-xl md:text-2xl font-bold bg-green-500 text-white px-4 py-2 rounded-t-lg">
-                    {donationDetail.method}:
-                  </h3>
-                  {Object.entries(donationDetail.ways).map(([way, value]) => (
+              </ul>
+            </aside>
+            <section className="w-full md:w-3/4">
+              <article>
+                <h2 className="font-bold text-2xl md:text-3xl mb-4">
+                  {t('donate.description')}
+                </h2>
+                <p className="text-lg md:text-xl">{charity.description}</p>
+              </article>
+              <hr className="my-8 border-t-4 border-green-500 rounded-lg" />
+              <article className="px-4 py-2">
+                <h2 className="font-bold text-2xl md:text-3xl mb-4">
+                  {t('donate.locationIn')} {selectedLocation.states}
+                </h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                  {selectedLocation.address.map((address, idx) => (
                     <div
-                      key={way}
-                      className="text-lg mx-8 mb-2 bg-white px-4 py-2 rounded-b-lg shadow-lg last:rounded-lg"
+                      key={idx}
+                      className="bg-white text-green-600 px-4 py-2 rounded-lg shadow h-fit"
                     >
-                      <span className="font-semibold">{way}:</span>
-                      {value.startsWith('http') ? (
-                        <a
-                          href={value}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-green-500 hover:underline ml-2"
-                        >
-                          Click here
-                        </a>
-                      ) : (
-                        ` ${value}`
+                      {address.address && (
+                        <p className="text-lg"> {address.address}</p>
+                      )}
+                      {address.phone && (
+                        <p className="text-lg border-t-2 border-gray-200 mt-4">
+                          {address.phone}
+                        </p>
                       )}
                     </div>
                   ))}
                 </div>
-              ))}
-            </article>
-            <article>
-              <h2 className="font-bold text-3xl mb-4">
-                {t('newsProfile.snapshots')}
-              </h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                {charity.snapshots &&
-                  charity.snapshots.map((snapshot, idx) => (
-                    <figure key={idx} className="w-full h-96 relative">
-                      <img
-                        src={snapshot}
-                        alt={charity.name}
-                        className="w-full h-full object-cover opacity-80 hover:opacity-100 duration-300 cursor-pointer rounded"
-                        onClick={() => handleImageClick(idx)}
-                      />
-                    </figure>
-                  ))}
-                {!charity.snapshots && (
-                  <div className="text-2xl text-center text-red-500 font-bold">
-                    {t('newsProfile.noSnapshots')}
+              </article>
+            </section>
+          </section>
+          <section className="mt-8">
+            <Container>
+              <article>
+                <h2 className="font-bold text-2xl md:text-3xl mb-4">
+                  {t('donate.numbers')}
+                </h2>
+                {charity.phone.map((phone, idx) => (
+                  <div
+                    key={idx}
+                    className="text-lg mx-8 mb-2 bg-white px-4 py-2 rounded-b-lg shadow-lg last:rounded-lg"
+                  >
+                    {phone}
                   </div>
-                )}
-              </div>
-            </article>
-          </Container>
-        </section>
+                ))}
+              </article>
+              <article>
+                <h2 className="font-bold text-2xl md:text-3xl mb-4">
+                  {t('donate.donationMethods')}
+                </h2>
+                {charity.donationDetails.map((donationDetail, idx) => (
+                  <div key={idx} className="mb-4">
+                    <h3 className="text-xl md:text-2xl font-bold bg-green-500 text-white px-4 py-2 rounded-t-lg">
+                      {donationDetail.method}:
+                    </h3>
+                    {Object.entries(donationDetail.ways).map(([way, value]) => (
+                      <div
+                        key={way}
+                        className="text-lg mx-8 mb-2 bg-white px-4 py-2 rounded-b-lg shadow-lg last:rounded-lg"
+                      >
+                        <span className="font-semibold">{way}:</span>
+                        {value.startsWith('http') ? (
+                          <a
+                            href={value}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-green-500 hover:underline ml-2"
+                          >
+                            Click here
+                          </a>
+                        ) : (
+                          ` ${value}`
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                ))}
+              </article>
+              <article>
+                <h2 className="font-bold text-3xl mb-4">
+                  {t('newsProfile.snapshots')}
+                </h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                  {charity.snapshots &&
+                    charity.snapshots.map((snapshot, idx) => (
+                      <figure key={idx} className="w-full h-96 relative">
+                        <img
+                          src={snapshot}
+                          alt={charity.name}
+                          className="w-full h-full object-cover opacity-80 hover:opacity-100 duration-300 cursor-pointer rounded"
+                          onClick={() => handleImageClick(idx)}
+                        />
+                      </figure>
+                    ))}
+                  {!charity.snapshots && (
+                    <div className="text-2xl text-center text-red-500 font-bold">
+                      {t('newsProfile.noSnapshots')}
+                    </div>
+                  )}
+                </div>
+              </article>
+            </Container>
+          </section>
+        </div>
       </div>
     </main>
   );
