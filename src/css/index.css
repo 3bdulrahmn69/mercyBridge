@@ -21,6 +21,11 @@
   margin: 0 auto;
 }
 
+img {
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
 .menu-item::after {
   content: '';
   position: absolute;

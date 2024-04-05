@@ -453,13 +453,18 @@
               "address": "Dar Al Fouad Hospital, 6th of October."
             },
             {
-              "address": "Department of Productive Efficiency, Cadres Training Institute, Giza."
-            },
-            {
               "address": "Arab Academy for Financial Sciences."
             },
             {
               "address": "Tahrir Square, League of Arab States."
+            }
+          ]
+        },
+        {
+          "states": "Giza",
+          "address": [
+            {
+              "address": "Department of Productive Efficiency, Cadres Training Institute"
             }
           ]
         }
@@ -482,8 +487,8 @@
     {
       "id": 2,
       "name": "Misr El Kheir",
-      "description": "Misr El Kheir is an Egyptian non-profit organization that was established in 2007. It aims to develop the Egyptian society and to alleviate poverty.",
-      "link": "http://www.misrelkheir.org/",
+      "description": "Misr El Kheir Foundation is a non-profit development institution that works in six areas of human development: health, education, scientific research, social solidarity, aspects of life and the field of integrated development in the hope of eliminating unemployment, illiteracy, poverty, and disease.",
+      "link": "https://mekeg.org/",
       "methods": ["Cash", "Food", "Clothes", "Volunteer"],
       "donationFor": ["Society"],
       "donationDetails": [
@@ -514,52 +519,29 @@
       ],
       "location": [
         {
-          "states": "Cairo",
+          "states": "Port Said",
           "address": [
             {
-              "address": "Cairo, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Giza, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "qena, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Suez, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Alexandria, Egypt",
-              "phone": "+20 2 333 3333"
+              "address": "1, 23rd of July Street, next to Pino Pizza Restaurant, Canal Tower Building",
+              "phone": "0663265044"
             }
           ]
         },
         {
-          "states": "Giza",
+          "states": "Al Sharqia",
           "address": [
             {
-              "address": "Giza, Egypt",
-              "phone": "+20 2 333 3333"
-            },
+              "address": "60 Al-Mosheer Ahmed Ismail Street - next to McDonald's - next to Al-Qawmia Square, Zagazig",
+              "phone": "0552302795"
+            }
+          ]
+        },
+        {
+          "states": "Ismaiyla",
+          "address": [
             {
-              "address": "Giza, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Giza, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Giza, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Giza, Egypt",
-              "phone": "+20 2 333 3333"
+              "address": "44 Shebin El-Kom (below the United Pharmaceutical Company and in front of the Electricity Company) - Ismaiyla",
+              "phone": "0643117037"
             }
           ]
         }

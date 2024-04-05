@@ -34,12 +34,12 @@ const CharityCard = ({ id, name, description, image, methods }) => {
               : description}
           </p>
         </div>
-        <div className="flex items-center mt-2 justify-between">
-          <div className="flex items-center">
-            <h4 className="bg-red-400 text-white w-fit rounded py-1 px-2 text-xs md:text-base">
+        <div className="flex items-center mt-2 justify-between flex-col md:flex-row gap-4">
+          <div className="flex items-center justify-start flex-col md:flex-row w-full">
+            <h4 className="bg-red-400 text-white w-fit rounded py-1 px-2 self-start mb-2 md:mb-0">
               {t('donation_methods')}:
             </h4>
-            <ul className="flex gap-2 mx-2">
+            <ul className="flex gap-2 mx-2 flex-wrap">
               {methods.map((method, index) => (
                 <li
                   key={index}
@@ -64,14 +64,12 @@ const CharityCard = ({ id, name, description, image, methods }) => {
               ))}
             </ul>
           </div>
-          <div>
-            <Link
-              to={`/donate/${id}`}
-              className="bg-green-500 text-white px-4 py-2 rounded"
-            >
-              {t('donate.charity_donate_BTN')}
-            </Link>
-          </div>
+          <Link
+            to={`/donate/${id}`}
+            className="bg-green-500 text-white px-4 py-2 rounded md:w-fit w-full text-center mb-2"
+          >
+            {t('donate.charity_donate_BTN')}
+          </Link>
         </div>
       </div>
     </div>

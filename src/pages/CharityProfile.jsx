@@ -158,6 +158,11 @@ const CharityProfile = () => {
                     {address.address && (
                       <p className="text-lg"> {address.address}</p>
                     )}
+                    {address.phone && (
+                      <p className="text-lg border-t-2 border-gray-200 mt-4">
+                        {address.phone}
+                      </p>
+                    )}
                   </div>
                 ))}
               </div>
