@@ -76,7 +76,7 @@ const CharityProfile = () => {
           imgIndex={imgIndex}
         />
       )}
-      <figure className="w-full h-60 mb-16 relative animate-FadeIn">
+      <figure className="w-full h-60 mb-16 relative animate-FadeIn" dir="ltr">
         <img
           src={charity.banner}
           alt={charity.name}
@@ -101,7 +101,7 @@ const CharityProfile = () => {
           </a>
         </div>
       </figure>
-      <div className='animate-slideUp'>
+      <div className="animate-slideUp">
         <Container>
           <div className="flex items-center gap-4 -mb-11 transform -translate-y-1/2">
             <figure className="w-32 h-32 md:w-40 md:h-40 p-4 bg-white rounded-full border-8 border-green-500 overflow-hidden shadow-lg">
@@ -133,7 +133,7 @@ const CharityProfile = () => {
                     }`}
                     onClick={() => handleLocationClick(location)}
                   >
-                    {location.states}
+                    {t(location.states)}
                   </li>
                 ))}
               </ul>
@@ -148,7 +148,7 @@ const CharityProfile = () => {
               <hr className="my-8 border-t-4 border-green-500 rounded-lg" />
               <article className="px-4 py-2">
                 <h2 className="font-bold text-2xl md:text-3xl mb-4">
-                  {t('donate.locationIn')} {selectedLocation.states}
+                  {t('donate.locationIn')} {t(selectedLocation.states)}
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                   {selectedLocation.address.map((address, idx) => (
@@ -172,19 +172,21 @@ const CharityProfile = () => {
           </section>
           <section className="mt-8">
             <Container>
-              <article>
-                <h2 className="font-bold text-2xl md:text-3xl mb-4">
-                  {t('donate.numbers')}
-                </h2>
-                {charity.phone.map((phone, idx) => (
-                  <div
-                    key={idx}
-                    className="text-lg mx-8 mb-2 bg-white px-4 py-2 rounded-b-lg shadow-lg last:rounded-lg"
-                  >
-                    {phone}
-                  </div>
-                ))}
-              </article>
+              {charity.phone && (
+                <article>
+                  <h2 className="font-bold text-2xl md:text-3xl mb-4">
+                    {t('donate.numbers')}
+                  </h2>
+                  {charity.phone.map((phone, idx) => (
+                    <div
+                      key={idx}
+                      className="text-lg mx-8 mb-2 bg-white px-4 py-2 rounded-b-lg shadow-lg last:rounded-lg"
+                    >
+                      {phone}
+                    </div>
+                  ))}
+                </article>
+              )}
               <article>
                 <h2 className="font-bold text-2xl md:text-3xl mb-4">
                   {t('donate.donationMethods')}
@@ -205,7 +207,7 @@ const CharityProfile = () => {
                             href={value}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-green-500 hover:underline ml-2"
+                            className="text-green-500 hover:underline mx-2"
                           >
                             Click here
                           </a>

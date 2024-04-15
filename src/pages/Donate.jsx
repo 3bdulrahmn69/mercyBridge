@@ -1,6 +1,7 @@
 import { useState, useEffect, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useLocation } from 'react-router-dom';
+import i18next from 'i18next';
 import Container from '../components/Container';
 import SectionHeader from '../components/SectionHeader';
 import UltimateSelector from '../components/UltimateSelector';
@@ -27,6 +28,9 @@ const Donate = () => {
   const [forSelected, setForSelected] = useState(methodFromQuery || 'All');
   const [searchQuery, setSearchQuery] = useState('');
   const [charities, setCharities] = useState([]);
+  const lang = i18next.language;
+
+  const pageDirection = i18next.language === 'ar' ? 'rtl' : 'ltr';
 
   useEffect(() => {
     async function fetchStates() {
@@ -71,7 +75,7 @@ const Donate = () => {
         }
 
         try {
-          const charitiesResponse = await getCharities();
+          const charitiesResponse = await getCharities(lang);
           if (charitiesResponse.error) {
             setErrorWithCharities(charitiesResponse.error);
           } else {
@@ -86,7 +90,7 @@ const Donate = () => {
 
       fetchData();
     }
-  }, [states]);
+  }, [states, lang]);
 
   const translatedStates = useMemo(
     () =>
@@ -128,7 +132,7 @@ const Donate = () => {
 
   return (
     <main className="pb-6 lg:px-0 px-4">
-      <div className='animate-slideDown'>
+      <div className="animate-slideDown">
         <SectionHeader
           title={t('Donate_BTN')}
           description={t('donate_desc')}
@@ -136,17 +140,20 @@ const Donate = () => {
         />
       </div>
       <Container className="md:px-4">
-        <div className="flex md:justify-between mb-4 flex-col lg:flex-row animate-FadeInRev">
-          <div className="lg:w-1/3 w-full lg:mb-0 mb-2">
+        <div
+          className="flex md:justify-between mb-4 flex-col lg:flex-row animate-FadeInRev"
+        >
+          <div className="lg:w-1/4 w-full lg:mb-0 mb-2">
             <input
+              dir={pageDirection}
               type="text"
-              placeholder="Search charities..."
+              placeholder={t('donate.Search charities')}
               value={searchQuery}
               onChange={handleSearchChange}
               className="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:border-green-500"
             />
           </div>
-          <div className="flex flex-wrap gap-y-2 justify-between">
+          <div className="flex md:flex-nowrap flex-wrap rap gap-y-2 justify-between">
             <UltimateSelector
               label={t('filter_by_state')}
               arrToSelectFrom={translatedStates}

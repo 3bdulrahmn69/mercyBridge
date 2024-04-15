@@ -49,7 +49,7 @@ const News = () => {
 
   return (
     <main className="min-h-screen">
-      <Container>
+      <Container className="animate-slideDown">
         <SectionHeader
           title={t('News_Title')}
           description={t('News_disc')}

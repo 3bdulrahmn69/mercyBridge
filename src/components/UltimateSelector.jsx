@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import i18next from 'i18next';
 import { useTranslation } from 'react-i18next';
 
 const UltimateSelector = ({
@@ -8,9 +9,10 @@ const UltimateSelector = ({
   setSelectedValue,
 }) => {
   const { t } = useTranslation();
+  const pageDirection = i18next.language === 'ar' ? 'rtl' : 'ltr';
 
   return (
-    <label htmlFor="state" className="flex items-center">
+    <label htmlFor="state" className="flex items-center" dir={pageDirection}>
       {label}:
       <select
         className="state-selector p-2 mx-2 border border-green-500 rounded-md font-bold focus:outline-none"

@@ -400,7 +400,7 @@
       "name": "Egyptian Food Bank",
       "description": "The first neutral Egyptian charitable organization specialized in combating hunger and funded by zakat funds, alms, and donations, which are professionally transformed into services and programs to provide healthy food and a safe life opportunity for those who deserve it, and whose impact on their lives is measured in a scientific way. Through more than 15 years of professional work, we have become experts in the Arab region on the issue of combating hunger, which is the most important issue concerned with human development throughout the entire world.",
       "link": "http://www.egyptianfoodbank.com/",
-      "methods": ["Cash", "Food"],
+      "methods": ["Cash"],
       "donationFor": ["Society", "Gaza"],
       "donationDetails": [
         {
@@ -412,12 +412,6 @@
             "Services": "Vodafone Cash, Orange Cash, Etisalat Cash, WE Pay",
             "SMS": "9595   5EG",
             "Home": "call 16060"
-          }
-        },
-        {
-          "method": "Food",
-          "ways": {
-            "Call": "16060"
           }
         }
       ],
@@ -481,7 +475,8 @@
       "banner": "https://www.fondation-bel.org/wp-content/uploads/2021/09/efb-logo-en-n-scaled.jpg",
       "snapshots": [
         "https://scenenow.com/Content/Admin/Uploads/Articles/ArticlesMainPhoto/62829/99d9aca2-e24f-4799-9f3b-2fa2041b5f34.jpg",
-        "https://businessforwardauc.com/wp-content/uploads/2022/07/5e53cd40-9215-4936-9045-9df5a1058f93.jpg"
+        "https://businessforwardauc.com/wp-content/uploads/2022/07/5e53cd40-9215-4936-9045-9df5a1058f93.jpg",
+        "https://egyptianstreets.com/wp-content/uploads/2024/02/The-Egyptian-Food-Bank-Launches-Mobile-Kitchens-To-Distribute-Ready-Meals.jpg"
       ]
     },
     {
@@ -489,35 +484,125 @@
       "name": "Misr El Kheir",
       "description": "Misr El Kheir Foundation is a non-profit development institution that works in six areas of human development: health, education, scientific research, social solidarity, aspects of life and the field of integrated development in the hope of eliminating unemployment, illiteracy, poverty, and disease.",
       "link": "https://mekeg.org/",
-      "methods": ["Cash", "Food", "Clothes", "Volunteer"],
+      "methods": ["Cash", "Clothes", "Volunteer"],
       "donationFor": ["Society"],
       "donationDetails": [
         {
           "method": "Cash",
           "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
+            "Outlets": "Fawry, Aman, Bee, Msary",
+            "Services": "Vodafone Cash, Orange Cash, Etisalat Cash, WE Pay"
           }
         },
         {
-          "method": "Clothes",
+          "method": "Links",
           "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
-          }
-        },
-        {
-          "method": "Volunteer",
-          "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
+            "In-kind donations": "https://mekeg.org/ar/concrete-donations",
+            "Collection representative": "https://mekeg.org/ar/order-delegate",
+            "Bank": "https://mekeg.org/ar/transfer-abroad"
           }
         }
       ],
       "location": [
+        {
+          "states": "Cairo",
+          "address": [
+            {
+              "address": "4 Sayed Zakaria Street, after Oriental Weavers - Sheraton",
+              "phone": "0222684823"
+            },
+            {
+              "address": "Shop No. 9, Al-Hamd Mall (next to Al-Hamd Mosque) - Corridor 79 - Fifth Settlement",
+              "phone": "0226184070"
+            },
+            {
+              "address": "9 Mostafa El Nahhas Street, after Oriental Weavers - Nasr City",
+              "phone": "0226718895"
+            },
+            {
+              "address": "Inside Heliopolis Club - Heliopolis",
+              "phone": "01285555661"
+            },
+            {
+              "address": "2 Baghdad Street, in front of the Ittihadiya Palace - Heliopolis",
+              "phone": "0224180925"
+            },
+            {
+              "address": "Shop No. 8 - Obour Buildings (next to CIB Bank) - Heliopolis",
+              "phone": "0224038670"
+            },
+            {
+              "address": "88 Street 9 (next to Cilantro Maadi) - Maadi",
+              "phone": "0223807714"
+            }
+          ]
+        },
+        {
+          "states": "Alexandria",
+          "address": [
+            {
+              "address": "90 Fawzi Moaz Street (next to Ali Bin Abi Talib Association) - Smouha",
+              "phone": "034275692"
+            },
+            {
+              "address": "29 Al-Iqbal Street, Loran (next to McDonald’s) - Loran",
+              "phone": "035849483"
+            },
+            {
+              "address": "26 Salah Salem Street, formerly Sherif Street - in front of the National Bank",
+              "phone": "034836897"
+            },
+            {
+              "address": "Roman Camp Street - Rushdi - next to Etisalat",
+              "phone": "035444287"
+            },
+            {
+              "address": "198 Al-Hurriya Road - Abu Qir - Al-Ibrahimiyya",
+              "phone": "035916370"
+            },
+            {
+              "address": "383 Gamal Abdel Nasser Street, next to Arous Damascus Restaurant, Al-Asafra Bahri",
+              "phone": "035504840"
+            }
+          ]
+        },
+        {
+          "states": "Giza",
+          "address": [
+            {
+              "address": "Egyptian Hunting Club, October Branch - next to the squash courts complex",
+              "phone": "01285555226"
+            },
+            {
+              "address": "37 Syria Street (next to La Poire) - Mohandiseen",
+              "phone": "0233473168"
+            },
+            {
+              "address": "Ali Lotfy Street - Center Ville Mall (after Fresh Food Market and next to Global Care Hospital) - Sheikh Zayed - 6th of October - Giza",
+              "phone": "0238500716"
+            },
+            {
+              "address": "15 C Taha Hussein Street - next to Abu Auf - Zamalek",
+              "phone": "0227362249"
+            },
+            {
+              "address": "37 Mossadak St., next to Credit Agricole Bank - Dokki",
+              "phone": "0237625046"
+            },
+            {
+              "address": "106 King Faisal St. - Mariouteya - Shop No. 6",
+              "phone": "0233820572"
+            },
+            {
+              "address": "Shop 2, October House Mall, in front of Misr University Mosque and next to Banque Misr, the entrance to the distinguished neighborhood",
+              "phone": "0238247472"
+            },
+            {
+              "address": "Hyper One, Sheikh Zayed, Gate 2, inside the Hyper, next to the Club Pharmacy",
+              "phone": "01285555182"
+            }
+          ]
+        },
         {
           "states": "Port Said",
           "address": [
@@ -546,14 +631,6 @@
           ]
         }
       ],
-      "phone": [
-        "0225844217",
-        "02225844208",
-        "0225844200",
-        "0225844218",
-        "0225844216",
-        "0225844201"
-      ],
       "logo": "https://i.ibb.co/r4LY9nL/Misr-El-Khair.png",
       "banner": "https://i0.wp.com/egyincs.com/wp-content/uploads/2023/12/1615458772_786_107958_logoforprs2.jpg?fit=987%2C484&ssl=1&resize=770%2C250&crop=0%2C0%2C770px%2C250px",
       "snapshots": [
@@ -565,33 +642,27 @@
     {
       "id": 3,
       "name": "Resala",
-      "description": "Resala is an Egyptian non-profit organization that was established in 1999. It aims to develop the Egyptian society and to alleviate poverty.",
-      "link": "http://www.resala.org/",
-      "methods": ["Cash", "Food", "Volunteer"],
+      "description": "“Message” was established on June 25, 1999 as a student activity in the Faculty of Engineering at Cairo University by a group of students who studied the engineering ethics course in the Faculty of Communications Engineering Department under Dr. Sherif Abdel Azim. In 1999, the founding team’s goal was to spread volunteerism and positivity in society, cultivate belonging, and combat the logic of “I’m Mali” and other negative ideas. They chose the name “Message” as an expression that the team’s goal is to spread the message of volunteerism, positivity, and cooperation in the college. The whole community. In 2000, “Resala” turned into a charitable organization recognized by the Ministry of Social Affairs after a relative of one of the female students at the college donated a plot of land to the team so that they could spread their message outside the university.",
+      "link": "https://resala.org",
+      "methods": ["Cash", "Volunteer"],
       "donationFor": ["Society"],
       "donationDetails": [
         {
           "method": "Cash",
           "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
-          }
-        },
-        {
-          "method": "Clothes",
-          "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
+            "Bank Transfer": "https://resala.org/bank-transfer",
+            "Online": "https://resala.org/donations",
+            "Donate-rep": "https://resala.org/donate-rep",
+            "SMS": "9598  5EG",
+            "Outlets": "Fawry, Aman, Bsata, Sadad",
+            "Services": "Vodafone Cash, Smart Wallet, BM Wallet",
+            "Branch": "https://resala.org/branches"
           }
         },
         {
           "method": "Volunteer",
           "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
+            "Sign-up": "https://resala.org/volunteering"
           }
         }
       ],
@@ -600,24 +671,13 @@
           "states": "Cairo",
           "address": [
             {
-              "address": "Cairo, Egypt",
-              "phone": "+20 2 333 3333"
+              "address": "4 Zaki Rostom Street from Hassanein Heikal Street, Nasr City"
             },
             {
-              "address": "Giza, Egypt",
-              "phone": "+20 2 333 3333"
+              "address": "Ahmed Abdel Khaleq Street from Hegaz Street, Heliopolis"
             },
             {
-              "address": "qena, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Suez, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Alexandria, Egypt",
-              "phone": "+20 2 333 3333"
+              "address": "16 Youssef Zaki Street, in front of the District Presidency, Helwan"
             }
           ]
         },
@@ -625,115 +685,98 @@
           "states": "Giza",
           "address": [
             {
-              "address": "Cairo, Egypt",
-              "phone": "+20 2 333 3333"
+              "address": "207 King Faisal Street"
             },
             {
-              "address": "Giza, Egypt",
-              "phone": "+20 2 333 3333"
-            },
+              "address": "Old Cinema Street, next to the Islamic Hospital",
+              "phone": "01117111404"
+            }
+          ]
+        },
+        {
+          "states": "Alexandria",
+          "address": [
             {
-              "address": "qena, Egypt",
-              "phone": "+20 2 333 3333"
-            },
+              "address": "44 Tutankhamun Street, Smouha",
+              "phone": "034193599"
+            }
+          ]
+        },
+        {
+          "states": "Asyut",
+          "address": [
             {
-              "address": "Suez, Egypt",
-              "phone": "+20 2 333 3333"
-            },
+              "address": "Al-Zahraa area, Al-Khalafa Street",
+              "phone": "0882124085"
+            }
+          ]
+        },
+        {
+          "states": "Luxor",
+          "address": [
             {
-              "address": "Alexandria, Egypt",
-              "phone": "+20 2 333 3333"
+              "address": "Imam Ali Ibn Abi Talib Street, off Al-Rahma Street, Asna",
+              "phone": "0952605212"
+            }
+          ]
+        },
+        {
+          "states": "Al Qalyubiya",
+          "address": [
+            {
+              "address": "Tourist Division 33 Al-Jalaa Street in front of Abu Bakr Al-Siddiq Mosque - Al-Qanater Al-Khairiya",
+              "phone": "02 42196177"
             }
           ]
         }
       ],
+      "phone": ["19450"],
       "logo": "https://i.ibb.co/W3QsgPW/Resala.png",
       "banner": "https://images.wuzzuf-data.net/files/company_logo/Resala-Charity-Organization-Egypt-6495-og.jpeg",
       "snapshots": [
-        "https://resala.org/wp-content/uploads/2020/01/13455611101579788399.jpg"
+        "https://resala.org/wp-content/uploads/2020/01/13455611101579788399.jpg",
+        "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKALzPdJgDy1wJEH4a3hOCmg_gDHxoZDeNHqBOVx610zPgQtFAs05lBQKgTEOOhqfCfppIgoikqKAsFyXkxkrtlo5109a4bEUa4eTvmMQkr1VpKcvmW-59W3BIscg-mifRIqCuNY9SRyBj/s1600/ww.jpg"
       ]
     },
     {
       "id": 4,
       "name": "Jan25 hospital",
-      "description": "jan25 hospital is an Egyptian non-profit organization that was established in 2011. It aims to provide free medical care to patients with cancer.",
-      "link": "http://www.jan25hospital.com/",
+      "description": "The January 25 Hospital Foundation for Medical Services is a non-profit organization registered centrally with the Central Administration for Associations and Institutions of the Ministry of Social Solidarity, No. 796 of 2017. Its greatest activity is establishing hospitals, medical centers and specialized clinics, contributing to their development and follow-up, and helping the poor and needy by providing free treatment and medicine.",
+      "link": "https://25hospital.org",
       "methods": ["Cash", "Volunteer"],
       "donationFor": ["Health"],
       "donationDetails": [
         {
           "method": "Cash",
           "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
-          }
-        },
-        {
-          "method": "Clothes",
-          "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
+            "donation Programs": "https://25hospital.org/donation_programs",
+            "Online": "https://25hospital.org/donate",
+            "Outlets": "Fawry, Aman, Bsata, Sadad",
+            "Services": "Vodafone Cash, Smart Wallet, BM Wallet"
           }
         },
         {
           "method": "Volunteer",
           "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
+            "Sign-up": "https://25hospital.org/volunteer"
           }
         }
       ],
+      "phone": ["19257", "02 21237700"],
       "location": [
         {
           "states": "Cairo",
           "address": [
             {
-              "address": "Cairo, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Giza, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "qena, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Suez, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Alexandria, Egypt",
-              "phone": "+20 2 333 3333"
+              "address": "76 Arab League Street, Mohandiseen"
             }
           ]
         },
         {
-          "states": "Giza",
+          "states": "Al Sharqia",
           "address": [
             {
-              "address": "Cairo, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Giza, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "qena, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Suez, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Alexandria, Egypt",
-              "phone": "+20 2 333 3333"
+              "address": "Al-Shabraween Village, Hahia Center, 10 km from the city of Zagazig"
             }
           ]
         }
@@ -749,84 +792,27 @@
     {
       "id": 5,
       "name": "Magdi Yacoub Heart Foundation",
-      "description": "The Magdi Yacoub Heart Foundation is an Egyptian non-profit organization that was established in 2008. It aims to provide free medical care to patients with heart diseases.",
-      "link": "http://www.myf-egypt.org/",
-      "methods": ["Cash", "Volunteer"],
+      "description": "The Magdy Yacoub Foundation for Heart Diseases and Research - a non-governmental charitable organization registered in Egypt - was established in 2008 by Dr. Magdy Yacoub, the late Dr. Ahmed Zewail, and the late Ambassador Mohamed Shaker. The Magdy Yacoub Foundation for Heart Research also manages one of the exceptional projects of great importance to the health and well-being of the Egyptian people. , which depends entirely on donations, which is the Aswan Heart Center. The Magdy Yacoub Foundation for Cardiac Diseases and Research is responsible for the strategic management of the Aswan Heart Center. Given the pressure on the Aswan Heart Center, the Board of Trustees made an informed decision to begin establishing the Magdy Yacoub International Heart Center in Cairo, in order to meet the severe and growing need for treatment of heart diseases, especially The groups most in need of treatment, by achieving continuous integration between treatment, research, and skills development. The Foundation is also managed by one of the most famous boards of trustees in Egypt.",
+      "link": "https://www.myf-egypt.org",
+      "methods": ["Cash"],
       "donationFor": ["Health"],
       "donationDetails": [
         {
           "method": "Cash",
           "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
-          }
-        },
-        {
-          "method": "Clothes",
-          "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
-          }
-        },
-        {
-          "method": "Volunteer",
-          "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
+            "Online": "https://www.myf-egypt.org/donation-methods",
+            "Outlets": "Fawry",
+            "Services": "Vodafone Cash, Orange Cash, Etisalat Cash, Talabat "
           }
         }
       ],
       "location": [
         {
-          "states": "Cairo",
+          "states": "Aswan",
           "address": [
             {
-              "address": "Cairo, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Giza, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "qena, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Suez, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Alexandria, Egypt",
-              "phone": "+20 2 333 3333"
-            }
-          ]
-        },
-        {
-          "states": "Giza",
-          "address": [
-            {
-              "address": "Cairo, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Giza, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "qena, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Suez, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Alexandria, Egypt",
-              "phone": "+20 2 333 3333"
+              "address": "Aswan Heart Center, Dr. Magdy Yacoub, Kasr El Hagar Street, Aswan City,",
+              "phone": "19731"
             }
           ]
         }
@@ -1667,27 +1653,21 @@
   "charities-ar": [
     {
       "id": 1,
-      "name": "Egyptian Food Bank",
-      "description": "The first neutral Egyptian charitable organization specialized in combating hunger and funded by zakat funds, alms, and donations, which are professionally transformed into services and programs to provide healthy food and a safe life opportunity for those who deserve it, and whose impact on their lives is measured in a scientific way. Through more than 15 years of professional work, we have become experts in the Arab region on the issue of combating hunger, which is the most important issue concerned with human development throughout the entire world.",
+      "name": "البنك المصري للغذاء",
+      "description": "أول منظمة مصرية خيرية محايدة متخصصة في مكافحة الجوع والتي تمولها أموال الزكاة والصدقات والتبرعات، والتي تتحول بشكل احترافي إلى خدمات وبرامج لتوفير الغذاء الصحي وفرصة حياة آمنة لأولئك الذين يستحقونها، ويتم قياس تأثيرها على حياتهم بطريقة علمية. من خلال أكثر من 15 عامًا من العمل المهني، أصبحنا خبراء في المنطقة العربية في مسألة مكافحة الجوع، وهي القضية الأهم المتعلقة بالتنمية البشرية في جميع أنحاء العالم.",
       "link": "http://www.egyptianfoodbank.com/",
-      "methods": ["Cash", "Food"],
+      "methods": ["Cash"],
       "donationFor": ["Society", "Gaza"],
       "donationDetails": [
         {
-          "method": "Cash",
+          "method": "نقد",
           "ways": {
-            "Bank": "888777",
-            "Online": "https://www.efb.eg/other-ways-to-donate",
-            "Outlets": "Fawry, Aman, Bee, Msary",
-            "Services": "Vodafone Cash, Orange Cash, Etisalat Cash, WE Pay",
-            "SMS": "9595   5EG",
-            "Home": "call 16060"
-          }
-        },
-        {
-          "method": "Food",
-          "ways": {
-            "Call": "16060"
+            "البنك": "الحساب الموحد 888777 في جميع البنوك",
+            "عبر الإنترنت": "https://www.efb.eg/other-ways-to-donate",
+            "منافذ الدفع": "فوري، أمان، بي، مصاري",
+            "الخدمات": "فودافون كاش، أورانج كاش، إتصالات كاش، وي باي",
+            "رسالة نصية قصيرة": "9595  5 ج",
+            "الاتصال المنزلي": "اتصل بالرقم 16060"
           }
         }
       ],
@@ -1696,91 +1676,37 @@
           "states": "Cairo",
           "address": [
             {
-              "address": "Cairo, Egypt",
-              "phone": "+20 2 333 3333"
+              "address": "القاهرة الجديدة، الانتقال الثالث، محور جمال عبد الناصر، القطعة 44."
             },
             {
-              "address": "Giza, Egypt",
-              "phone": "+20 2 333 3333"
+              "address": "القاهرة الكبرى، كارفور مصر، سيتي سنتر، منطقة المعادي."
             },
             {
-              "address": "qena, Egypt",
-              "phone": "+20 2 333 3333"
+              "address": "6 ميدان النافورة، المقطم، القاهرة، بجوار البنك العربي الأفريقي الدولي."
             },
             {
-              "address": "Suez, Egypt",
-              "phone": "+20 2 333 3333"
+              "address": "3 شارع رمسيس، الهلال الأحمر."
             },
             {
-              "address": "Alexandria, Egypt",
-              "phone": "+20 2 333 3333"
-            }
-          ]
-        }
-      ],
-      "logo": "https://i.ibb.co/cgPVD48/Egyptian-Food-Bank-png-144x144.png",
-      "banner": "https://www.fondation-bel.org/wp-content/uploads/2021/09/efb-logo-en-n-scaled.jpg",
-      "snapshots": [
-        "https://scenenow.com/Content/Admin/Uploads/Articles/ArticlesMainPhoto/62829/99d9aca2-e24f-4799-9f3b-2fa2041b5f34.jpg",
-        "https://businessforwardauc.com/wp-content/uploads/2022/07/5e53cd40-9215-4936-9045-9df5a1058f93.jpg"
-      ]
-    },
-    {
-      "id": 2,
-      "name": "Misr El Kheir",
-      "description": "Misr El Kheir is an Egyptian non-profit organization that was established in 2007. It aims to develop the Egyptian society and to alleviate poverty.",
-      "link": "http://www.misrelkheir.org/",
-      "methods": ["Cash", "Food", "Clothes", "Volunteer"],
-      "donationFor": ["Society"],
-      "donationDetails": [
-        {
-          "method": "Cash",
-          "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
-          }
-        },
-        {
-          "method": "Clothes",
-          "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
-          }
-        },
-        {
-          "method": "Volunteer",
-          "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
-          }
-        }
-      ],
-      "location": [
-        {
-          "states": "Cairo",
-          "address": [
-            {
-              "address": "Cairo, Egypt",
-              "phone": "+20 2 333 3333"
+              "address": "شارع الخليفة المأمون، مستشفى عين شمس التخصصي، بجوار كلية التجارة."
             },
             {
-              "address": "Giza, Egypt",
-              "phone": "+20 2 333 3333"
+              "address": "مستشفى الزهور في الحي السابع، مدينة 6 أكتوبر."
             },
             {
-              "address": "qena, Egypt",
-              "phone": "+20 2 333 3333"
+              "address": "104 شارع الهرم، مستشفى الهرم."
             },
             {
-              "address": "Suez, Egypt",
-              "phone": "+20 2 333 3333"
+              "address": "10 شارع البراموني، مستشفى الجمهورية، عابدين."
             },
             {
-              "address": "Alexandria, Egypt",
-              "phone": "+20 2 333 3333"
+              "address": "مستشفى دار الفؤاد، 6 أكتوبر."
+            },
+            {
+              "address": "الأكاديمية العربية للعلوم المالية."
+            },
+            {
+              "address": "ميدان التحرير، جامعة الدول العربية."
             }
           ]
         },
@@ -1788,24 +1714,193 @@
           "states": "Giza",
           "address": [
             {
-              "address": "Giza, Egypt",
-              "phone": "+20 2 333 3333"
+              "address": "قسم الكفاءة الإنتاجية، معهد تدريب الكوادر"
+            }
+          ]
+        }
+      ],
+      "phone": [
+        "0225844217",
+        "02225844208",
+        "0225844200",
+        "0225844218",
+        "0225844216",
+        "0225844201"
+      ],
+      "logo": "https://i.ibb.co/cgPVD48/Egyptian-Food-Bank-png-144x144.png",
+      "banner": "https://www.fondation-bel.org/wp-content/uploads/2021/09/efb-logo-en-n-scaled.jpg",
+      "snapshots": [
+        "https://scenenow.com/Content/Admin/Uploads/Articles/ArticlesMainPhoto/62829/99d9aca2-e24f-4799-9f3b-2fa2041b5f34.jpg",
+        "https://businessforwardauc.com/wp-content/uploads/2022/07/5e53cd40-9215-4936-9045-9df5a1058f93.jpg",
+        "https://egyptianstreets.com/wp-content/uploads/2024/02/The-Egyptian-Food-Bank-Launches-Mobile-Kitchens-To-Distribute-Ready-Meals.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "مصر الخير",
+      "description": "مؤسسة مصر الخير هي مؤسسة تنموية غير ربحية تعمل في ستة مجالات للتنمية البشرية: الصحة، التعليم، البحث العلمي، التضامن الاجتماعي، جوانب الحياة ومجال التنمية المتكاملة على أمل القضاء على البطالة، الأمية، الفقر والمرض.",
+      "link": "https://mekeg.org/",
+      "methods": ["Cash", "Clothes", "Volunteer"],
+      "donationFor": ["Society"],
+      "donationDetails": [
+        {
+          "method": "نقدي",
+          "ways": {
+            "منافذ الدفع": "فوري، أمان، بي، مصاري",
+            "الخدمات": "فودافون كاش، أورانج كاش، إتصالات كاش، وي باي"
+          }
+        },
+        {
+          "method": "روابط",
+          "ways": {
+            "التبرعات العينية": "https://mekeg.org/ar/concrete-donations",
+            "ممثل التجميع": "https://mekeg.org/ar/order-delegate",
+            "البنك": "https://mekeg.org/ar/transfer-abroad"
+          }
+        }
+      ],
+      "location": [
+        {
+          "states": "Cairo",
+          "address": [
+            {
+              "address": "٤ شارع سيد زكريا، بعد شركة أورينتال ويفرز - الشيراتون",
+              "phone": "0222684823"
             },
             {
-              "address": "Giza, Egypt",
-              "phone": "+20 2 333 3333"
+              "address": "رقم المحل ٩، مول الحمد (بجوار مسجد الحمد) - ممر ٧٩ - التجمع الخامس",
+              "phone": "0226184070"
             },
             {
-              "address": "Giza, Egypt",
-              "phone": "+20 2 333 3333"
+              "address": "٩ شارع مصطفى النحاس، بعد شركة أورينتال ويفرز - مدينة نصر",
+              "phone": "0226718895"
             },
             {
-              "address": "Giza, Egypt",
-              "phone": "+20 2 333 3333"
+              "address": "داخل نادي هليوبوليس - هليوبوليس",
+              "phone": "01285555661"
             },
             {
-              "address": "Giza, Egypt",
-              "phone": "+20 2 333 3333"
+              "address": "٢ شارع بغداد، أمام قصر الاتحادية - هليوبوليس",
+              "phone": "0224180925"
+            },
+            {
+              "address": "رقم المحل ٨ - عمارات العبور (بجانب بنك CIB) - هليوبوليس",
+              "phone": "0224038670"
+            },
+            {
+              "address": "٨٨ شارع ٩ (بجوار سيلانترو معادي) - المعادي",
+              "phone": "0223807714"
+            }
+          ]
+        },
+        {
+          "states": "Alexandria",
+          "address": [
+            {
+              "address": "٩٠ شارع فوزي معاذ (بجوار جمعية علي بن أبي طالب) - سموحة",
+              "phone": "034275692"
+            },
+            {
+              "address": "٢٩ شارع الإقبال، لوران (بجوار ماكدونالدز) - لوران",
+              "phone": "035849483"
+            },
+            {
+              "address": "٢٦ شارع صلاح سالم، سابقاً شارع شريف - أمام البنك الأهلي",
+              "phone": "034836897"
+            },
+            {
+              "address": "شارع معسكر الرومان - رشدي - بجوار اتصالات",
+              "phone": "035444287"
+            },
+            {
+              "address": "١٩٨ طريق الحرية - أبو قير - الإبراهيمية",
+              "phone": "035916370"
+            },
+            {
+              "address": "٣٨٣ شارع جمال عبد الناصر، بجوار مطعم عروس دمشق، العصافرة بحري",
+              "phone": "035504840"
+            }
+          ]
+        },
+        {
+          "states": "Giza",
+          "address": [
+            {
+              "address": "نادي الصيد المصري، فرع أكتوبر - بجوار مجمع ملاعب الاسكواش",
+              "phone": "01285555226"
+            },
+            {
+              "address": "٣٧ شارع سوريا (بجوار لابوار) - المهندسين",
+              "phone": "0233473168"
+            },
+            {
+              "address": "شارع علي لطفي - مول سنتر فيل (بعد سوق فريش فوود وبجوار مستشفى غلوبال كير) - الشيخ زايد - ٦ أكتوبر - الجيزة",
+              "phone": "0238500716"
+            },
+            {
+              "address": "١٥ شارع طه حسين - بجوار أبو أوف - الزمالك",
+              "phone": "0227362249"
+            },
+            {
+              "address": "٣٧ شارع مصدق، بجوار بنك كريدي أجريكول - الدقي",
+              "phone": "0237625046"
+            },
+            {
+              "address": "١٠٦ شارع الملك فيصل - المريوطية - رقم المحل ٦",
+              "phone": "0233820572"
+            },
+            {
+              "address": "محل رقم ٢، مول هاوس أكتوبر، أمام مسجد جامعة مصر وبجوار بنك مصر، مدخل الحي المتميز",
+              "phone": "0238247472"
+            },
+            {
+              "address": "هايبر وان، الشيخ زايد، البوابة ٢، داخل الهايبر، بجوار صيدلية النادي",
+              "phone": "01285555182"
+            }
+          ]
+        },
+        {
+          "states": "Port Said",
+          "address": [
+            {
+              "address": "١ شارع ٢٣ يوليو، بجوار مطعم بينو بيتزا، مبنى برج القناة",
+              "phone": "0663265044"
+            }
+          ]
+        },
+        {
+          "states": "Al Sharqia",
+          "address": [
+            {
+              "address": "٦٠ شارع المشير أحمد إسماعيل - بجوار ماكدونالدز - بجوار ميدان القومية، الزقازيق",
+              "phone": "0552302795"
+            }
+          ]
+        },
+        {
+          "states": "Ismaiyla",
+          "address": [
+            {
+              "address": "٤٤ شارع شبين الكوم، بجوار مطعم ماكدونالدز - الإسماعيلية",
+              "phone": "0643200067"
+            }
+          ]
+        },
+        {
+          "states": "Suez",
+          "address": [
+            {
+              "address": "١٠٨ شارع الجيش - بجوار بنك القاهرة - بور توفيق",
+              "phone": "0623347989"
+            }
+          ]
+        },
+        {
+          "states": "Red Sea",
+          "address": [
+            {
+              "address": "مارينا، داخل مارينا مول، الطابق الأرضي - الغردقة",
+              "phone": "0653462178"
             }
           ]
         }
@@ -1820,34 +1915,28 @@
     },
     {
       "id": 3,
-      "name": "Resala",
-      "description": "Resala is an Egyptian non-profit organization that was established in 1999. It aims to develop the Egyptian society and to alleviate poverty.",
-      "link": "http://www.resala.org/",
-      "methods": ["Cash", "Food", "Volunteer"],
+      "name": "رسالة",
+      "description": "تأسست \"رسالة\" في 25 يونيو 1999 كنشاط طلابي في كلية الهندسة بجامعة القاهرة من قبل مجموعة من الطلاب الذين درسوا مادة الأخلاقيات الهندسية في قسم هندسة الاتصالات بكلية الهندسة بإشراف الدكتور شريف عبد العظيم. في عام 1999، كان هدف الفريق المؤسس هو نشر التطوع والإيجابية في المجتمع، وتعزيز الانتماء، ومحاربة منطق \"أنا مالي\" وغيرها من الأفكار السلبية. اختاروا اسم \"رسالة\" كتعبير عن أن هدف الفريق هو نشر رسالة التطوع والإيجابية والتعاون في الكلية والمجتمع بأسره. في عام 2000، تحولت \"رسالة\" إلى منظمة خيرية معترف بها من قبل وزارة الشؤون الاجتماعية بعد أن قام أحد الأقارب لإحدى الطالبات بالكلية بتبرع بقطعة أرض للفريق حتى يتمكنوا من نشر رسالتهم خارج الجامعة.",
+      "link": "https://resala.org",
+      "methods": ["Cash", "Volunteer"],
       "donationFor": ["Society"],
       "donationDetails": [
         {
-          "method": "Cash",
+          "method": "نقدي",
           "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
+            "تحويل بنكي": "https://resala.org/bank-transfer",
+            "عبر الإنترنت": "https://resala.org/donations",
+            "تبرع مندوب": "https://resala.org/donate-rep",
+            "رسالة نصية قصيرة": "9598  5EG",
+            "منافذ الدفع": "فوري، أمان، بساطة، سداد",
+            "الخدمات": "فودافون كاش، سمارت والت، بي إم والت",
+            "الفرع": "https://resala.org/branches"
           }
         },
         {
-          "method": "Clothes",
+          "method": "التطوع",
           "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
-          }
-        },
-        {
-          "method": "Volunteer",
-          "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
+            "التسجيل": "https://resala.org/volunteering"
           }
         }
       ],
@@ -1856,24 +1945,13 @@
           "states": "Cairo",
           "address": [
             {
-              "address": "Cairo, Egypt",
-              "phone": "+20 2 333 3333"
+              "address": "٤ شارع زكي رستم من شارع حسنين هيكل، مدينة نصر"
             },
             {
-              "address": "Giza, Egypt",
-              "phone": "+20 2 333 3333"
+              "address": "شارع أحمد عبد الخالق من شارع حجاز، مصر الجديدة"
             },
             {
-              "address": "qena, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Suez, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Alexandria, Egypt",
-              "phone": "+20 2 333 3333"
+              "address": "١٦ شارع يوسف زكي، أمام رئاسة الحي، حلوان"
             }
           ]
         },
@@ -1881,115 +1959,98 @@
           "states": "Giza",
           "address": [
             {
-              "address": "Cairo, Egypt",
-              "phone": "+20 2 333 3333"
+              "address": "٢٠٧ شارع الملك فيصل"
             },
             {
-              "address": "Giza, Egypt",
-              "phone": "+20 2 333 3333"
-            },
+              "address": "شارع السينما القديم، بجوار المستشفى الإسلامي",
+              "phone": "01117111404"
+            }
+          ]
+        },
+        {
+          "states": "Alexandria",
+          "address": [
             {
-              "address": "qena, Egypt",
-              "phone": "+20 2 333 3333"
-            },
+              "address": "٤٤ شارع توت عنخ آمون، سموحة",
+              "phone": "034193599"
+            }
+          ]
+        },
+        {
+          "states": "Asyut",
+          "address": [
             {
-              "address": "Suez, Egypt",
-              "phone": "+20 2 333 3333"
-            },
+              "address": "منطقة الزهراء، شارع الخلافة",
+              "phone": "0882124085"
+            }
+          ]
+        },
+        {
+          "states": "Luxor",
+          "address": [
             {
-              "address": "Alexandria, Egypt",
-              "phone": "+20 2 333 3333"
+              "address": "شارع الإمام علي ابن أبي طالب، بجوار شارع الرحمة، أسنا",
+              "phone": "0952605212"
+            }
+          ]
+        },
+        {
+          "states": "Al Qalyubiya",
+          "address": [
+            {
+              "address": "التقسيم السياحي ٣٣ شارع الجلاء أمام مسجد أبو بكر الصديق - القناطر الخيرية",
+              "phone": "02 42196177"
             }
           ]
         }
       ],
+      "phone": ["19450"],
       "logo": "https://i.ibb.co/W3QsgPW/Resala.png",
       "banner": "https://images.wuzzuf-data.net/files/company_logo/Resala-Charity-Organization-Egypt-6495-og.jpeg",
       "snapshots": [
-        "https://resala.org/wp-content/uploads/2020/01/13455611101579788399.jpg"
+        "https://resala.org/wp-content/uploads/2020/01/13455611101579788399.jpg",
+        "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKALzPdJgDy1wJEH4a3hOCmg_gDHxoZDeNHqBOVx610zPgQtFAs05lBQKgTEOOhqfCfppIgoikqKAsFyXkxkrtlo5109a4bEUa4eTvmMQkr1VpKcvmW-59W3BIscg-mifRIqCuNY9SRyBj/s1600/ww.jpg"
       ]
     },
     {
       "id": 4,
-      "name": "Jan25 hospital",
-      "description": "jan25 hospital is an Egyptian non-profit organization that was established in 2011. It aims to provide free medical care to patients with cancer.",
-      "link": "http://www.jan25hospital.com/",
+      "name": "مستشفى 25 يناير",
+      "description": "تأسست مؤسسة مستشفى 25 يناير للخدمات الطبية كجمعية خيرية غير هادفة للربح مسجلة مركزيًا لدى الإدارة المركزية للجمعيات والمؤسسات بوزارة التضامن الاجتماعي، برقم 796 لسنة 2017. أكبر نشاط لها هو إنشاء المستشفيات والمراكز الطبية والعيادات المتخصصة، والمساهمة في تطويرها ومتابعتها، ومساعدة الفقراء والمحتاجين من خلال تقديم العلاج والدواء مجانًا.",
+      "link": "https://25hospital.org",
       "methods": ["Cash", "Volunteer"],
       "donationFor": ["Health"],
       "donationDetails": [
         {
-          "method": "Cash",
+          "method": "نقدي",
           "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
+            "برامج التبرع": "https://25hospital.org/donation_programs",
+            "عبر الإنترنت": "https://25hospital.org/donate",
+            "منافذ الدفع": "فوري، أمان، بساطة، سداد",
+            "الخدمات": "فودافون كاش، سمارت والت، بي إم والت"
           }
         },
         {
-          "method": "Clothes",
+          "method": "تطوع",
           "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
-          }
-        },
-        {
-          "method": "Volunteer",
-          "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
+            "التسجيل": "https://25hospital.org/volunteer"
           }
         }
       ],
+      "phone": ["19257", "02 21237700"],
       "location": [
         {
           "states": "Cairo",
           "address": [
             {
-              "address": "Cairo, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Giza, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "qena, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Suez, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Alexandria, Egypt",
-              "phone": "+20 2 333 3333"
+              "address": "٧٦ شارع جامعة الدول العربية، المهندسين"
             }
           ]
         },
         {
-          "states": "Giza",
+          "states": "Al Sharqia",
           "address": [
             {
-              "address": "Cairo, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Giza, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "qena, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Suez, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Alexandria, Egypt",
-              "phone": "+20 2 333 3333"
+              "address": "قرية الشبراوين، مركز حهيا، ١٠ كم من مدينة الزقازيق"
             }
           ]
         }
@@ -2004,85 +2065,28 @@
     },
     {
       "id": 5,
-      "name": "Magdi Yacoub Heart Foundation",
-      "description": "The Magdi Yacoub Heart Foundation is an Egyptian non-profit organization that was established in 2008. It aims to provide free medical care to patients with heart diseases.",
-      "link": "http://www.myf-egypt.org/",
-      "methods": ["Cash", "Volunteer"],
+      "name": "مؤسسة مجدي يعقوب لأمراض القلب",
+      "description": "تأسست مؤسسة مجدي يعقوب لأمراض القلب والبحوث - منظمة خيرية غير حكومية مسجلة في مصر - في عام 2008 من قبل الدكتور مجدي يعقوب، والمرحوم الدكتور أحمد زويل، والمرحوم السفير محمد شاكر. تدير مؤسسة مجدي يعقوب لأبحاث القلب أيضًا أحد المشاريع الاستثنائية ذات الأهمية الكبيرة لصحة ورفاهية الشعب المصري، وهو مركز أسوان للقلب. تتولى مؤسسة مجدي يعقوب لأمراض القلب والبحوث المسؤولية عن الإدارة الاستراتيجية لمركز أسوان للقلب. نظرًا للضغط على مركز أسوان للقلب، اتخذ مجلس الأمناء قرارًا مستنيرًا بالبدء في إنشاء المركز القلبي الدولي مجدي يعقوب في القاهرة، لتلبية الحاجة الشديدة والمتزايدة لعلاج أمراض القلب، خاصة الفئات الأكثر احتياجًا للعلاج، من خلال تحقيق التكامل المستمر بين العلاج والبحث وتطوير المهارات. يدير المؤسسة أيضًا أحد أشهر مجالس الأمناء في مصر.",
+      "link": "https://www.myf-egypt.org",
+      "methods": ["Cash"],
       "donationFor": ["Health"],
       "donationDetails": [
         {
-          "method": "Cash",
+          "method": "نقدي",
           "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
-          }
-        },
-        {
-          "method": "Clothes",
-          "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
-          }
-        },
-        {
-          "method": "Volunteer",
-          "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
+            "عبر الإنترنت": "https://www.myf-egypt.org/donation-methods",
+            "منافذ الدفع": "فوري",
+            "الخدمات": "فودافون كاش، أورانج كاش، إتصالات كاش، تطبات"
           }
         }
       ],
       "location": [
         {
-          "states": "Cairo",
+          "states": "Aswan",
           "address": [
             {
-              "address": "Cairo, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Giza, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "qena, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Suez, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Alexandria, Egypt",
-              "phone": "+20 2 333 3333"
-            }
-          ]
-        },
-        {
-          "states": "Giza",
-          "address": [
-            {
-              "address": "Cairo, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Giza, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "qena, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Suez, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Alexandria, Egypt",
-              "phone": "+20 2 333 3333"
+              "address": "مركز أسوان للقلب، د. مجدي يعقوب، شارع قصر الحجار، مدينة أسوان",
+              "phone": "19731"
             }
           ]
         }
@@ -2092,831 +2096,6 @@
       "snapshots": [
         "https://www.techinafrica.com/wp-content/uploads/2022/04/MYF-03-758x505.jpg",
         "https://intelmed.me/wp-content/uploads/2021/07/Untitled-1-1080x675.png"
-      ]
-    },
-    {
-      "id": 6,
-      "name": "57357 Hospital",
-      "description": "The 57357 Hospital is an Egyptian non-profit organization that was established in 2007. It aims to provide free medical care to patients with cancer.",
-      "link": "http://www.57357.org/",
-      "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health"],
-      "donationDetails": [
-        {
-          "method": "Cash",
-          "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
-          }
-        },
-        {
-          "method": "Clothes",
-          "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
-          }
-        },
-        {
-          "method": "Volunteer",
-          "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
-          }
-        }
-      ],
-      "location": [
-        {
-          "states": "Cairo",
-          "address": [
-            {
-              "address": "Cairo, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Giza, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "qena, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Suez, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Alexandria, Egypt",
-              "phone": "+20 2 333 3333"
-            }
-          ]
-        },
-        {
-          "states": "Giza",
-          "address": [
-            {
-              "address": "Cairo, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Giza, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "qena, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Suez, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Alexandria, Egypt",
-              "phone": "+20 2 333 3333"
-            }
-          ]
-        }
-      ],
-      "logo": "https://i.ibb.co/ypL1pSf/57357.png",
-      "banner": "https://www.57357.org/app/uploads/2018/12/pic1-1.jpg",
-      "snapshots": [
-        "https://www.57357.org/app/uploads/2019/05/0bb2d10f-0115-42d3-bd74-782bcd64464b.jpg",
-        "https://traveltrademena.com/media/k2/items/cache/3307717c0fe122dc2ed142f42c77bf35_L.jpg",
-        "https://newstepmedia.net/wp-content/uploads/2022/06/18.jpg"
-      ]
-    },
-    {
-      "id": 7,
-      "name": "Egyptian Red Crescent",
-      "description": "The Egyptian Red Crescent is an Egyptian non-profit organization that was established in 1984. It aims to provide humanitarian aid to people in need.",
-      "link": "http://www.egyptianredcrescent.org/",
-      "methods": ["Cash", "Food", "Clothes", "Volunteer"],
-      "donationFor": ["Health"],
-      "donationDetails": [
-        {
-          "method": "Cash",
-          "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
-          }
-        },
-        {
-          "method": "Clothes",
-          "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
-          }
-        },
-        {
-          "method": "Volunteer",
-          "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
-          }
-        }
-      ],
-      "location": [
-        {
-          "states": "Cairo",
-          "address": [
-            {
-              "address": "Cairo, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Giza, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "qena, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Suez, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Alexandria, Egypt",
-              "phone": "+20 2 333 3333"
-            }
-          ]
-        },
-        {
-          "states": "Giza",
-          "address": [
-            {
-              "address": "Cairo, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Giza, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "qena, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Suez, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Alexandria, Egypt",
-              "phone": "+20 2 333 3333"
-            }
-          ]
-        }
-      ],
-      "logo": "https://i.ibb.co/YfXQGrT/egyptian-red-crescent.png",
-      "banner": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Egyptian_Red_Crescent.png/640px-Egyptian_Red_Crescent.png",
-      "snapshots": [
-        "https://www.egyptianrc.org/media/News/0e853a94-9f46-4229-82b8-62e8927fa4a5.jpg",
-        "https://www.egyptianrc.org/media/PhotoGallery/2b79734d-96bf-4208-ac97-392746338a47.jpg"
-      ]
-    },
-    {
-      "id": 8,
-      "name": "Mersal Foundation",
-      "description": "The Mersal Foundation is an Egyptian non-profit organization that was established in 2007. It aims to provide free medical care to patients with cancer.",
-      "link": "http://www.mersal-foundation.org/",
-      "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health"],
-      "donationDetails": [
-        {
-          "method": "Cash",
-          "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
-          }
-        },
-        {
-          "method": "Clothes",
-          "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
-          }
-        },
-        {
-          "method": "Volunteer",
-          "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
-          }
-        }
-      ],
-      "location": [
-        {
-          "states": "Cairo",
-          "address": [
-            {
-              "address": "Cairo, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Giza, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "qena, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Suez, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Alexandria, Egypt",
-              "phone": "+20 2 333 3333"
-            }
-          ]
-        },
-        {
-          "states": "Giza",
-          "address": [
-            {
-              "address": "Cairo, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Giza, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "qena, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Suez, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Alexandria, Egypt",
-              "phone": "+20 2 333 3333"
-            }
-          ]
-        }
-      ],
-      "logo": "https://i.ibb.co/NxJLzcz/mersal.png",
-      "banner": "https://www.mersal-ngo.org/ClientFilesLayout/HomeSlider/7136Mersal%20cover%20web.png",
-      "snapshots": [
-        "https://elathar.com/wp-content/uploads/2023/10/%D9%85%D8%A4%D8%B3%D8%B3%D8%A9-%D9%85%D8%B1%D8%B3%D8%A7%D9%84-e1698573121306.jpg",
-        "https://media.licdn.com/dms/image/D4D22AQFeP1QsTjszxQ/feedshare-shrink_800/0/1710161783284?e=2147483647&v=beta&t=BRDPbhGv112NI03tuVUaWODRCq0CP4N0RVA7hpSn2gA"
-      ]
-    },
-    {
-      "id": 9,
-      "name": "National Cancer Institute",
-      "description": "The National Cancer Institute is an Egyptian non-profit organization that was established in 2007. It aims to provide free medical care to patients with cancer.",
-      "link": "http://www.nci.cu.edu.eg/",
-      "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health"],
-      "donationDetails": [
-        {
-          "method": "Cash",
-          "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
-          }
-        },
-        {
-          "method": "Clothes",
-          "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
-          }
-        },
-        {
-          "method": "Volunteer",
-          "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
-          }
-        }
-      ],
-      "location": [
-        {
-          "states": "Cairo",
-          "address": [
-            {
-              "address": "Cairo, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Giza, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "qena, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Suez, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Alexandria, Egypt",
-              "phone": "+20 2 333 3333"
-            }
-          ]
-        },
-        {
-          "states": "Giza",
-          "address": [
-            {
-              "address": "Cairo, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Giza, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "qena, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Suez, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Alexandria, Egypt",
-              "phone": "+20 2 333 3333"
-            }
-          ]
-        }
-      ],
-      "logo": "https://i.ibb.co/ZJDMVy9/somw.png",
-      "banner": "https://www.miuegypt.edu.eg/wp-content/uploads/NCI1.jpg",
-      "snapshots": [
-        "https://www.miuegypt.edu.eg/wp-content/uploads/NCI-2023-01.jpg"
-      ]
-    },
-    {
-      "id": 10,
-      "name": "Baheya Foundation",
-      "description": "The Baheya Foundation is an Egyptian non-profit organization that was established in 2015. It aims to provide free medical care to patients with cancer.",
-      "link": "http://www.baheyafoundation.org/",
-      "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health"],
-      "donationDetails": [
-        {
-          "method": "Cash",
-          "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
-          }
-        },
-        {
-          "method": "Clothes",
-          "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
-          }
-        },
-        {
-          "method": "Volunteer",
-          "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
-          }
-        }
-      ],
-      "location": [
-        {
-          "states": "Cairo",
-          "address": [
-            {
-              "address": "Cairo, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Giza, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "qena, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Suez, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Alexandria, Egypt",
-              "phone": "+20 2 333 3333"
-            }
-          ]
-        },
-        {
-          "states": "Giza",
-          "address": [
-            {
-              "address": "Cairo, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Giza, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "qena, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Suez, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Alexandria, Egypt",
-              "phone": "+20 2 333 3333"
-            }
-          ]
-        }
-      ],
-      "logo": "https://i.ibb.co/pvHdLXc/bahya.png",
-      "banner": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATYAAACjCAMAAAA3vsLfAAAApVBMVEX////u9vkomr3J4etAo8P4/P1Zq8j7/f7j8PXy+Poznb/m8vf9fZiQxdj/8vX9g52kzd3W6fC42uaXytyAwdbQ5e2x1uT/+/v+zdf+3+X9iaHD4Ot7utGn0uHc7PJst9D+1Nz9nLD+prj+xdD9lqv9jKT+pLb9mq7/6+9brsrzfZbpn6/+vMnpfJTVcIbjfpTisbvTjJvxjaLYa4PywMr+r7z8u8XfxefPAAADs0lEQVR4nO3aa3ObOBQGYEncBEIGIcl2zEVpc1k7TdPd7Wb//09b4XG6QDpOvzTEw/vM2AYhzxyfEbphQgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA3peNJWnDau4wLk3DmIhZPHcYlybwra2M13OHcXEi/0rmDuIiCaveqLG5vn6PQC5Ly+LobIXVpzy/37xTNJchCmScnU/b5lNeFPnn94roAlAdMpaN0pa86uludturq22+nRS/rrgUa58zV8nhTUpdbMeVNre7lb9R89vJl91SB+CSsTLtkzdMW8jqca3VXX5FyHWeT74ds/L3h/gBccaOQ2g7SVswrra6K54JuS+maTssNG0lc8fPN9JG/ih2q31e3E2Kl5u2w/FzepNO0/ZYPHz5XBSPk+Klpq1mTHaiW4fZ2b6NrL4+ffMzkNWkeKl9G3H95CPr32RwYnWWhaZ6OQ2Ond+fT7ui799IEvyvYqydOf6ZJDpmLJZ1n7ofsnB4Fvbt0A8KxW7vDxQbVmR87h8wl5RSPwOpDmGYhScHpZo4ezk99HPa7e3d7ttf/oCHA/Hid+kSSgU96ZtX+nLSJ5Xsn+9v/376/o8/pAPpzEF/cJubx+fnL9+/PuznjuTjslVCqvHqar+9+Xe/eiiK0WK+no63S9YxVvkhctTXb66u/eJqm++uBoXBaYUBvS5jdcWyyRB5nLFdj+ZtSNuI8jeo7X6h4ps7wgDwm9Czm7bnry6HPr6Xuu/PElVSYkS0FprQljckbYdZSn13ZnjS0lkC/Uiqep1aqqNW88hP2NoyorzjtdWkbIUhyvEg0mm/ikplV/tk9lcTypVQeu7YZ+RqV5pGSqN5rYODK9fOGe2qRjVN64hxupFN2fg2abU5uMo5KV3rGiOdWW6j40altqZCdGlCRMc7ovzqlPtT2olOkCSq1tLVFWlb49uZ8Fepv9rXScXcwc8n6ruus89IkyitEl8DC/efG/T9pwegyes/h2AYHaktGfTwfnwgacRrwsc7apFa/A7bUBIlUS2jklQkTWlAtOSECp8j7nRa+0FUiIDYkgR6TaJSrLH3cUSlCowUzjpltGyUkTzobCtVa8qgsbYxuiS06Urji6SVzdwBfxDcWj9wdpW2SnUqUCKxWnfKeoG0gVKKRqYS/mpgrdBLnrH9RDSYU3SnvaOXATSRP/7wsdgHLwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAws/8A0U0x90licKMAAAAASUVORK5CYII=",
-      "snapshots": [
-        "https://baheya.org/new-uploads/newsupdates/90231602924964.JPG",
-        "https://malverncollege.edu.eg/wp-content/uploads/2022/10/MCE-Visit-to-Baheya-Foundation1-1024x684.jpg",
-        "https://baheya.org/new-uploads/newsupdates/182471630593091.jpg"
-      ]
-    },
-    {
-      "id": 11,
-      "name": "Banati Foundation",
-      "description": "The Banati Foundation is an Egyptian non-profit organization that was established in 2015. It aims to provide free medical care to patients with cancer.",
-      "link": "http://www.banatifoundation.org/",
-      "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health"],
-      "donationDetails": [
-        {
-          "method": "Cash",
-          "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
-          }
-        },
-        {
-          "method": "Clothes",
-          "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
-          }
-        },
-        {
-          "method": "Volunteer",
-          "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
-          }
-        }
-      ],
-      "location": [
-        {
-          "states": "Cairo",
-          "address": [
-            {
-              "address": "Cairo, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Giza, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "qena, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Suez, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Alexandria, Egypt",
-              "phone": "+20 2 333 3333"
-            }
-          ]
-        },
-        {
-          "states": "Giza",
-          "address": [
-            {
-              "address": "Cairo, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Giza, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "qena, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Suez, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Alexandria, Egypt",
-              "phone": "+20 2 333 3333"
-            }
-          ]
-        }
-      ],
-      "logo": "https://i.ibb.co/ZX1hXrY/bnati-removebg.png",
-      "banner": "https://media.licdn.com/dms/image/C4D1BAQFy-b6RPDJKuQ/company-background_10000/0/1583507488539/banati_foundation_cover?e=2147483647&v=beta&t=mEFYJ7Z4aJR9b5-_gc8736x38pWuzPNqlIBOGMahpXw"
-    },
-    {
-      "id": 12,
-      "name": "Ayady 4040 Foundation",
-      "description": "The Ayady 4040 Foundation is an Egyptian non-profit organization that was established in 2015. It aims to provide free medical care to patients with cancer.",
-      "link": "http://www.ayady4040foundation.org/",
-      "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health"],
-      "donationDetails": [
-        {
-          "method": "Cash",
-          "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
-          }
-        },
-        {
-          "method": "Clothes",
-          "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
-          }
-        },
-        {
-          "method": "Volunteer",
-          "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
-          }
-        }
-      ],
-      "location": [
-        {
-          "states": "Cairo",
-          "address": [
-            {
-              "address": "Cairo, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Giza, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "qena, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Suez, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Alexandria, Egypt",
-              "phone": "+20 2 333 3333"
-            }
-          ]
-        },
-        {
-          "states": "Giza",
-          "address": [
-            {
-              "address": "Cairo, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Giza, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "qena, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Suez, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Alexandria, Egypt",
-              "phone": "+20 2 333 3333"
-            }
-          ]
-        }
-      ],
-      "logo": "https://i.ibb.co/8sHM78Q/auady.png",
-      "banner": "https://www.ayady4040.org/home_welcome/20230712111952.jpg",
-      "snapshots": [
-        "https://www.ayady4040.org/news_images/20240310150222.jpg",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_ojtX7m9HaUfPnM-C-49rU4q6AbE-hAxubTPNIfUI1lBxiv8pDnLK4MevZu4mZ1VxfPc&usqp=CAU"
-      ]
-    },
-    {
-      "id": 13,
-      "name": "Ahl Masr Foundation",
-      "description": "The Ahl Masr Foundation is an Egyptian non-profit organization that was established in 2015. It aims to provide free medical care to patients with cancer.",
-      "link": "http://www.ahlmasr.org/",
-      "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health"],
-      "donationDetails": [
-        {
-          "method": "Cash",
-          "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
-          }
-        },
-        {
-          "method": "Clothes",
-          "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
-          }
-        },
-        {
-          "method": "Volunteer",
-          "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
-          }
-        }
-      ],
-      "location": [
-        {
-          "states": "Cairo",
-          "address": [
-            {
-              "address": "Cairo, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Giza, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "qena, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Suez, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Alexandria, Egypt",
-              "phone": "+20 2 333 3333"
-            }
-          ]
-        },
-        {
-          "states": "Giza",
-          "address": [
-            {
-              "address": "Cairo, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Giza, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "qena, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Suez, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Alexandria, Egypt",
-              "phone": "+20 2 333 3333"
-            }
-          ]
-        }
-      ],
-      "logo": "https://i.ibb.co/Bjnjy7m/ahl.png",
-      "banner": "https://d1b3667xvzs6rz.cloudfront.net/2019/10/Ahl-Masr5.jpg",
-      "snapshots": [
-        "https://www.constructionweekonline.com/cloud/2023/10/18/EWB-Slider-All-Vec_10.18-scaled.jpg",
-        "https://www.osoulmisrmagazine.com/Upload/libfiles/9/7/319.jpg"
-      ]
-    },
-    {
-      "id": 14,
-      "name": "Alexandria Pediatric Oncology Charity",
-      "description": "The Alexandria Pediatric Oncology Center is an Egyptian non-profit organization that was established in 2015. It aims to provide free medical care to patients with cancer.",
-      "link": "https://www.apoc39.com",
-      "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health"],
-      "donationDetails": [
-        {
-          "method": "Cash",
-          "ways": {
-            "Vodafone Cash": "0100 000 0000",
-            "Fawry": "1234567",
-            "Bank Transfer": "1234567",
-            "Online": "http://www.egyptianfoodbank.com/",
-            "SMS": "1234"
-          }
-        },
-        {
-          "method": "Clothes",
-          "ways": {
-            "Drop-off": "You can drop off clothes at the Egyptian Food Bank's headquarters in Cairo.",
-            "Pick-up": "You can schedule a pick-up by calling +20 2 333 3333."
-          }
-        },
-        {
-          "method": "Volunteer",
-          "ways": {
-            "Sign-up": "You can sign up to volunteer on the Egyptian Food Bank's website.",
-            "Call": "You can call +20 2 333 3333 to volunteer."
-          }
-        }
-      ],
-      "location": [
-        {
-          "states": "Cairo",
-          "address": [
-            {
-              "address": "Cairo, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Giza, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "qena, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Suez, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Alexandria, Egypt",
-              "phone": "+20 2 333 3333"
-            }
-          ]
-        },
-        {
-          "states": "Giza",
-          "address": [
-            {
-              "address": "Cairo, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Giza, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "qena, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Suez, Egypt",
-              "phone": "+20 2 333 3333"
-            },
-            {
-              "address": "Alexandria, Egypt",
-              "phone": "+20 2 333 3333"
-            }
-          ]
-        }
-      ],
-      "logo": "https://i.ibb.co/9pGvfMz/alezzzzx.png",
-      "banner": "https://www.apoc39.com/img/logo/social-media-english.jpg",
-      "snapshots": [
-        "https://www.apoc39.com/img/stocks/stocks-c.jpg",
-        "https://www.apoc39.com/img/stocks/stocks-e.jpg"
       ]
     }
   ]

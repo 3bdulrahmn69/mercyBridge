@@ -97,7 +97,8 @@
     "description": "Description",
     "donationMethods": "Donation Methods",
     "address": "Address",
-    "numbers": "Numbers"
+    "numbers": "Numbers",
+    "Search charities": "Search for charity..."
   },
   "Error_404": "__________________________Error_404_______________________________",
   "backToHome": "Back to Home",
