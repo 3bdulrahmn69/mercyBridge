@@ -118,24 +118,32 @@ const CharityProfile = () => {
         </Container>
         <div className="px-4 lg:px-16">
           <section className="flex flex-col-reverse md:flex-row justify-between gap-8">
-            <aside className="bg-green-500 text-white w-full md:w-1/4 px-6 py-8 rounded-lg shadow-lg">
+            <aside
+              className={`text-white w-full md:w-1/4 px-6 py-8 rounded-lg shadow-lg bg-green-500`}
+            >
               <h2 className="font-bold text-2xl md:text-3xl text-center mb-4">
-                {t('states')}
+                {charity.location.map((location) =>
+                  location.states === 'Global'
+                    ? t('Global')
+                    : t('states')
+                )}
               </h2>
               <ul className="text-lg md:text-xl">
-                {charity.location.map((location) => (
-                  <li
-                    key={location.states}
-                    className={`mb-2 hover:underline cursor-pointer ${
-                      location === selectedLocation
-                        ? 'bg-white text-green-500 px-2 py-1 rounded'
-                        : ''
-                    }`}
-                    onClick={() => handleLocationClick(location)}
-                  >
-                    {t(location.states)}
-                  </li>
-                ))}
+                {charity.location.map((location) =>
+                  location.states === 'Global' ? null : (
+                    <li
+                      key={location.states}
+                      className={`mb-2 hover:underline cursor-pointer ${
+                        location === selectedLocation
+                          ? 'bg-white text-green-500 px-2 py-1 rounded'
+                          : ''
+                      }`}
+                      onClick={() => handleLocationClick(location)}
+                    >
+                      {t(location.states)}
+                    </li>
+                  )
+                )}
               </ul>
             </aside>
             <section className="w-full md:w-3/4">
@@ -146,28 +154,30 @@ const CharityProfile = () => {
                 <p className="text-lg md:text-xl">{charity.description}</p>
               </article>
               <hr className="my-8 border-t-4 border-green-500 rounded-lg" />
-              <article className="px-4 py-2">
-                <h2 className="font-bold text-2xl md:text-3xl mb-4">
-                  {t('donate.locationIn')} {t(selectedLocation.states)}
-                </h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                  {selectedLocation.address.map((address, idx) => (
-                    <div
-                      key={idx}
-                      className="bg-white text-green-600 px-4 py-2 rounded-lg shadow h-fit"
-                    >
-                      {address.address && (
-                        <p className="text-lg"> {address.address}</p>
-                      )}
-                      {address.phone && (
-                        <p className="text-lg border-t-2 border-gray-200 mt-4">
-                          {address.phone}
-                        </p>
-                      )}
-                    </div>
-                  ))}
-                </div>
-              </article>
+              {selectedLocation.address && (
+                <article className="px-4 py-2">
+                  <h2 className="font-bold text-2xl md:text-3xl mb-4">
+                    {t('donate.locationIn')} {t(selectedLocation.states)}
+                  </h2>
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    {selectedLocation.address.map((address, idx) => (
+                      <div
+                        key={idx}
+                        className="bg-white text-green-600 px-4 py-2 rounded-lg shadow h-fit"
+                      >
+                        {address.address && (
+                          <p className="text-lg"> {address.address}</p>
+                        )}
+                        {address.phone && (
+                          <p className="text-lg border-t-2 border-gray-200 mt-4">
+                            {address.phone}
+                          </p>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                </article>
+              )}
             </section>
           </section>
           <section className="mt-8">

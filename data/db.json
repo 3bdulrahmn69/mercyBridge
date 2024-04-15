@@ -1,6 +1,10 @@
 {
   "states": [
     {
+      "id": "999999",
+      "name": "Global"
+    },
+    {
       "id": 1,
       "name": "Alexandria",
       "short": "ALX"
@@ -1648,6 +1652,29 @@
         "https://www.apoc39.com/img/stocks/stocks-c.jpg",
         "https://www.apoc39.com/img/stocks/stocks-e.jpg"
       ]
+    },
+    {
+      "id": 15,
+      "name": "Unicef",
+      "description": "The United Nations International Children's Emergency Fund (UNICEF) is a United Nations agency responsible for providing humanitarian and developmental aid to children worldwide. The agency is among the most widespread and recognizable social welfare organizations in the world, with a presence in 192 countries and territories.",
+      "link": "https://www.unicef.org",
+      "methods": ["Cash"],
+      "donationFor": ["Children"],
+      "donationDetails": [
+        {
+          "method": "Cash",
+          "ways": {
+            "Online": "https://help.unicef.org/?_gl=1*1waigah*_ga*ODgzOTIyMzUuMTcxMzIwMDQ4OA..*_ga_ZEPV2PX419*MTcxMzIwMDQ4Ny4xLjEuMTcxMzIwMDUyMC4yNy4wLjA."
+          }
+        }
+      ],
+      "location": [
+        {
+          "states": "Global"
+        }
+      ],
+      "banner": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Flag_of_UNICEF.svg/1200px-Flag_of_UNICEF.svg.png",
+      "logo": "https://www.thegioituthien.com/media/com_mtree/images/listings/m/385.png"
     }
   ],
   "charities-ar": [
@@ -2097,6 +2124,29 @@
         "https://www.techinafrica.com/wp-content/uploads/2022/04/MYF-03-758x505.jpg",
         "https://intelmed.me/wp-content/uploads/2021/07/Untitled-1-1080x675.png"
       ]
+    },
+    {
+      "id": 15,
+      "name": "Unicef",
+      "description": "صندوق الأمم المتحدة الدولي للطوارئ للأطفال (اليونيسيف) هي وكالة تابعة للأمم المتحدة مسؤولة عن تقديم المساعدات الإنسانية والتنموية للأطفال في جميع أنحاء العالم. تعد الوكالة من بين منظمات الرعاية الاجتماعية الأكثر انتشارًا وتميزًا في العالم، ولها تواجد في 192 دولة وإقليمًا.",
+      "link": "https://www.unicef.org",
+      "methods": ["Cash"],
+      "donationFor": ["Children"],
+      "donationDetails": [
+        {
+          "method": "نقد",
+          "ways": {
+            "عبر الإنترنت": "https://help.unicef.org/?_gl=1*1waigah*_ga*ODgzOTIyMzUuMTcxMzIwMDQ4OA..*_ga_ZEPV2PX419*MTcxMzIwMDQ4Ny4xLjEuMTcxMzIwMDUyMC4yNy4wLjA."
+          }
+        }
+      ],
+      "location": [
+        {
+          "states": "Global"
+        }
+      ],
+      "banner": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Flag_of_UNICEF.svg/1200px-Flag_of_UNICEF.svg.png",
+      "logo": "https://www.thegioituthien.com/media/com_mtree/images/listings/m/385.png"
     }
   ]
 }
