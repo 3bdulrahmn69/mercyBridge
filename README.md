@@ -75,6 +75,7 @@ MercyBridge thrives thanks to the support of the following technologies and thei
 - [I18next](https://www.i18next.com/) - For making our platform accessible to a global audience.
 - [Axios](https://axios-http.com/) - For seamless API interactions.
 - [JSON Server](https://github.com/typicode/json-server) - For simulating a backend effortlessly.
+- [Email Js](https://www.emailjs.com/) - For making the form works.
 
 ## Let's Connect
 
