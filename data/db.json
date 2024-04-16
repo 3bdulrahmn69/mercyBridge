@@ -2270,7 +2270,7 @@
     },
     {
       "id": 15,
-      "name": "Unicef",
+      "name": "اليونيسف",
       "description": "صندوق الأمم المتحدة الدولي للطوارئ للأطفال (اليونيسيف) هي وكالة تابعة للأمم المتحدة مسؤولة عن تقديم المساعدات الإنسانية والتنموية للأطفال في جميع أنحاء العالم. تعد الوكالة من بين منظمات الرعاية الاجتماعية الأكثر انتشارًا وتميزًا في العالم، ولها تواجد في 192 دولة وإقليمًا.",
       "link": "https://www.unicef.org",
       "methods": ["Cash"],
@@ -2289,7 +2289,150 @@
         }
       ],
       "banner": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Flag_of_UNICEF.svg/1200px-Flag_of_UNICEF.svg.png",
-      "logo": "https://www.thegioituthien.com/media/com_mtree/images/listings/m/385.png"
+      "logo": "https://i.ibb.co/7jTjs8r/iqweqwdqwmage-removebg-preview.png"
+    },
+    {
+      "id": 16,
+      "name": "إنقاذ الأطفال",
+      "description": "إنقاذ الأطفال هي منظمة دولية غير حكومية تعمل على تعزيز حقوق الطفل، وتقديم المساعدات، ودعم الأطفال في البلدان النامية. تأسست في المملكة المتحدة في عام 1919 من أجل تحسين حياة الأطفال من خلال توفير تعليم أفضل ورعاية صحية وفرص اقتصادية، بالإضافة إلى تقديم المساعدات الطارئة في الكوارث الطبيعية والحروب والصراعات الأخرى.",
+      "link": "https://www.savethechildren.org",
+      "methods": ["Cash"],
+      "donationFor": ["Children"],
+      "donationDetails": [
+        {
+          "method": "نقدي",
+          "ways": {
+            "عبر الإنترنت": "https://donate.savethechildren.org/en/donate/donate-now-save-lives-sr?_ga=2.239214209.389300645.1713278298-789258799.1713278298&country=EG"
+          }
+        }
+      ],
+      "location": [
+        {
+          "states": "Global"
+        }
+      ],
+      "banner": "https://www.savethechildren.org.ph/images/og.jpg",
+      "logo": "https://i.ibb.co/m5g6ZzJ/images-1-removebg-preview.png"
+    },
+    {
+      "id": 17,
+      "name": "برنامج الأغذية العالمي",
+      "description": "برنامج الأغذية العالمي (WFP) هو فرع المساعدات الغذائية للأمم المتحدة وأكبر منظمة إنسانية في العالم تعنى بمكافحة الجوع وتعزيز الأمن الغذائي. وفقًا لبرنامج الأغذية العالمي، يقدم المساعدات الغذائية لمتوسط ​​91.4 مليون شخص في 83 دولة كل عام.",
+      "link": "https://www.wfp.org",
+      "methods": ["Cash"],
+      "donationFor": ["Food"],
+      "donationDetails": [
+        {
+          "method": "نقدي",
+          "ways": {
+            "عبر الإنترنت": "https://donate.wfp.org/1243/donation/regular/?campaign=3828&_ga=2.199932270.1117273991.1713278849-15931083.1713278849&_gac=1.141148422.1713278849.EAIaIQobChMIu9C4_vzGhQMVIggGAB189AttEAAYASAAEgLZH_D_BwE"
+          }
+        }
+      ],
+      "location": [
+        {
+          "states": "Global"
+        }
+      ],
+      "banner": "https://www.global-solutions-initiative.org/wp-content/uploads/2022/11/wfp.png",
+      "logo": "https://i.ibb.co/yqC9RBg/image-removebg-preview.png"
+    },
+    {
+      "id": 18,
+      "name": "اطباء بلا حدود",
+      "description": "أطباء بلا حدود (MSF)، والمعروفة أيضًا باللغة الإنجليزية باسم أطباء بلا حدود، هي منظمة طبية إنسانية دولية غير حكومية (NGO) من أصل فرنسي تشتهر بمشاريعها في مناطق النزاع وفي البلدان المتضررة من الأمراض المستوطنة. وفي عام 2019، نشطت المجموعة في 70 دولة وتضم أكثر من 35000 موظف معظمهم من الأطباء والممرضين وغيرهم من المهنيين الطبيين المحليين وخبراء لوجستيين ومهندسين وإداريين في مجال المياه والصرف الصحي.",
+      "link": "https://www.msf.org/",
+      "methods": ["Cash"],
+      "donationFor": ["Gaza", "Health", "Society"],
+      "donationDetails": [
+        {
+          "method": "نقدي",
+          "ways": {
+            "عبر الإنترنت": "https://www.msf.org/donate"
+          }
+        }
+      ],
+      "location": [
+        {
+          "states": "Global"
+        }
+      ],
+      "banner": "data:image/png;base64,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",
+      "logo": "https://i.ibb.co/PYWGWRD/qqq-1-removebg-preview.png"
+    },
+    {
+      "id": 19,
+      "name": "الاتحاد الدولي لجمعيات الصليب الأحمر والهلال الأحمر",
+      "description": "الاتحاد الدولي لجمعيات الصليب الأحمر والهلال الأحمر (IFRC) هو منظمة مساعدات إنسانية عالمية تصل إلى 160 مليون شخص كل عام من خلال جمعياتها الوطنية المكونة من 192 عضوًا. وهي تعمل قبل وأثناء وبعد الكوارث وحالات الطوارئ الصحية لتلبية احتياجات الأشخاص الضعفاء وتحسين حياتهم.",
+      "link": "https://www.ifrc.org",
+      "methods": ["Cash"],
+      "donationFor": ["Health", "Society", "Gaza"],
+      "donationDetails": [
+        {
+          "method": "نقدي",
+          "ways": {
+            "عبر الإنترنت": "https://www.ifrc.org/donate"
+          }
+        }
+      ],
+      "location": [
+        {
+          "states": "Global"
+        }
+      ],
+      "banner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT8rCFTtkO-M2QbHUQgZ5b9Y8WF2g_D-CbiSaLDMkB&s",
+      "logo": "https://i.ibb.co/6P3vyKL/Cropped-Image-1.png"
+    },
+    {
+      "id": 20,
+      "name": "الإغاثة الإسلامية العالمية",
+      "description": "كمنظمة دولية إنسانية وإنمائية وخيرية غير حكومبة، تعمل الإغاثة الإسلامية على خدمة الإنسانية منذ 36 عامًا. ومن خلال تواجدنا النشط والفعال في أكثر من 48 دولة في شتى أنحاء العالم، فإننا نسعى جاهدين لجعل العالم مكانًا أفضل وأكثر إنصافًا للثلاثة مليارات إنسان ما زالوا يعيشون في حالة الفقر. فمنذ تلقينا أول تبرع لنا في عام 1984، ساعدنا أكثر من 120 مليون مستفيد من أفقر الناس و أكثرهم إحتياجاً على مستوى العالم. وانطلاقًا من ديننا الحنيف واسترشادًا بقيمنا الإسلامية السمحة، فإننا نؤمن أن أصحاب الثروات والمقتدرين عليهم واجب تجاه الأقل حظًا  منهم، بغض النظر عن العرق أو الجنس أو المعتقد أو اللون.",
+      "link": "https://islamic-relief.org",
+      "methods": ["Cash"],
+      "donationFor": ["Health", "Society", "Gaza"],
+      "donationDetails": [
+        {
+          "method": "نقدي",
+          "ways": {
+            "عبر الإنترنت": "https://donate.islamic-relief.org/?_gl=1*1sxxcx*_ga*MTgxNjgxNzI1NS4xNzEzMjgwMjcx*_ga_PYJL878TTC*MTcxMzI4MDI3MC4xLjEuMTcxMzI4MDQ1MC41Mi4wLjA."
+          }
+        }
+      ],
+      "location": [
+        {
+          "states": "Global"
+        }
+      ],
+      "banner": "https://islamic-relief.org/wp-content/uploads/2022/06/129-1200x569-1.png",
+      "logo": "https://i.ibb.co/WnzJzYT/Cropped-Image.png",
+      "snapshots": [
+        "https://d1h79zlghft2zs.cloudfront.net/uploads/2018/08/IR-Mali-Ramadan-Food-Distribution.jpg",
+        "https://islamic-relief.org/wp-content/uploads/2020/09/Inst-FB-POST-1200px1200px-AR20192.jpg",
+        "https://islamic-relief.org/wp-content/uploads/2020/09/Inst-FB-POST-1200px1200px-AR20194.jpg"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "أوكسفام",
+      "description": "أوكسفام هي حركة عالمية تضم أشخاصًا يحاربون عدم المساواة للتغلب على الفقر معًا. من إنقاذ الأرواح وتطوير المشاريع التي تجعل الفقراء مسؤولين عن حياتهم وسبل عيشهم، إلى الحملات من أجل التغيير الدائم.",
+      "link": "https://www.oxfamamerica.org/",
+      "methods": ["Cash"],
+      "donationFor": ["Health"],
+      "donationDetails": [
+        {
+          "method": "نقدي",
+          "ways": {
+            "عبر الإنترنت": "https://give.oxfamamerica.org/page/63259/donate/1?transaction.recurrpay=Y&en_txn2=web&en_txn9=topbutton&_gl=1*kxxd98*_ga*NTA1NTE5NTkxLjE3MTMyNzgxOTU.*_ga_R58YETD6XK*MTcxMzI3ODE5NS4xLjEuMTcxMzI3ODI0Mi4xMy4wLjA."
+          }
+        }
+      ],
+      "location": [
+        {
+          "states": "Global"
+        }
+      ],
+      "banner": "https://lh4.googleusercontent.com/proxy/p2-P0AoTHYHpyfkNh8Y0F-_TUl4YeGob3xm2MW0-lAEapmuWUu66en_hybo6nv2vZdNWcQSAfMaYs3Nlz_zAfcu-xbscwXyEc3RO_qUCm9x6yZoLZdEkECuvMD7Q1ze1D08BRsoh",
+      "logo": "https://i.ibb.co/Fbjskt3/png-clipart-oxfam-logo-organization-poverty-banquet-love-miscellaneous-removebg-preview.png"
     }
   ]
 }

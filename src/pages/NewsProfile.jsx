@@ -135,7 +135,7 @@ const NewsProfile = () => {
                 <img
                   src={img}
                   alt={news.title}
-                  className="w-full h-full object-cover opacity-80 hover:opacity-100 duration-300 cursor-pointer rounded"
+                  className="w-full h-full object-cover opacity-80 hover:opacity-100 duration-300 cursor-pointer rounded-lg border-4 border-green-500"
                   onClick={() => handleImageClick(index)}
                 />
               </figure>
