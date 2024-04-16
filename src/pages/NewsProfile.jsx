@@ -12,6 +12,7 @@ import {
   LiaArrowLeftSolid,
   LiaArrowRightSolid,
 } from 'react-icons/lia';
+import SnapshotsCreator from '../components/SnapshotsCreator';
 
 const NewsProfile = () => {
   const [news, setNews] = useState(null);
@@ -129,18 +130,11 @@ const NewsProfile = () => {
           <h2 className="font-bold text-3xl mb-4">
             {i18next.t('newsProfile.snapshots')}
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {news.img.map((img, index) => (
-              <figure key={index} className="w-full h-96 relative">
-                <img
-                  src={img}
-                  alt={news.title}
-                  className="w-full h-full object-cover opacity-80 hover:opacity-100 duration-300 cursor-pointer rounded-lg border-4 border-green-500"
-                  onClick={() => handleImageClick(index)}
-                />
-              </figure>
-            ))}
-          </div>
+          <SnapshotsCreator
+            snapshots={news.img}
+            name={news.title}
+            handleImageClick={handleImageClick}
+          />
           <div className="flex items-center justify-center my-4">
             <Link
               to={`/donate?for=${news.donateFor}`}

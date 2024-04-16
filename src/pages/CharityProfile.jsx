@@ -10,6 +10,7 @@ import Error from '../components/Error';
 import ImageModal from '../components/ImageModal';
 import { getCharityById } from '../components/utilities';
 import { LiaAngleLeftSolid, LiaExternalLinkAltSolid } from 'react-icons/lia';
+import SnapshotsCreator from '../components/SnapshotsCreator';
 
 const CharityProfile = () => {
   const { t } = useTranslation();
@@ -237,24 +238,7 @@ const CharityProfile = () => {
                 <h2 className="font-bold text-3xl mb-4">
                   {t('newsProfile.snapshots')}
                 </h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                  {charity.snapshots &&
-                    charity.snapshots.map((snapshot, idx) => (
-                      <figure key={idx} className="w-full h-96 relative">
-                        <img
-                          src={snapshot}
-                          alt={charity.name}
-                          className="w-full h-full object-cover opacity-80 hover:opacity-100 duration-300 cursor-pointer rounded-lg border-4 border-green-500"
-                          onClick={() => handleImageClick(idx)}
-                        />
-                      </figure>
-                    ))}
-                  {!charity.snapshots && (
-                    <div className="text-2xl text-center text-red-500 font-bold">
-                      {t('newsProfile.noSnapshots')}
-                    </div>
-                  )}
-                </div>
+                <SnapshotsCreator snapshots={charity.snapshots} name={charity.name} handleImageClick={handleImageClick} />
               </article>
             </Container>
           </section>
