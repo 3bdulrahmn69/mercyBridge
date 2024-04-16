@@ -92,6 +92,10 @@ const Donate = () => {
     }
   }, [states, lang]);
 
+  useEffect(() => {
+    setForSelected(methodFromQuery || 'All');
+  }, [methodFromQuery]);
+
   const translatedStates = useMemo(
     () =>
       states.map((state) => ({

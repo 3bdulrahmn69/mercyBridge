@@ -6,13 +6,13 @@ import Loading from '../components/Loading';
 import Error from '../components/Error';
 import Container from '../components/Container';
 import ImageModal from '../components/ImageModal';
+import SnapshotsCreator from '../components/SnapshotsCreator';
 import { getNewsById } from '../components/utilities';
 import {
   LiaAngleLeftSolid,
   LiaArrowLeftSolid,
   LiaArrowRightSolid,
 } from 'react-icons/lia';
-import SnapshotsCreator from '../components/SnapshotsCreator';
 
 const NewsProfile = () => {
   const [news, setNews] = useState(null);

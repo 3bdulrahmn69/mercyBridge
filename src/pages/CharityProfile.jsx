@@ -8,9 +8,9 @@ import Container from '../components/Container';
 import Loading from '../components/Loading';
 import Error from '../components/Error';
 import ImageModal from '../components/ImageModal';
+import SnapshotsCreator from '../components/SnapshotsCreator';
 import { getCharityById } from '../components/utilities';
 import { LiaAngleLeftSolid, LiaExternalLinkAltSolid } from 'react-icons/lia';
-import SnapshotsCreator from '../components/SnapshotsCreator';
 
 const CharityProfile = () => {
   const { t } = useTranslation();
