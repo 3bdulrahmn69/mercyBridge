@@ -103,17 +103,23 @@ const CharityProfile = () => {
       </figure>
       <div className="animate-slideUp">
         <Container>
-          <div className="flex items-center gap-4 -mb-11 transform -translate-y-1/2">
-            <figure className="w-32 h-32 md:w-40 md:h-40 p-4 bg-white rounded-full border-8 border-green-500 overflow-hidden shadow-lg">
+          <div className="flex items-center gap-4 -mb-11 transform -translate-y-1/2 lg:px-0 px-2">
+            <figure className="w-28 h-28 md:w-40 md:h-40 p-4 bg-white rounded-full border-8 border-green-500 overflow-hidden shadow-lg">
               <img
                 src={charity.logo}
                 alt={charity.name}
                 className="w-full h-full object-contain"
               />
             </figure>
-            <h1 className="text-3xl md:text-4xl font-bold text-green-600">
-              {charity.name}
-            </h1>
+            {charity.name.length > 20 ? (
+              <h1 className="text-lg max-w-40 md:max-w-lg lg:max-w-none md:text-3xl font-bold text-green-600">
+                {charity.name}
+              </h1>
+            ) : (
+              <h1 className="text-3xl md:text-4xl font-bold text-green-600">
+                {charity.name}
+              </h1>
+            )}
           </div>
         </Container>
         <div className="px-4 lg:px-16">
@@ -123,9 +129,7 @@ const CharityProfile = () => {
             >
               <h2 className="font-bold text-2xl md:text-3xl text-center mb-4">
                 {charity.location.map((location) =>
-                  location.states === 'Global'
-                    ? t('Global')
-                    : t('states')
+                  location.states === 'Global' ? t('Global') : t('states')
                 )}
               </h2>
               <ul className="text-lg md:text-xl">

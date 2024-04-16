@@ -27,7 +27,12 @@ const CharityCard = ({ id, name, description, image, methods }) => {
       </div>
       <div>
         <div>
-          <h3 className="md:text-2xl text-xl mb-2 font-bold">{name}</h3>
+          <h3
+            className="md:text-2xl text-xl mb-2 font-bold"
+            title={name.length > 30 ? name : ''}
+          >
+            {name.length > 30 ? name.slice(0, 30) + '...' : name}
+          </h3>
           <p>
             {description.length > 180
               ? description.slice(0, 180) + '...'
