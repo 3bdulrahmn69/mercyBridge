@@ -799,7 +799,7 @@
       "description": "The Magdy Yacoub Foundation for Heart Diseases and Research - a non-governmental charitable organization registered in Egypt - was established in 2008 by Dr. Magdy Yacoub, the late Dr. Ahmed Zewail, and the late Ambassador Mohamed Shaker. The Magdy Yacoub Foundation for Heart Research also manages one of the exceptional projects of great importance to the health and well-being of the Egyptian people. , which depends entirely on donations, which is the Aswan Heart Center. The Magdy Yacoub Foundation for Cardiac Diseases and Research is responsible for the strategic management of the Aswan Heart Center. Given the pressure on the Aswan Heart Center, the Board of Trustees made an informed decision to begin establishing the Magdy Yacoub International Heart Center in Cairo, in order to meet the severe and growing need for treatment of heart diseases, especially The groups most in need of treatment, by achieving continuous integration between treatment, research, and skills development. The Foundation is also managed by one of the most famous boards of trustees in Egypt.",
       "link": "https://www.myf-egypt.org",
       "methods": ["Cash"],
-      "donationFor": ["Health"],
+      "donationFor": ["Health", "Children"],
       "donationDetails": [
         {
           "method": "Cash",
@@ -834,7 +834,7 @@
       "description": "The 57357 Hospital is an Egyptian non-profit organization that was established in 2007. It aims to provide free medical care to patients with cancer.",
       "link": "http://www.57357.org/",
       "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health"],
+      "donationFor": ["Health", "Children"],
       "donationDetails": [
         {
           "method": "Cash",
@@ -1019,7 +1019,7 @@
       "description": "The Mersal Foundation is an Egyptian non-profit organization that was established in 2007. It aims to provide free medical care to patients with cancer.",
       "link": "http://www.mersal-foundation.org/",
       "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health"],
+      "donationFor": ["Health", "Society"],
       "donationDetails": [
         {
           "method": "Cash",
@@ -1202,7 +1202,7 @@
       "description": "The Baheya Foundation is an Egyptian non-profit organization that was established in 2015. It aims to provide free medical care to patients with cancer.",
       "link": "http://www.baheyafoundation.org/",
       "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health"],
+      "donationFor": ["Health", "Women"],
       "donationDetails": [
         {
           "method": "Cash",
@@ -1295,7 +1295,7 @@
       "description": "The Banati Foundation is an Egyptian non-profit organization that was established in 2015. It aims to provide free medical care to patients with cancer.",
       "link": "http://www.banatifoundation.org/",
       "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health"],
+      "donationFor": ["Health", "Women"],
       "donationDetails": [
         {
           "method": "Cash",
