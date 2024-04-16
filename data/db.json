@@ -1818,6 +1818,46 @@
       ],
       "banner": "https://lh4.googleusercontent.com/proxy/p2-P0AoTHYHpyfkNh8Y0F-_TUl4YeGob3xm2MW0-lAEapmuWUu66en_hybo6nv2vZdNWcQSAfMaYs3Nlz_zAfcu-xbscwXyEc3RO_qUCm9x6yZoLZdEkECuvMD7Q1ze1D08BRsoh",
       "logo": "https://i.ibb.co/Fbjskt3/png-clipart-oxfam-logo-organization-poverty-banquet-love-miscellaneous-removebg-preview.png"
+    },
+    {
+      "id": 22,
+      "name": "Educateme Foundation",
+      "description": "Educate Me Foundation is a registered non-profit foundation that aspires to redefine education in Egypt through a progressive skills- based, learner-centered education model while promoting a culture of self-actualization and lifelong learning. Educate Me operates a community school in Talbeya, Giza and runs training and development programs for both public school teachers and students across a number of governorates. Educate Me also offers education consultancy services to different organizations.",
+      "link": "https://educateme-foundation.org",
+      "methods": ["Cash"],
+      "donationFor": ["Education"],
+      "donationDetails": [
+        {
+          "method": "Cash",
+          "ways": {
+            "Online": "https://educateme-foundation.org/donate"
+          }
+        },
+        {
+          "method": "ALEXBANK",
+          "ways": {
+            "Account Number": "101797200004",
+            "SWIFT Code": "ALEXEGCXXXX"
+          }
+        },
+        {
+          "method": "COMMERCIAL INTERNATIONAL BANK (CIB)",
+          "ways": {
+            "Account Number": "100044365458",
+            "SWIFT Code": "CIBEEGCX007"
+          }
+        }
+      ],
+      "location": [
+        {
+          "states": "Giza"
+        }
+      ],
+      "banner": "https://gust-production.s3.amazonaws.com/uploads/startup/panoramic_image/758145/logo_20full.jpg",
+      "logo": "https://i.ibb.co/vBb5qP4/educate-me-logo-removebg-preview.png",
+      "snapshots": [
+        "https://img.youm7.com/xlarge/201709190530443044.jpg"
+      ]
     }
   ],
   "charities-ar": [
@@ -2433,6 +2473,46 @@
       ],
       "banner": "https://lh4.googleusercontent.com/proxy/p2-P0AoTHYHpyfkNh8Y0F-_TUl4YeGob3xm2MW0-lAEapmuWUu66en_hybo6nv2vZdNWcQSAfMaYs3Nlz_zAfcu-xbscwXyEc3RO_qUCm9x6yZoLZdEkECuvMD7Q1ze1D08BRsoh",
       "logo": "https://i.ibb.co/Fbjskt3/png-clipart-oxfam-logo-organization-poverty-banquet-love-miscellaneous-removebg-preview.png"
+    },
+    {
+      "id": 22,
+      "name": "مؤسسة علمني",
+      "description": "مؤسسة علمني هي مؤسسة مسجلة غير ربحية تطمح إلى إعادة تعريف التعليم في مصر من خلال نموذج تعليمي تقدمي قائم على المهارات ومرتكز على المتعلم مع تعزيز ثقافة تحقيق الذات والتعلم مدى الحياة. تدير مؤسسة مدرسة مجتمعية في الطالبية بالجيزة وتدير برامج تدريب وتطوير لكل من معلمي وطلاب المدارس الحكومية في عدد من المحافظات. تقدم  أيضًا خدمات استشارية تعليمية لمنظمات مختلفة.",
+      "link": "https://educateme-foundation.org",
+      "methods": ["Cash"],
+      "donationFor": ["Education"],
+      "donationDetails": [
+        {
+          "method": "Cash",
+          "ways": {
+            "Online": "https://educateme-foundation.org/donate"
+          }
+        },
+        {
+          "method": "بنك اسكندرية",
+          "ways": {
+            "رقم الحساب": "101797200004",
+            "SWIFT Code": "ALEXEGCXXXX"
+          }
+        },
+        {
+          "method": "البنك التجاري الدولي (CIB)",
+          "ways": {
+            "رقم الحساب": "100044365458",
+            "SWIFT Code": "CIBEEGCX007"
+          }
+        }
+      ],
+      "location": [
+        {
+          "states": "Giza"
+        }
+      ],
+      "banner": "https://gust-production.s3.amazonaws.com/uploads/startup/panoramic_image/758145/logo_20full.jpg",
+      "logo": "https://i.ibb.co/vBb5qP4/educate-me-logo-removebg-preview.png",
+      "snapshots": [
+        "https://img.youm7.com/xlarge/201709190530443044.jpg"
+      ]
     }
   ]
 }
