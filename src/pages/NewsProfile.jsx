@@ -56,6 +56,12 @@ const NewsProfile = () => {
     checkNext();
   }, [id, lang]);
 
+  useEffect(() => {
+    if (news) {
+      document.title = `MercyBridge | ${news.title}`;
+    }
+  }, [news]);
+
   if (isLoading) {
     return <Loading />;
   }

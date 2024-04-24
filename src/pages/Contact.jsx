@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import Container from '../components/Container';
 import SectionHeader from '../components/SectionHeader';
@@ -5,6 +6,10 @@ import ContactForm from '../components/ContactForm';
 import ContactInfo from '../components/ContactInfo';
 
 const Contact = () => {
+  useEffect(() => {
+    document.title = 'MercyBridge | Contact';
+  }, []);
+
   const { t } = useTranslation();
   return (
     <main>

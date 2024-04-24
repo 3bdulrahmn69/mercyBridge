@@ -1,7 +1,12 @@
 import { useTranslation } from 'react-i18next';
+import { useEffect } from 'react';
 
 const Help = () => {
   const { t } = useTranslation();
+
+  useEffect(() => {
+    document.title = 'MercyBridge | Help';
+  }, []);
 
   return (
     <main className="py-4 px-8">
@@ -20,7 +25,6 @@ const Help = () => {
           <li>
             <a href="#faq-secure">{t('help.isSecureTitle')}</a>
           </li>
-          {/* Add more FAQs as needed */}
         </ul>
       </section>
 

@@ -33,6 +33,10 @@ const Donate = () => {
   const pageDirection = i18next.language === 'ar' ? 'rtl' : 'ltr';
 
   useEffect(() => {
+    document.title = 'MercyBridge | Donate';
+  },[]);
+
+  useEffect(() => {
     async function fetchStates() {
       setIsLoading(true);
       try {

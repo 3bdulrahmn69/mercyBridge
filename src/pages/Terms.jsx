@@ -1,7 +1,12 @@
+import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 
 const Terms = () => {
   const { t } = useTranslation();
+
+  useEffect(() => {
+    document.title = 'MercyBridge | Terms';
+  }, []);
 
   return (
     <main className="py-4 px-8">

@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import SectionHeader from '../components/SectionHeader';
 import WorksCard from '../components/WorksCard';
@@ -7,6 +8,11 @@ import secondMove from '../assets/secondMove.jpg';
 
 const Works = () => {
   const { t } = useTranslation();
+
+  useEffect(() => {
+    document.title = 'MercyBridge | Works';
+  }, []);
+
   return (
     <main className="min-h-screen">
       <div className="animate-slideDown">

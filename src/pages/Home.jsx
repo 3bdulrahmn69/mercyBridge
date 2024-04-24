@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import AboutSection from '../sections/AboutSection';
 import ContactSection from '../sections/ContactSection';
 import CounterSection from '../sections/CounterSection';
@@ -7,6 +8,10 @@ import NotNumbersSection from '../sections/NotNumbersSection';
 import WorksSection from '../sections/WorksSection';
 
 const Home = () => {
+  useEffect(() => {
+    document.title = 'MercyBridge | Home';
+  }, []);
+
   return (
     <main className="overflow-x-hidden">
       <HeroSection />

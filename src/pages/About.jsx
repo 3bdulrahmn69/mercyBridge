@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import Container from '../components/Container';
 import SectionHeader from '../components/SectionHeader';
@@ -6,6 +7,10 @@ import about from '../assets/about.svg';
 
 const About = () => {
   const { t } = useTranslation();
+
+  useEffect(() => {
+    document.title = 'MercyBridge | About';
+  }, []);
 
   return (
     <main className='animate-slideUp'>

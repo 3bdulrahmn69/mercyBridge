@@ -16,6 +16,10 @@ const News = () => {
   const lang = i18next.language;
 
   useEffect(() => {
+    document.title = 'MercyBridge | News';
+  }, []);
+
+  useEffect(() => {
     const fetchData = async () => {
       setLoading(true);
       try {

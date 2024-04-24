@@ -1,9 +1,15 @@
+import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import img from '../assets/error404.svg';
 import SectionEndLink from '../components/SectionEndLink';
 
 const NotFound = () => {
   const { t } = useTranslation();
+
+  useEffect(() => {
+    document.title = '404 Not Found';
+  }, []);
+
   return (
     <main>
       <div className="py-8">

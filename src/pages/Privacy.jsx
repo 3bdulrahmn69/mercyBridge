@@ -1,7 +1,12 @@
+import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 
 const Privacy = () => {
   const { t } = useTranslation();
+
+  useEffect(() => {
+    document.title = 'MercyBridge | Privacy';
+  }, []);
 
   return (
     <main className="py-4 px-8">

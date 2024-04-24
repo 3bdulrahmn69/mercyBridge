@@ -45,6 +45,12 @@ const CharityProfile = () => {
     fetchCharity();
   }, [id, lang]);
 
+  useEffect(() => {
+    if (charity) {
+      document.title = `'MercyBridge' | ${charity.name}`;
+    }
+  }, [charity, t]);
+
   const handleLocationClick = (location) => {
     setSelectedLocation(location);
   };
