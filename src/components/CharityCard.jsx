@@ -71,7 +71,7 @@ const CharityCard = ({ id, name, description, image, methods }) => {
           </div>
           <Link
             to={`/donate/${id}`}
-            className="bg-green-500 text-white px-4 py-2 rounded md:w-fit w-full text-center mb-2"
+            className="bg-green-500 text-white px-4 py-2 rounded md:w-fit w-full text-center mb-2 hover:bg-green-600 transition-all duration-300 ease-in-out"
           >
             {t('donate.charity_donate_BTN')}
           </Link>

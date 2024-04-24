@@ -3,6 +3,7 @@ import SiteName from '../components/SiteName';
 import Nav from '../components/Nav';
 import { Link } from 'react-router-dom';
 import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa';
+import Container from '../components/Container';
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -18,7 +19,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-green-800 text-white pt-16 pb-8 px-0 md:px-2 lg:px-0">
-      <div className="container">
+      <Container>
         <div className="w-full flex md:flex-row gap-4 flex-col md:px-0 px-3 justify-between md:mb-24">
           <div className="max-w-80">
             <SiteName
@@ -103,7 +104,7 @@ const Footer = () => {
             </Link>
           </div>
         </div>
-      </div>
+      </Container>
     </footer>
   );
 };
