@@ -15,12 +15,6 @@
   background-color: #dedede;
 }
 
-.container {
-  min-width: 0px;
-  max-width: 1024px;
-  margin: 0 auto;
-}
-
 img {
   user-select: none;
   -webkit-user-drag: none;
@@ -163,26 +157,4 @@ img {
 }
 .workImageBg:hover::after {
   height: 100%;
-}
-
-.goTopBtn:hover {
-  animation: 1s infinite moveUp;
-  -webkit-animation: 1s infinite moveUp;
-}
-@keyframes moveUp {
-  0%,
-  100% {
-    transform: translateY(0);
-    -webkit-transform: translateY(0);
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
-    -o-transform: translateY(0);
-  }
-  75% {
-    transform: translateY(-10px);
-    -webkit-transform: translateY(-10px);
-    -moz-transform: translateY(-10px);
-    -ms-transform: translateY(-10px);
-    -o-transform: translateY(-10px);
-  }
 }

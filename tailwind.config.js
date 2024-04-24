@@ -8,6 +8,7 @@ export default {
         FadeInRev: 'cFadeInRev 0.5s linear',
         slideUp: 'cSlideUp 0.5s linear',
         slideDown: 'cSlideDown 0.5s linear',
+        moveUp: 'cMoveUp 0.8s ease-out infinite',
       },
       keyframes: {
         cFadeIn: {
@@ -25,6 +26,10 @@ export default {
         cSlideDown: {
           '0%, 25%': { transform: 'translateY(-50px)', opacity: 0 },
           '100%': { transform: 'translateY(0)', opacity: 1 },
+        },
+        cMoveUp: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '75%': { transform: 'translateY(-10px)' },
         },
       },
     },

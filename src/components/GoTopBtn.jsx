@@ -20,7 +20,7 @@ const GoTopBtn = () => {
       } flex flex-col justify-center items-center text-white transition-transform duration-300 ease-in-out overflow-hidden`}
       onClick={() => lenis.scrollTo(0)}
     >
-      <FaAngleUp className="w-full h-full p-2 goTopBtn" />
+      <FaAngleUp className="w-full h-full p-2 hover:animate-moveUp" />
     </button>
   );
 };
