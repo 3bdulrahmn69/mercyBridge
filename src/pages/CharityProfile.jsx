@@ -129,9 +129,9 @@ const CharityProfile = () => {
               className={`text-white w-full md:w-1/4 px-6 py-8 rounded-lg shadow-lg bg-green-500`}
             >
               <h2 className="font-bold text-2xl md:text-3xl text-center mb-4">
-                {charity.location.map((location) =>
-                  location.states === 'Global' ? t('Global') : t('states')
-                )}
+                {charity.location[0].states === 'Global'
+                  ? t('Global')
+                  : t('states')}
               </h2>
               <ul className="text-lg md:text-xl">
                 {charity.location.map((location) =>
@@ -224,7 +224,7 @@ const CharityProfile = () => {
                             rel="noopener noreferrer"
                             className="text-green-500 hover:underline mx-2"
                           >
-                            Click here
+                            {t('donate.clickHere')}
                           </a>
                         ) : (
                           ` ${value}`
@@ -238,7 +238,11 @@ const CharityProfile = () => {
                 <h2 className="font-bold text-3xl mb-4">
                   {t('newsProfile.snapshots')}
                 </h2>
-                <SnapshotsCreator snapshots={charity.snapshots} name={charity.name} handleImageClick={handleImageClick} />
+                <SnapshotsCreator
+                  snapshots={charity.snapshots}
+                  name={charity.name}
+                  handleImageClick={handleImageClick}
+                />
               </article>
             </Container>
           </section>

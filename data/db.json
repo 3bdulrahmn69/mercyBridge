@@ -1666,6 +1666,14 @@
           "ways": {
             "Online": "https://help.unicef.org/?_gl=1*1waigah*_ga*ODgzOTIyMzUuMTcxMzIwMDQ4OA..*_ga_ZEPV2PX419*MTcxMzIwMDQ4Ny4xLjEuMTcxMzIwMDUyMC4yNy4wLjA."
           }
+        },
+        {
+          "method": "Social Media",
+          "ways": {
+            "Facebook": "https://www.facebook.com/unicef",
+            "Instagram": "https://www.instagram.com/unicef",
+            "Twitter": "https://twitter.com/UNICEF"
+          }
         }
       ],
       "location": [
@@ -1688,6 +1696,14 @@
           "method": "Cash",
           "ways": {
             "Online": "https://donate.savethechildren.org/en/donate/donate-now-save-lives-sr?_ga=2.239214209.389300645.1713278298-789258799.1713278298&country=EG"
+          }
+        },
+        {
+          "method": "Social Media",
+          "ways": {
+            "Facebook": "hhttps://www.facebook.com/SCEgypt/",
+            "Instagram": "https://www.instagram.com/savethechildren",
+            "Twitter": "https://twitter.com/save_children"
           }
         }
       ],
@@ -1712,6 +1728,14 @@
           "ways": {
             "Online": "https://donate.wfp.org/1243/donation/regular/?campaign=3828&_ga=2.199932270.1117273991.1713278849-15931083.1713278849&_gac=1.141148422.1713278849.EAIaIQobChMIu9C4_vzGhQMVIggGAB189AttEAAYASAAEgLZH_D_BwE"
           }
+        },
+        {
+          "method": "Social Media",
+          "ways": {
+            "Facebook": "https://www.facebook.com/WorldFoodProgramme",
+            "Instagram": "https://www.instagram.com/Worldfoodprogramme",
+            "Twitter": "https://twitter.com/WFP"
+          }
         }
       ],
       "location": [
@@ -1734,6 +1758,14 @@
           "method": "Cash",
           "ways": {
             "Online": "https://www.msf.org/donate"
+          }
+        },
+        {
+          "method": "Social Media",
+          "ways": {
+            "Facebook": "https://www.facebook.com/doctorswithoutborders",
+            "Instagram": "https://www.instagram.com/doctorswithoutborders",
+            "Twitter": "https://twitter.com/MSF"
           }
         }
       ],
@@ -1758,6 +1790,14 @@
           "ways": {
             "Online": "https://www.ifrc.org/donate"
           }
+        },
+        {
+          "method": "Social Media",
+          "ways": {
+            "Facebook": "https://www.facebook.com/IFRC",
+            "Instagram": "https://www.instagram.com/ifrc",
+            "Twitter": "https://twitter.com/ifrc"
+          }
         }
       ],
       "location": [
@@ -1780,6 +1820,14 @@
           "method": "Cash",
           "ways": {
             "Online": "https://donate.islamic-relief.org/?_gl=1*1sxxcx*_ga*MTgxNjgxNzI1NS4xNzEzMjgwMjcx*_ga_PYJL878TTC*MTcxMzI4MDI3MC4xLjEuMTcxMzI4MDQ1MC41Mi4wLjA."
+          }
+        },
+        {
+          "method": "Social Media",
+          "ways": {
+            "Facebook": "https://www.facebook.com/IslamicReliefWorldwide",
+            "Instagram": "https://www.instagram.com/irworldwide",
+            "Twitter": "https://twitter.com/islamicrelief"
           }
         }
       ],
@@ -1808,6 +1856,14 @@
           "method": "Cash",
           "ways": {
             "Online": "https://give.oxfamamerica.org/page/63259/donate/1?transaction.recurrpay=Y&en_txn2=web&en_txn9=topbutton&_gl=1*kxxd98*_ga*NTA1NTE5NTkxLjE3MTMyNzgxOTU.*_ga_R58YETD6XK*MTcxMzI3ODE5NS4xLjEuMTcxMzI3ODI0Mi4xMy4wLjA."
+          }
+        },
+        {
+          "method": "Social Media",
+          "ways": {
+            "Facebook": "https://www.facebook.com/oxfamamerica",
+            "Instagram": "https://www.instagram.com/oxfamamerica",
+            "Twitter": "https://twitter.com/oxfamamerica"
           }
         }
       ],
@@ -1846,6 +1902,14 @@
             "Account Number": "100044365458",
             "SWIFT Code": "CIBEEGCX007"
           }
+        },
+        {
+          "method": "Social Media",
+          "ways": {
+            "Facebook": "https://www.facebook.com/EducateMeEgypt",
+            "Instagram": "https://www.instagram.com/educate.me",
+            "Twitter": "https://twitter.com/educatemeegypt"
+          }
         }
       ],
       "location": [
@@ -1855,9 +1919,7 @@
       ],
       "banner": "https://gust-production.s3.amazonaws.com/uploads/startup/panoramic_image/758145/logo_20full.jpg",
       "logo": "https://i.ibb.co/vBb5qP4/educate-me-logo-removebg-preview.png",
-      "snapshots": [
-        "https://img.youm7.com/xlarge/201709190530443044.jpg"
-      ]
+      "snapshots": ["https://img.youm7.com/xlarge/201709190530443044.jpg"]
     }
   ],
   "charities-ar": [
@@ -2321,6 +2383,14 @@
           "ways": {
             "عبر الإنترنت": "https://help.unicef.org/?_gl=1*1waigah*_ga*ODgzOTIyMzUuMTcxMzIwMDQ4OA..*_ga_ZEPV2PX419*MTcxMzIwMDQ4Ny4xLjEuMTcxMzIwMDUyMC4yNy4wLjA."
           }
+        },
+        {
+          "method": "روابط التواصل الاجتماعي",
+          "ways": {
+            "فيسبوك": "https://www.facebook.com/unicef",
+            "انستجرام": "https://www.instagram.com/unicef",
+            "تويتر": "https://twitter.com/UNICEF"
+          }
         }
       ],
       "location": [
@@ -2343,6 +2413,14 @@
           "method": "نقدي",
           "ways": {
             "عبر الإنترنت": "https://donate.savethechildren.org/en/donate/donate-now-save-lives-sr?_ga=2.239214209.389300645.1713278298-789258799.1713278298&country=EG"
+          }
+        },
+        {
+          "method": "روابط التواصل الاجتماعي",
+          "ways": {
+            "فيسبوك": "hhttps://www.facebook.com/SCEgypt/",
+            "انستجرام": "https://www.instagram.com/savethechildren",
+            "تويتر": "https://twitter.com/save_children"
           }
         }
       ],
@@ -2367,6 +2445,14 @@
           "ways": {
             "عبر الإنترنت": "https://donate.wfp.org/1243/donation/regular/?campaign=3828&_ga=2.199932270.1117273991.1713278849-15931083.1713278849&_gac=1.141148422.1713278849.EAIaIQobChMIu9C4_vzGhQMVIggGAB189AttEAAYASAAEgLZH_D_BwE"
           }
+        },
+        {
+          "method": "روابط التواصل الاجتماعي",
+          "ways": {
+            "فيسبوك": "https://www.facebook.com/WorldFoodProgramme",
+            "انستجرام": "https://www.instagram.com/Worldfoodprogramme",
+            "تويتر": "https://twitter.com/WFP"
+          }
         }
       ],
       "location": [
@@ -2389,6 +2475,14 @@
           "method": "نقدي",
           "ways": {
             "عبر الإنترنت": "https://www.msf.org/donate"
+          }
+        },
+        {
+          "method": "روابط التواصل الاجتماعي",
+          "ways": {
+            "فيسبوك": "https://www.facebook.com/doctorswithoutborders",
+            "انستجرام": "https://www.instagram.com/doctorswithoutborders",
+            "تويتر": "https://twitter.com/MSF"
           }
         }
       ],
@@ -2413,6 +2507,14 @@
           "ways": {
             "عبر الإنترنت": "https://www.ifrc.org/donate"
           }
+        },
+        {
+          "method": "روابط التواصل الاجتماعي",
+          "ways": {
+            "فيسبوك": "https://www.facebook.com/IFRC",
+            "انستجرام": "https://www.instagram.com/ifrc",
+            "تويتر": "https://twitter.com/ifrc"
+          }
         }
       ],
       "location": [
@@ -2435,6 +2537,14 @@
           "method": "نقدي",
           "ways": {
             "عبر الإنترنت": "https://donate.islamic-relief.org/?_gl=1*1sxxcx*_ga*MTgxNjgxNzI1NS4xNzEzMjgwMjcx*_ga_PYJL878TTC*MTcxMzI4MDI3MC4xLjEuMTcxMzI4MDQ1MC41Mi4wLjA."
+          }
+        },
+        {
+          "method": "روابط التواصل الاجتماعي",
+          "ways": {
+            "فيسبوك": "https://www.facebook.com/IslamicReliefWorldwide",
+            "انستجرام": "https://www.instagram.com/irworldwide",
+            "تويتر": "https://twitter.com/islamicrelief"
           }
         }
       ],
@@ -2463,6 +2573,14 @@
           "method": "نقدي",
           "ways": {
             "عبر الإنترنت": "https://give.oxfamamerica.org/page/63259/donate/1?transaction.recurrpay=Y&en_txn2=web&en_txn9=topbutton&_gl=1*kxxd98*_ga*NTA1NTE5NTkxLjE3MTMyNzgxOTU.*_ga_R58YETD6XK*MTcxMzI3ODE5NS4xLjEuMTcxMzI3ODI0Mi4xMy4wLjA."
+          }
+        },
+        {
+          "method": "روابط التواصل الاجتماعي",
+          "ways": {
+            "فيسبوك": "https://www.facebook.com/oxfamamerica",
+            "انستجرام": "https://www.instagram.com/oxfamamerica",
+            "تويتر": "https://twitter.com/oxfamamerica"
           }
         }
       ],
@@ -2501,6 +2619,14 @@
             "رقم الحساب": "100044365458",
             "SWIFT Code": "CIBEEGCX007"
           }
+        },
+        {
+          "method": "روابط التواصل الاجتماعي",
+          "ways": {
+            "فيسبوك": "https://www.facebook.com/EducateMeEgypt",
+            "انستجرام": "https://www.instagram.com/educate.me",
+            "تويتر": "https://twitter.com/educatemeegypt"
+          }
         }
       ],
       "location": [
@@ -2510,9 +2636,7 @@
       ],
       "banner": "https://gust-production.s3.amazonaws.com/uploads/startup/panoramic_image/758145/logo_20full.jpg",
       "logo": "https://i.ibb.co/vBb5qP4/educate-me-logo-removebg-preview.png",
-      "snapshots": [
-        "https://img.youm7.com/xlarge/201709190530443044.jpg"
-      ]
+      "snapshots": ["https://img.youm7.com/xlarge/201709190530443044.jpg"]
     }
   ]
 }
