@@ -21,7 +21,6 @@ const NoSomethingFound = ({ location }) => {
 };
 
 NoSomethingFound.propTypes = {
-  message: PropTypes.string.isRequired,
   location: PropTypes.string,
 };
 
