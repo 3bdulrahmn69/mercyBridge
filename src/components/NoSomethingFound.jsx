@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { useTranslation } from 'react-i18next';
 
-const NoSomethingFound = ({ message, location }) => {
+const NoSomethingFound = ({ location }) => {
   const { t } = useTranslation();
 
   return (
@@ -13,7 +13,7 @@ const NoSomethingFound = ({ message, location }) => {
         </span>
       </h1>
       <h2 className="md:text-3xl text-xl text-gray-800">
-        {t(`donate.${message}`)}
+        {t(`donate.message`)}
         <span className="font-bold">{location && ` ${location}`}</span>
       </h2>
     </div>

@@ -34,7 +34,7 @@ const Donate = () => {
 
   useEffect(() => {
     document.title = 'MercyBridge | Donate';
-  },[]);
+  }, []);
 
   useEffect(() => {
     async function fetchStates() {
@@ -206,9 +206,8 @@ const Donate = () => {
               methods={charity.methods}
             />
           ))}
-          {filteredCharities.length === 0 && (
+          {!errorWithCharities && filteredCharities.length === 0 && (
             <NoSomethingFound
-              message="message"
               location={t(locationSelected)}
             />
           )}

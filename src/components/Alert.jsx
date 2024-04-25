@@ -32,7 +32,7 @@ const Alert = ({ type, children }) => {
   }
 
   return (
-    <div className="bg-white fixed bottom-14 right-4 min-w-56 max-w-80 py-2 px-4 rounded">
+    <div className="bg-white fixed bottom-14 right-4 min-w-56 max-w-80 py-2 px-4 rounded border-2 shadow-md">
       <AlertLine type={type} lineWidth={lineWidth} />
       {
         {
