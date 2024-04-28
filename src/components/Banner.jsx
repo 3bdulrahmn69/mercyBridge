@@ -63,7 +63,7 @@ const Banner = ({ speed }) => {
       {[...Array(2)].map((_, i) => (
         <React.Fragment key={i}>
           {charities.map((charity) => (
-            <BannerImg key={charity.id} img={charity.logo} />
+            <BannerImg key={charity.id} img={charity.logo} id={charity.id} />
           ))}
         </React.Fragment>
       ))}
