@@ -41,7 +41,7 @@ const ContactForm = () => {
 
   return (
     <>
-      {isAlertVisible && <EmailAlert Message={'Message sent successfully'} />}
+      {isAlertVisible && <EmailAlert Message={t('MSS')} />}
       <form
         ref={form}
         onSubmit={sendEmail}
