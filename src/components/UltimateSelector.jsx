@@ -21,9 +21,9 @@ const UltimateSelector = ({
         id="state"
       >
         <option value="All">{t('all')}</option>
-        {arrToSelectFrom.map((state) => (
-          <option key={state.name} value={state.name}>
-            {t(state.name)}
+        {arrToSelectFrom.map((select) => (
+          <option key={select.name} value={select.name}>
+            {t(select.name)}
           </option>
         ))}
       </select>

@@ -172,7 +172,6 @@ const Donate = () => {
               label={t('filter_by_method')}
               arrToSelectFrom={[
                 { name: 'Cash' },
-                { name: 'Food' },
                 { name: 'Clothes' },
                 { name: 'Volunteer' },
               ]}
