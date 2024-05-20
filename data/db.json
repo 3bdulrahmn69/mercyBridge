@@ -5,137 +5,137 @@
       "name": "Global"
     },
     {
-      "id": 1,
+      "id": "1",
       "name": "Alexandria",
       "short": "ALX"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Al Qalyubiya",
       "short": "QAL"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Aswan",
       "short": "ASN"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Asyut",
       "short": "AST"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Beheira",
       "short": "BH"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Beni Souef",
       "short": "BNS"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Cairo",
       "short": "C"
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Dakahlia",
       "short": "DK"
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Damietta",
       "short": "DT"
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Faiyum",
       "short": "FYM"
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "Gharbia",
       "short": "GH"
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "Giza",
       "short": "GZ"
     },
     {
-      "id": 13,
+      "id": "13",
       "name": "Ismaiyla",
       "short": "IS"
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "Kafr El Sheikh",
       "short": "KS"
     },
     {
-      "id": 15,
+      "id": "15",
       "name": "Matrouh",
       "short": "MT"
     },
     {
-      "id": 16,
+      "id": "16",
       "name": "Minya",
       "short": "MN"
     },
     {
-      "id": 17,
+      "id": "17",
       "name": "Menofia",
       "short": "MF"
     },
     {
-      "id": 18,
+      "id": "18",
       "name": "New Valley",
       "short": "NV"
     },
     {
-      "id": 19,
+      "id": "19",
       "name": "North Sinai",
       "short": "SIN"
     },
     {
-      "id": 20,
+      "id": "20",
       "name": "Port Said",
       "short": "PS"
     },
     {
-      "id": 21,
+      "id": "21",
       "name": "Qena",
       "short": "QNA"
     },
     {
-      "id": 22,
+      "id": "22",
       "name": "Red Sea",
       "short": "RS"
     },
     {
-      "id": 23,
+      "id": "23",
       "name": "Al Sharqia",
       "short": "SHR"
     },
     {
-      "id": 24,
+      "id": "24",
       "name": "Sohag",
       "short": "SHG"
     },
     {
-      "id": 25,
+      "id": "25",
       "name": "South Sinai",
       "short": "SIN"
     },
     {
-      "id": 26,
+      "id": "26",
       "name": "Suez",
       "short": "SUZ"
     },
     {
-      "id": 27,
+      "id": "27",
       "name": "Luxor",
       "short": "LX"
     }
@@ -269,7 +269,7 @@
   ],
   "news-ar": [
     {
-      "id": 1,
+      "id": "1",
       "title": "دورة اليأس التي لا نهاية لها: صراع غزة المستمر",
       "link": "https://www.aljazeera.com/news/longform/2023/10/9/israel-hamas-war-in-maps-and-charts-live-tracker",
       "content": [
@@ -299,7 +299,7 @@
       "date": "2024-03-25"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "صمود غزة الذي لا ينضب: وسط المأساة، الأمل باقي",
       "content": [
         "وفي المشهد المضطرب في الشرق الأوسط، تقف غزة كشاهد على صمود الروح الإنسانية وسط الشدائد القاسية. منذ الفجر المشؤوم في 7 أكتوبر 2023، دخل هذا الجيب المحاصر مرة أخرى في براثن الصراع، مما يمثل فصلاً مأساويًا آخر في تاريخه المضطرب. ومع ذلك، وسط الدمار واليأس، هناك منارة أمل تضيء قدرة شعب يرفض أن تحدده المأساة وحدها.",
@@ -318,7 +318,7 @@
       "date": "2024-03-23"
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "التمكين والدعم: توحيد الجهود في مكافحة سرطان الثدي",
       "content": [
         "في كل ركن من أركان العالم، تشكل المرأة حجر الزاوية للقوة والحب والمرونة في عائلاتنا ومجتمعاتنا. ومع ذلك، فمن بين عدد لا يحصى من التحديات التي يواجهونها، يبرز سرطان الثدي كخصم هائل، ولا يؤثر على النساء فحسب، بل على الأفراد عبر نطاق الجنس. إن انتشار سرطان الثدي واسع النطاق، ولا يميز بين الناس، ويمس حياة الناس بغض النظر عن العمر أو العرق أو الخلفية.",
@@ -334,11 +334,13 @@
       ],
       "link": "https://www.mayoclinic.org/diseases-conditions/breast-cancer/symptoms-causes/syc-20352470",
       "donateFor": "Women",
-      "img": ["https://i.ibb.co/z59GwrS/Breast-cancer.jpg"],
+      "img": [
+        "https://i.ibb.co/z59GwrS/Breast-cancer.jpg"
+      ],
       "date": "2024-02-24"
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "فهم سرطان الطفولة: نظرة شاملة",
       "content": [
         "إن تشخيص مرض السرطان لدى الطفل هو حدث يهز أساس أي أسرة، ويثير العديد من المشاعر والأسئلة. إنها رحلة لا ينبغي لأي أسرة أن تخوضها بمفردها، وفهم أساسيات سرطان الأطفال هو الخطوة الأولى نحو التعامل مع هذا التحدي الشاق. في عام 2023، تم تشخيص ما يقدر بنحو 9,910 حالة إصابة جديدة بالسرطان بين الأطفال الذين تتراوح أعمارهم بين 0 و14 عامًا في الولايات المتحدة، مما يسلط الضوء على الحاجة الماسة للتوعية والتعليم حول هذا الموضوع.",
@@ -368,7 +370,7 @@
       "date": "2024-04-1"
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "محنة المشردين: الغوص العميق في ظلال المجتمع",
       "content": [
         "في قلب المدن الصاخبة والزوايا الهادئة للبلدات الصغيرة، تتكشف الأزمة بهدوء يومًا بعد يوم. إنها أزمة اختار الكثيرون تجاهلها، إلا أن تأثيرها عميق وبعيد المدى. هذه هي محنة المشردين، الأفراد والأسر، الذين، لأسباب لا تعد ولا تحصى، يجدون أنفسهم دون مكان يعتبرونه موطنًا لهم. إن قضية التشرد معقدة ومتعددة الأوجه، وتؤثر على الناس من جميع الأعمار والخلفيات والظروف. في هذه المقالة، نتعمق في التحديات التي يواجهها المشردون، والأسباب الجذرية للتشرد، وكيف يمكن للمجتمعات والسياسات تقديم الدعم والحلول.",
@@ -400,12 +402,17 @@
   ],
   "charities": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Egyptian Food Bank",
       "description": "The first neutral Egyptian charitable organization specialized in combating hunger and funded by zakat funds, alms, and donations, which are professionally transformed into services and programs to provide healthy food and a safe life opportunity for those who deserve it, and whose impact on their lives is measured in a scientific way. Through more than 15 years of professional work, we have become experts in the Arab region on the issue of combating hunger, which is the most important issue concerned with human development throughout the entire world.",
       "link": "http://www.egyptianfoodbank.com/",
-      "methods": ["Cash"],
-      "donationFor": ["Society", "Gaza"],
+      "methods": [
+        "Cash"
+      ],
+      "donationFor": [
+        "Society",
+        "Gaza"
+      ],
       "donationDetails": [
         {
           "method": "Cash",
@@ -484,12 +491,18 @@
       ]
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Misr El Kheir",
       "description": "Misr El Kheir Foundation is a non-profit development institution that works in six areas of human development: health, education, scientific research, social solidarity, aspects of life and the field of integrated development in the hope of eliminating unemployment, illiteracy, poverty, and disease.",
       "link": "https://mekeg.org/",
-      "methods": ["Cash", "Clothes", "Volunteer"],
-      "donationFor": ["Society"],
+      "methods": [
+        "Cash",
+        "Clothes",
+        "Volunteer"
+      ],
+      "donationFor": [
+        "Society"
+      ],
       "donationDetails": [
         {
           "method": "Cash",
@@ -644,12 +657,17 @@
       ]
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Resala",
       "description": "“Message” was established on June 25, 1999 as a student activity in the Faculty of Engineering at Cairo University by a group of students who studied the engineering ethics course in the Faculty of Communications Engineering Department under Dr. Sherif Abdel Azim. In 1999, the founding team’s goal was to spread volunteerism and positivity in society, cultivate belonging, and combat the logic of “I’m Mali” and other negative ideas. They chose the name “Message” as an expression that the team’s goal is to spread the message of volunteerism, positivity, and cooperation in the college. The whole community. In 2000, “Resala” turned into a charitable organization recognized by the Ministry of Social Affairs after a relative of one of the female students at the college donated a plot of land to the team so that they could spread their message outside the university.",
       "link": "https://resala.org",
-      "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Society"],
+      "methods": [
+        "Cash",
+        "Volunteer"
+      ],
+      "donationFor": [
+        "Society"
+      ],
       "donationDetails": [
         {
           "method": "Cash",
@@ -739,7 +757,9 @@
           ]
         }
       ],
-      "phone": ["19450"],
+      "phone": [
+        "19450"
+      ],
       "logo": "https://i.ibb.co/W3QsgPW/Resala.png",
       "banner": "https://images.wuzzuf-data.net/files/company_logo/Resala-Charity-Organization-Egypt-6495-og.jpeg",
       "snapshots": [
@@ -748,12 +768,17 @@
       ]
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Jan25 hospital",
       "description": "The January 25 Hospital Foundation for Medical Services is a non-profit organization registered centrally with the Central Administration for Associations and Institutions of the Ministry of Social Solidarity, No. 796 of 2017. Its greatest activity is establishing hospitals, medical centers and specialized clinics, contributing to their development and follow-up, and helping the poor and needy by providing free treatment and medicine.",
       "link": "https://25hospital.org",
-      "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health"],
+      "methods": [
+        "Cash",
+        "Volunteer"
+      ],
+      "donationFor": [
+        "Health"
+      ],
       "donationDetails": [
         {
           "method": "Cash",
@@ -771,7 +796,10 @@
           }
         }
       ],
-      "phone": ["19257", "02 21237700"],
+      "phone": [
+        "19257",
+        "02 21237700"
+      ],
       "location": [
         {
           "states": "Cairo",
@@ -799,12 +827,17 @@
       ]
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Magdi Yacoub Heart Foundation",
       "description": "The Magdy Yacoub Foundation for Heart Diseases and Research - a non-governmental charitable organization registered in Egypt - was established in 2008 by Dr. Magdy Yacoub, the late Dr. Ahmed Zewail, and the late Ambassador Mohamed Shaker. The Magdy Yacoub Foundation for Heart Research also manages one of the exceptional projects of great importance to the health and well-being of the Egyptian people. , which depends entirely on donations, which is the Aswan Heart Center. The Magdy Yacoub Foundation for Cardiac Diseases and Research is responsible for the strategic management of the Aswan Heart Center. Given the pressure on the Aswan Heart Center, the Board of Trustees made an informed decision to begin establishing the Magdy Yacoub International Heart Center in Cairo, in order to meet the severe and growing need for treatment of heart diseases, especially The groups most in need of treatment, by achieving continuous integration between treatment, research, and skills development. The Foundation is also managed by one of the most famous boards of trustees in Egypt.",
       "link": "https://www.myf-egypt.org",
-      "methods": ["Cash"],
-      "donationFor": ["Health", "Children"],
+      "methods": [
+        "Cash"
+      ],
+      "donationFor": [
+        "Health",
+        "Children"
+      ],
       "donationDetails": [
         {
           "method": "Cash",
@@ -834,12 +867,17 @@
       ]
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "57357 Hospital",
       "description": "The Children’s Cancer Hospital Egypt 57357(CCHE) widely known as Hospital 57357 is a unique healthcare institution and an ultimate example of what can be achieved when people work together for a common goal. The people of Egypt and friends from all over the world and most particularly in the Arab World have contributed generously to the establishment of the hospital which has been completely built by donations. Egyptians from all walks of life rallied around the setting up of a state of the art pediatric oncology hospital to achieve the dream of a better tomorrow for their children with cancer.",
       "link": "https://www.57357.org/en/home-page",
-      "methods": ["Cash"],
-      "donationFor": ["Health", "Children"],
+      "methods": [
+        "Cash"
+      ],
+      "donationFor": [
+        "Health",
+        "Children"
+      ],
       "donationDetails": [
         {
           "method": "Cash",
@@ -878,12 +916,17 @@
       ]
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Egyptian Red Crescent",
       "description": "The Egyptian Red Crescent is an Egyptian non-profit organization that was established in 1984. It aims to provide humanitarian aid to people in need.",
       "link": "https://www.egyptianrc.org/home",
-      "methods": ["Cash"],
-      "donationFor": ["Health", "Gaza"],
+      "methods": [
+        "Cash"
+      ],
+      "donationFor": [
+        "Health",
+        "Gaza"
+      ],
       "donationDetails": [
         {
           "method": "Cash",
@@ -1162,12 +1205,18 @@
       ]
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Mersal Foundation",
       "description": "Mersal is a non-profit charitable organization working in the field of health. Mersal seeks to provide all types of high-quality medical care to everyone who needs it. It also seeks to spread medical culture and awareness in Egypt and extending to the Arab world. Mersal Foundation seeks to establish a comprehensive health insurance system that works in parallel with the existing government system, with the aim of providing all health services with high quality to all those who are unable to do so, without any discrimination. This is done through a network of doctors and hospitals contracted with Mersal.",
       "link": "https://www.mersal-ngo.org/",
-      "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health", "Society"],
+      "methods": [
+        "Cash",
+        "Volunteer"
+      ],
+      "donationFor": [
+        "Health",
+        "Society"
+      ],
       "donationDetails": [
         {
           "method": "Cash",
@@ -1213,12 +1262,16 @@
       ]
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "National Cancer Institute",
       "description": "The National Cancer Institute is an Egyptian non-profit organization that was established in 2007. It aims to provide free medical care to patients with cancer.",
       "link": "https://nci.cu.edu.eg/donate/Home",
-      "methods": ["Cash"],
-      "donationFor": ["Health"],
+      "methods": [
+        "Cash"
+      ],
+      "donationFor": [
+        "Health"
+      ],
       "donationDetails": [
         {
           "method": "Cash",
@@ -1254,12 +1307,18 @@
       ]
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Baheya Foundation",
       "description": "From the heart of suffering, compassion is born.. Years ago, Mrs. Bahia Wehbe was at the beginning of her journey with breast cancer, after which she was forced to travel and travel to undergo tests and x-rays that were not available in Egypt at the time. From here was the beginning of the dream. Bahia saw closely the aches and pains that women who were unable to afford to travel suffered from, and she was determined to start a special trip that would contribute to relieving a heavy burden on women, but fate did not give her the time necessary to start her own dream, so her will to her children after her was to They are working to provide a radiation device that saves time and high costs. Step by step, the dream has grown to transform the family home into a center specializing in breast cancer treatment free of charge for all Egyptian women, which includes the latest devices specialized in breast cancer detection.",
       "link": "https://baheya.org/en",
-      "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health", "Women"],
+      "methods": [
+        "Cash",
+        "Volunteer"
+      ],
+      "donationFor": [
+        "Health",
+        "Women"
+      ],
       "donationDetails": [
         {
           "method": "Cash",
@@ -1284,7 +1343,9 @@
           }
         }
       ],
-      "phone": ["16602"],
+      "phone": [
+        "16602"
+      ],
       "location": [
         {
           "states": "Giza",
@@ -1307,12 +1368,16 @@
       ]
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "Banati Foundation",
       "description": "Banati Foundation works through a network of four interconnected centers to ensure a smooth and comprehensive cycle of intervention. Our mobile unit acts as a first point of contact, providing immediate healthcare, food, clothing and psychological support to children in need. This initial outreach is followed by participation in a reception center in Old Cairo, where children receive daily psychosocial recovery through creative play and positive care.",
       "link": "https://banatifoundation.org",
-      "methods": ["Cash"],
-      "donationFor": ["Women"],
+      "methods": [
+        "Cash"
+      ],
+      "donationFor": [
+        "Women"
+      ],
       "donationDetails": [
         {
           "method": "Cash",
@@ -1344,12 +1409,17 @@
       "banner": "https://media.licdn.com/dms/image/C4D1BAQFy-b6RPDJKuQ/company-background_10000/0/1583507488539/banati_foundation_cover?e=2147483647&v=beta&t=mEFYJ7Z4aJR9b5-_gc8736x38pWuzPNqlIBOGMahpXw"
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "Ayady 4040 Foundation",
       "description": "Ayadi Al-Future Hospital for treating oncology free of charge for the incapable. The Ayadi 4040 Association (a non-governmental, non-governmental organization) is a non-profit organization directed to charitable work, registered under No. 930 of 2020. It established and manages the Ayadi Al-Future Hospital for the treatment of oncology for the incapable of free of charge.",
       "link": "https://www.ayady4040.org/en/home",
-      "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health"],
+      "methods": [
+        "Cash",
+        "Volunteer"
+      ],
+      "donationFor": [
+        "Health"
+      ],
       "donationDetails": [
         {
           "method": "Cash",
@@ -1393,12 +1463,16 @@
       ]
     },
     {
-      "id": 13,
+      "id": "13",
       "name": "Ahl Masr Foundation",
       "description": "Founded in Cairo in 2013 with registration number 728/2013, the Ahl Misr Foundation is the first non-profit organization of its kind in the Middle East and Africa dedicated to the treatment, prevention, and research of trauma and burn injuries. Only with your help can we achieve our noble goal of transforming the role of philanthropy in the healthcare sector. Thanks to our dedicated team of experts, we have successfully brought to light trauma and burns, two severely overlooked issues in the region. After its establishment, the Ahl Misr Foundation quickly began building the Ahl Misr Hospital for Trauma and Burns in New Cairo, equipped with the latest medical technology and employing the latest scientific procedures. The hospital is the first and largest of its kind dedicated not only to serving burn victims in Egypt but also in the Middle East and Africa",
       "link": "https://ahl-masr.ngo/en",
-      "methods": ["Cash"],
-      "donationFor": ["Health"],
+      "methods": [
+        "Cash"
+      ],
+      "donationFor": [
+        "Health"
+      ],
       "donationDetails": [
         {
           "method": "Cash",
@@ -1417,7 +1491,9 @@
           }
         }
       ],
-      "phone": ["16863"],
+      "phone": [
+        "16863"
+      ],
       "location": [
         {
           "states": "Cairo",
@@ -1437,12 +1513,16 @@
       ]
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "Alexandria Pediatric Oncology Charity",
       "description": "The Alexandria Pediatric Oncology Center is an Egyptian non-profit organization that was established in 2015. It aims to provide free medical care to patients with cancer.",
       "link": "https://www.apoc39.com",
-      "methods": ["Cash"],
-      "donationFor": ["Health"],
+      "methods": [
+        "Cash"
+      ],
+      "donationFor": [
+        "Health"
+      ],
       "donationDetails": [
         {
           "method": "Cash",
@@ -1479,12 +1559,16 @@
       ]
     },
     {
-      "id": 15,
+      "id": "15",
       "name": "Unicef",
       "description": "The United Nations International Children's Emergency Fund (UNICEF) is a United Nations agency responsible for providing humanitarian and developmental aid to children worldwide. The agency is among the most widespread and recognizable social welfare organizations in the world, with a presence in 192 countries and territories.",
       "link": "https://www.unicef.org",
-      "methods": ["Cash"],
-      "donationFor": ["Children"],
+      "methods": [
+        "Cash"
+      ],
+      "donationFor": [
+        "Children"
+      ],
       "donationDetails": [
         {
           "method": "Cash",
@@ -1510,12 +1594,16 @@
       "logo": "https://i.ibb.co/7jTjs8r/iqweqwdqwmage-removebg-preview.png"
     },
     {
-      "id": 16,
+      "id": "16",
       "name": "Save the Children",
       "description": "Save the Children is an international non-governmental organization that promotes children's rights, provides relief and helps support children in developing countries. It was established in the United Kingdom in 1919 in order to improve the lives of children through better education, health care, and economic opportunities, as well as providing emergency aid in natural disasters, war, and other conflicts.",
       "link": "https://www.savethechildren.org",
-      "methods": ["Cash"],
-      "donationFor": ["Children"],
+      "methods": [
+        "Cash"
+      ],
+      "donationFor": [
+        "Children"
+      ],
       "donationDetails": [
         {
           "method": "Cash",
@@ -1541,12 +1629,16 @@
       "logo": "https://i.ibb.co/m5g6ZzJ/images-1-removebg-preview.png"
     },
     {
-      "id": 17,
+      "id": "17",
       "name": "World Food Programme",
       "description": "The World Food Programme (WFP) is the food assistance branch of the United Nations and the world's largest humanitarian organization addressing hunger and promoting food security. According to the WFP, it provides food assistance to an average of 91.4 million people in 83 countries each year.",
       "link": "https://www.wfp.org",
-      "methods": ["Cash"],
-      "donationFor": ["Food"],
+      "methods": [
+        "Cash"
+      ],
+      "donationFor": [
+        "Food"
+      ],
       "donationDetails": [
         {
           "method": "Cash",
@@ -1572,12 +1664,18 @@
       "logo": "https://i.ibb.co/yqC9RBg/image-removebg-preview.png"
     },
     {
-      "id": 18,
+      "id": "18",
       "name": "Doctors Without Borders",
       "description": "Médecins Sans Frontières (MSF), also known in English as Doctors Without Borders, is an international humanitarian medical non-governmental organization (NGO) of French origin best known for its projects in conflict zones and in countries affected by endemic diseases. In 2019, the group was active in 70 countries with over 35,000 personnel mostly local doctors, nurses and other medical professionals, logistical experts, water and sanitation engineers and administrators.",
       "link": "https://www.msf.org/",
-      "methods": ["Cash"],
-      "donationFor": ["Gaza", "Health", "Society"],
+      "methods": [
+        "Cash"
+      ],
+      "donationFor": [
+        "Gaza",
+        "Health",
+        "Society"
+      ],
       "donationDetails": [
         {
           "method": "Cash",
@@ -1603,12 +1701,18 @@
       "logo": "https://i.ibb.co/PYWGWRD/qqq-1-removebg-preview.png"
     },
     {
-      "id": 19,
+      "id": "19",
       "name": "International Federation of Red Cross and Red Crescent Societies",
       "description": "The International Federation of Red Cross and Red Crescent Societies (IFRC) is a worldwide humanitarian aid organization that reaches 160 million people each year through its 192-member National Societies. It acts before, during and after disasters and health emergencies to meet the needs and improve the lives of vulnerable people.",
       "link": "https://www.ifrc.org",
-      "methods": ["Cash"],
-      "donationFor": ["Health", "Society", "Gaza"],
+      "methods": [
+        "Cash"
+      ],
+      "donationFor": [
+        "Health",
+        "Society",
+        "Gaza"
+      ],
       "donationDetails": [
         {
           "method": "Cash",
@@ -1634,12 +1738,18 @@
       "logo": "https://i.ibb.co/6P3vyKL/Cropped-Image-1.png"
     },
     {
-      "id": 20,
+      "id": "20",
       "name": "Islamic Relief Worldwide",
       "description": "Islamic Relief is an international humanitarian organization that provides development programs and humanitarian relief around the globe",
       "link": "https://islamic-relief.org",
-      "methods": ["Cash"],
-      "donationFor": ["Health", "Society", "Gaza"],
+      "methods": [
+        "Cash"
+      ],
+      "donationFor": [
+        "Health",
+        "Society",
+        "Gaza"
+      ],
       "donationDetails": [
         {
           "method": "Cash",
@@ -1670,12 +1780,16 @@
       ]
     },
     {
-      "id": 21,
+      "id": "21",
       "name": "OXFAM",
       "description": "Oxfam is a global movement of people who are fighting inequality to beat poverty together. From saving lives and developing projects that put poor people in charge of their lives and livelihoods, to campaigning for change that lasts.",
       "link": "https://www.oxfamamerica.org/",
-      "methods": ["Cash"],
-      "donationFor": ["Health"],
+      "methods": [
+        "Cash"
+      ],
+      "donationFor": [
+        "Health"
+      ],
       "donationDetails": [
         {
           "method": "Cash",
@@ -1701,12 +1815,16 @@
       "logo": "https://i.ibb.co/Fbjskt3/png-clipart-oxfam-logo-organization-poverty-banquet-love-miscellaneous-removebg-preview.png"
     },
     {
-      "id": 22,
+      "id": "22",
       "name": "Educateme Foundation",
       "description": "Educate Me Foundation is a registered non-profit foundation that aspires to redefine education in Egypt through a progressive skills- based, learner-centered education model while promoting a culture of self-actualization and lifelong learning. Educate Me operates a community school in Talbeya, Giza and runs training and development programs for both public school teachers and students across a number of governorates. Educate Me also offers education consultancy services to different organizations.",
       "link": "https://educateme-foundation.org",
-      "methods": ["Cash"],
-      "donationFor": ["Education"],
+      "methods": [
+        "Cash"
+      ],
+      "donationFor": [
+        "Education"
+      ],
       "donationDetails": [
         {
           "method": "Cash",
@@ -1744,17 +1862,24 @@
       ],
       "banner": "https://images.wuzzuf-data.net/files/company_logo/Educate-Me-Egypt-18605-1572785391-og.png",
       "logo": "https://i.ibb.co/vBb5qP4/educate-me-logo-removebg-preview.png",
-      "snapshots": ["https://img.youm7.com/xlarge/201709190530443044.jpg"]
+      "snapshots": [
+        "https://img.youm7.com/xlarge/201709190530443044.jpg"
+      ]
     }
   ],
   "charities-ar": [
     {
-      "id": 1,
+      "id": "1",
       "name": "البنك المصري للغذاء",
       "description": "أول منظمة مصرية خيرية محايدة متخصصة في مكافحة الجوع والتي تمولها أموال الزكاة والصدقات والتبرعات، والتي تتحول بشكل احترافي إلى خدمات وبرامج لتوفير الغذاء الصحي وفرصة حياة آمنة لأولئك الذين يستحقونها، ويتم قياس تأثيرها على حياتهم بطريقة علمية. من خلال أكثر من 15 عامًا من العمل المهني، أصبحنا خبراء في المنطقة العربية في مسألة مكافحة الجوع، وهي القضية الأهم المتعلقة بالتنمية البشرية في جميع أنحاء العالم.",
       "link": "http://www.egyptianfoodbank.com/",
-      "methods": ["Cash"],
-      "donationFor": ["Society", "Gaza"],
+      "methods": [
+        "Cash"
+      ],
+      "donationFor": [
+        "Society",
+        "Gaza"
+      ],
       "donationDetails": [
         {
           "method": "نقد",
@@ -1833,12 +1958,18 @@
       ]
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "مصر الخير",
       "description": "مؤسسة مصر الخير هي مؤسسة تنموية غير ربحية تعمل في ستة مجالات للتنمية البشرية: الصحة، التعليم، البحث العلمي، التضامن الاجتماعي، جوانب الحياة ومجال التنمية المتكاملة على أمل القضاء على البطالة، الأمية، الفقر والمرض.",
       "link": "https://mekeg.org/",
-      "methods": ["Cash", "Clothes", "Volunteer"],
-      "donationFor": ["Society"],
+      "methods": [
+        "Cash",
+        "Clothes",
+        "Volunteer"
+      ],
+      "donationFor": [
+        "Society"
+      ],
       "donationDetails": [
         {
           "method": "نقدي",
@@ -2011,12 +2142,17 @@
       ]
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "رسالة",
       "description": "تأسست \"رسالة\" في 25 يونيو 1999 كنشاط طلابي في كلية الهندسة بجامعة القاهرة من قبل مجموعة من الطلاب الذين درسوا مادة الأخلاقيات الهندسية في قسم هندسة الاتصالات بكلية الهندسة بإشراف الدكتور شريف عبد العظيم. في عام 1999، كان هدف الفريق المؤسس هو نشر التطوع والإيجابية في المجتمع، وتعزيز الانتماء، ومحاربة منطق \"أنا مالي\" وغيرها من الأفكار السلبية. اختاروا اسم \"رسالة\" كتعبير عن أن هدف الفريق هو نشر رسالة التطوع والإيجابية والتعاون في الكلية والمجتمع بأسره. في عام 2000، تحولت \"رسالة\" إلى منظمة خيرية معترف بها من قبل وزارة الشؤون الاجتماعية بعد أن قام أحد الأقارب لإحدى الطالبات بالكلية بتبرع بقطعة أرض للفريق حتى يتمكنوا من نشر رسالتهم خارج الجامعة.",
       "link": "https://resala.org",
-      "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Society"],
+      "methods": [
+        "Cash",
+        "Volunteer"
+      ],
+      "donationFor": [
+        "Society"
+      ],
       "donationDetails": [
         {
           "method": "نقدي",
@@ -2106,7 +2242,9 @@
           ]
         }
       ],
-      "phone": ["19450"],
+      "phone": [
+        "19450"
+      ],
       "logo": "https://i.ibb.co/W3QsgPW/Resala.png",
       "banner": "https://images.wuzzuf-data.net/files/company_logo/Resala-Charity-Organization-Egypt-6495-og.jpeg",
       "snapshots": [
@@ -2115,12 +2253,17 @@
       ]
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "مستشفى 25 يناير",
       "description": "تأسست مؤسسة مستشفى 25 يناير للخدمات الطبية كجمعية خيرية غير هادفة للربح مسجلة مركزيًا لدى الإدارة المركزية للجمعيات والمؤسسات بوزارة التضامن الاجتماعي، برقم 796 لسنة 2017. أكبر نشاط لها هو إنشاء المستشفيات والمراكز الطبية والعيادات المتخصصة، والمساهمة في تطويرها ومتابعتها، ومساعدة الفقراء والمحتاجين من خلال تقديم العلاج والدواء مجانًا.",
       "link": "https://25hospital.org",
-      "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health"],
+      "methods": [
+        "Cash",
+        "Volunteer"
+      ],
+      "donationFor": [
+        "Health"
+      ],
       "donationDetails": [
         {
           "method": "نقدي",
@@ -2138,7 +2281,10 @@
           }
         }
       ],
-      "phone": ["19257", "02 21237700"],
+      "phone": [
+        "19257",
+        "02 21237700"
+      ],
       "location": [
         {
           "states": "Cairo",
@@ -2166,12 +2312,16 @@
       ]
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "مؤسسة مجدي يعقوب لأمراض القلب",
       "description": "تأسست مؤسسة مجدي يعقوب لأمراض القلب والبحوث - منظمة خيرية غير حكومية مسجلة في مصر - في عام 2008 من قبل الدكتور مجدي يعقوب، والمرحوم الدكتور أحمد زويل، والمرحوم السفير محمد شاكر. تدير مؤسسة مجدي يعقوب لأبحاث القلب أيضًا أحد المشاريع الاستثنائية ذات الأهمية الكبيرة لصحة ورفاهية الشعب المصري، وهو مركز أسوان للقلب. تتولى مؤسسة مجدي يعقوب لأمراض القلب والبحوث المسؤولية عن الإدارة الاستراتيجية لمركز أسوان للقلب. نظرًا للضغط على مركز أسوان للقلب، اتخذ مجلس الأمناء قرارًا مستنيرًا بالبدء في إنشاء المركز القلبي الدولي مجدي يعقوب في القاهرة، لتلبية الحاجة الشديدة والمتزايدة لعلاج أمراض القلب، خاصة الفئات الأكثر احتياجًا للعلاج، من خلال تحقيق التكامل المستمر بين العلاج والبحث وتطوير المهارات. يدير المؤسسة أيضًا أحد أشهر مجالس الأمناء في مصر.",
       "link": "https://www.myf-egypt.org",
-      "methods": ["Cash"],
-      "donationFor": ["Health"],
+      "methods": [
+        "Cash"
+      ],
+      "donationFor": [
+        "Health"
+      ],
       "donationDetails": [
         {
           "method": "نقدي",
@@ -2201,12 +2351,17 @@
       ]
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "57357 مستشفى",
       "description": "مستشفى سرطان الأطفال مصر 57357 (CCHE) والمعروف على نطاق واسع باسم مستشفى 57357 هو مؤسسة رعاية صحية فريدة من نوعها ومثال مثالي لما يمكن تحقيقه عندما يعمل الناس معًا لتحقيق هدف مشترك. لقد ساهم شعب مصر وأصدقاؤه من جميع أنحاء العالم، وخاصة في العالم العربي، بسخاء في إنشاء المستشفى الذي تم بناؤه بالكامل بالتبرعات. احتشد المصريون من جميع مناحي الحياة حول إنشاء مستشفى حديث لأورام الأطفال لتحقيق حلم غد أفضل لأطفالهم المصابين بالسرطان.",
       "link": "https://www.57357.org/en/home-page",
-      "methods": ["Cash"],
-      "donationFor": ["Health", "Children"],
+      "methods": [
+        "Cash"
+      ],
+      "donationFor": [
+        "Health",
+        "Children"
+      ],
       "donationDetails": [
         {
           "method": "نقدي",
@@ -2245,12 +2400,17 @@
       ]
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "الهلال الأحمر المصري",
       "description": "الهلال الأحمر المصري هو منظمة مصرية غير ربحية تأسست عام 1984. وتهدف إلى تقديم المساعدات الإنسانية للمحتاجين.",
       "link": "https://www.egyptianrc.org/home",
-      "methods": ["Cash"],
-      "donationFor": ["Health", "Gaza"],
+      "methods": [
+        "Cash"
+      ],
+      "donationFor": [
+        "Health",
+        "Gaza"
+      ],
       "donationDetails": [
         {
           "method": "نقدي",
@@ -2538,12 +2698,18 @@
       ]
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "مؤسسة مرسال",
       "description": "مرسال هي منظمة خيرية غير ربحية تعمل في مجال الصحة. تسعى مرسال إلى تقديم كافة أنواع الرعاية الطبية عالية الجودة لكل من يحتاجها. كما تسعى لنشر الثقافة والوعي الطبي في مصر وتمتد إلى العالم العربي. تسعى مؤسسة مرسال إلى إنشاء نظام تأمين صحي شامل يعمل بالتوازي مع النظام الحكومي القائم، بهدف تقديم كافة الخدمات الصحية بجودة عالية لجميع غير القادرين عليها، دون أي تمييز. ويتم ذلك من خلال شبكة من الأطباء والمستشفيات المتعاقدة مع مرسال.",
       "link": "https://www.mersal-ngo.org/",
-      "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health", "Society"],
+      "methods": [
+        "Cash",
+        "Volunteer"
+      ],
+      "donationFor": [
+        "Health",
+        "Society"
+      ],
       "donationDetails": [
         {
           "method": "نقدي",
@@ -2589,12 +2755,16 @@
       ]
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "المعهد القومي للسرطان",
       "description": "المعهد القومي للأورام هو مؤسسة مصرية غير ربحية تأسست عام 2007. يهدف إلى تقديم رعاية طبية مجانية لمرضى السرطان.",
       "link": "https://nci.cu.edu.eg/donate/Home",
-      "methods": ["Cash"],
-      "donationFor": ["Health"],
+      "methods": [
+        "Cash"
+      ],
+      "donationFor": [
+        "Health"
+      ],
       "donationDetails": [
         {
           "method": "نقدي",
@@ -2630,12 +2800,18 @@
       ]
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "مؤسسة بهية",
       "description": "من قلب المعاناة تولد الرحمة.. منذ سنوات كانت السيدة بهية وهبي في بداية رحلتها مع مرض سرطان الثدي، اضطرت بعدها للسفر والسفر لإجراء فحوصات وأشعة لم تكن متوفرة في مصر في ذلك الوقت. ومن هنا كانت بداية الحلم. رأت بهية عن كثب الآلام والأوجاع التي تعاني منها النساء غير القادرات على تحمل تكاليف السفر، وعزمت على البدء برحلة مميزة من شأنها أن تساهم في تخفيف العبء الثقيل عن كاهل المرأة، لكن القدر لم يمهلها الوقت اللازم للبدء. حلمها الخاص، فكانت وصيتها لأبنائها من بعدها أن يعملوا على توفير جهاز إشعاعي يوفر الوقت والتكاليف الباهظة. خطوة بخطوة، نما الحلم ليتحول منزل الأسرة إلى مركز متخصص في علاج سرطان الثدي مجانًا لجميع السيدات المصريات، والذي يضم أحدث الأجهزة المتخصصة في الكشف عن سرطان الثدي.",
       "link": "https://baheya.org/en",
-      "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health", "Women"],
+      "methods": [
+        "Cash",
+        "Volunteer"
+      ],
+      "donationFor": [
+        "Health",
+        "Women"
+      ],
       "donationDetails": [
         {
           "method": "نقدي",
@@ -2660,7 +2836,9 @@
           }
         }
       ],
-      "phone": ["16602"],
+      "phone": [
+        "16602"
+      ],
       "location": [
         {
           "states": "Giza",
@@ -2683,12 +2861,16 @@
       ]
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "مؤسسة بناتي",
       "description": "تعمل مؤسسة بناتي من خلال شبكة مكونة من أربعة مراكز مترابطة لضمان دورة تدخل سلسة وشاملة. تعمل وحدتنا المتنقلة كنقطة اتصال أولى، حيث توفر الرعاية الصحية الفورية والغذاء والملابس والدعم النفسي للأطفال المحتاجين. وتلي هذا التواصل الأولي المشاركة في مركز استقبال في القاهرة القديمة، حيث يتلقى الأطفال التعافي النفسي والاجتماعي يوميًا من خلال اللعب الإبداعي والرعاية الإيجابية.",
       "link": "https://banatifoundation.org",
-      "methods": ["Cash"],
-      "donationFor": ["Women"],
+      "methods": [
+        "Cash"
+      ],
+      "donationFor": [
+        "Women"
+      ],
       "donationDetails": [
         {
           "method": "نقدي",
@@ -2720,12 +2902,17 @@
       "banner": "https://media.licdn.com/dms/image/C4D1BAQFy-b6RPDJKuQ/company-background_10000/0/1583507488539/banati_foundation_cover?e=2147483647&v=beta&t=mEFYJ7Z4aJR9b5-_gc8736x38pWuzPNqlIBOGMahpXw"
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "مؤسسة أيادي 4040",
       "description": "مستشفى أيادي المستقبل لعلاج الأورام مجانا لغير القادرين. جمعية أيادي 4040 (منظمة غير حكومية غير حكومية) هي جمعية غير ربحية موجهة للعمل الخيري، مسجلة تحت رقم 930 لسنة 2020. قامت بإنشاء وإدارة مستشفى أيادي المستقبل لعلاج الأورام غير القادرين مجانا.",
       "link": "https://www.ayady4040.org/en/home",
-      "methods": ["Cash", "Volunteer"],
-      "donationFor": ["Health"],
+      "methods": [
+        "Cash",
+        "Volunteer"
+      ],
+      "donationFor": [
+        "Health"
+      ],
       "donationDetails": [
         {
           "method": "نقدي",
@@ -2769,12 +2956,16 @@
       ]
     },
     {
-      "id": 13,
+      "id": "13",
       "name": "مؤسسة أهل مصر",
       "description": "تأسست مؤسسة أهل مصر في القاهرة عام 2013 برقم تسجيل 728/2013، وهي أول منظمة غير ربحية من نوعها في الشرق الأوسط وأفريقيا متخصصة في العلاج والوقاية والبحث في إصابات الصدمات والحروق. بمساعدتكم فقط يمكننا تحقيق هدفنا النبيل المتمثل في تحويل دور العمل الخيري في قطاع الرعاية الصحية. بفضل فريق الخبراء المتفاني لدينا، نجحنا في تسليط الضوء على الصدمات والحروق، وهما قضيتان يتم تجاهلهما بشدة في المنطقة. وبعد إنشائها، بدأت مؤسسة أهل مصر سريعًا في بناء مستشفى أهل مصر للحروق والحوادث بالقاهرة الجديدة، والمجهزة بأحدث التقنيات الطبية وتوظيف أحدث الإجراءات العلمية. تعد المستشفى الأولى والأكبر من نوعها المخصصة ليس فقط لخدمة ضحايا الحروق في مصر ولكن أيضًا في الشرق الأوسط وأفريقيا",
       "link": "https://ahl-masr.ngo/en",
-      "methods": ["Cash"],
-      "donationFor": ["Health"],
+      "methods": [
+        "Cash"
+      ],
+      "donationFor": [
+        "Health"
+      ],
       "donationDetails": [
         {
           "method": "نقدي",
@@ -2793,7 +2984,9 @@
           }
         }
       ],
-      "phone": ["16863"],
+      "phone": [
+        "16863"
+      ],
       "location": [
         {
           "states": "Cairo",
@@ -2813,12 +3006,16 @@
       ]
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "جمعية أورام الأطفال بالإسكندرية",
       "description": "The Alexandria Pediatric Oncology Center is an Egyptian non-profit organization that was established in 2015. It aims to provide free medical care to patients with cancer.",
       "link": "https://www.apoc39.com",
-      "methods": ["Cash"],
-      "donationFor": ["Health"],
+      "methods": [
+        "Cash"
+      ],
+      "donationFor": [
+        "Health"
+      ],
       "donationDetails": [
         {
           "method": "نقدي",
@@ -2855,12 +3052,16 @@
       ]
     },
     {
-      "id": 15,
+      "id": "15",
       "name": "اليونيسف",
       "description": "صندوق الأمم المتحدة الدولي للطوارئ للأطفال (اليونيسيف) هي وكالة تابعة للأمم المتحدة مسؤولة عن تقديم المساعدات الإنسانية والتنموية للأطفال في جميع أنحاء العالم. تعد الوكالة من بين منظمات الرعاية الاجتماعية الأكثر انتشارًا وتميزًا في العالم، ولها تواجد في 192 دولة وإقليمًا.",
       "link": "https://www.unicef.org",
-      "methods": ["Cash"],
-      "donationFor": ["Children"],
+      "methods": [
+        "Cash"
+      ],
+      "donationFor": [
+        "Children"
+      ],
       "donationDetails": [
         {
           "method": "نقد",
@@ -2886,12 +3087,16 @@
       "logo": "https://i.ibb.co/7jTjs8r/iqweqwdqwmage-removebg-preview.png"
     },
     {
-      "id": 16,
+      "id": "16",
       "name": "إنقاذ الأطفال",
       "description": "إنقاذ الأطفال هي منظمة دولية غير حكومية تعمل على تعزيز حقوق الطفل، وتقديم المساعدات، ودعم الأطفال في البلدان النامية. تأسست في المملكة المتحدة في عام 1919 من أجل تحسين حياة الأطفال من خلال توفير تعليم أفضل ورعاية صحية وفرص اقتصادية، بالإضافة إلى تقديم المساعدات الطارئة في الكوارث الطبيعية والحروب والصراعات الأخرى.",
       "link": "https://www.savethechildren.org",
-      "methods": ["Cash"],
-      "donationFor": ["Children"],
+      "methods": [
+        "Cash"
+      ],
+      "donationFor": [
+        "Children"
+      ],
       "donationDetails": [
         {
           "method": "نقدي",
@@ -2917,12 +3122,16 @@
       "logo": "https://i.ibb.co/m5g6ZzJ/images-1-removebg-preview.png"
     },
     {
-      "id": 17,
+      "id": "17",
       "name": "برنامج الأغذية العالمي",
       "description": "برنامج الأغذية العالمي (WFP) هو فرع المساعدات الغذائية للأمم المتحدة وأكبر منظمة إنسانية في العالم تعنى بمكافحة الجوع وتعزيز الأمن الغذائي. وفقًا لبرنامج الأغذية العالمي، يقدم المساعدات الغذائية لمتوسط ​​91.4 مليون شخص في 83 دولة كل عام.",
       "link": "https://www.wfp.org",
-      "methods": ["Cash"],
-      "donationFor": ["Food"],
+      "methods": [
+        "Cash"
+      ],
+      "donationFor": [
+        "Food"
+      ],
       "donationDetails": [
         {
           "method": "نقدي",
@@ -2948,12 +3157,18 @@
       "logo": "https://i.ibb.co/yqC9RBg/image-removebg-preview.png"
     },
     {
-      "id": 18,
+      "id": "18",
       "name": "اطباء بلا حدود",
       "description": "أطباء بلا حدود (MSF)، والمعروفة أيضًا باللغة الإنجليزية باسم أطباء بلا حدود، هي منظمة طبية إنسانية دولية غير حكومية (NGO) من أصل فرنسي تشتهر بمشاريعها في مناطق النزاع وفي البلدان المتضررة من الأمراض المستوطنة. وفي عام 2019، نشطت المجموعة في 70 دولة وتضم أكثر من 35000 موظف معظمهم من الأطباء والممرضين وغيرهم من المهنيين الطبيين المحليين وخبراء لوجستيين ومهندسين وإداريين في مجال المياه والصرف الصحي.",
       "link": "https://www.msf.org/",
-      "methods": ["Cash"],
-      "donationFor": ["Gaza", "Health", "Society"],
+      "methods": [
+        "Cash"
+      ],
+      "donationFor": [
+        "Gaza",
+        "Health",
+        "Society"
+      ],
       "donationDetails": [
         {
           "method": "نقدي",
@@ -2979,12 +3194,18 @@
       "logo": "https://i.ibb.co/PYWGWRD/qqq-1-removebg-preview.png"
     },
     {
-      "id": 19,
+      "id": "19",
       "name": "الاتحاد الدولي لجمعيات الصليب الأحمر والهلال الأحمر",
       "description": "الاتحاد الدولي لجمعيات الصليب الأحمر والهلال الأحمر (IFRC) هو منظمة مساعدات إنسانية عالمية تصل إلى 160 مليون شخص كل عام من خلال جمعياتها الوطنية المكونة من 192 عضوًا. وهي تعمل قبل وأثناء وبعد الكوارث وحالات الطوارئ الصحية لتلبية احتياجات الأشخاص الضعفاء وتحسين حياتهم.",
       "link": "https://www.ifrc.org",
-      "methods": ["Cash"],
-      "donationFor": ["Health", "Society", "Gaza"],
+      "methods": [
+        "Cash"
+      ],
+      "donationFor": [
+        "Health",
+        "Society",
+        "Gaza"
+      ],
       "donationDetails": [
         {
           "method": "نقدي",
@@ -3010,12 +3231,18 @@
       "logo": "https://i.ibb.co/6P3vyKL/Cropped-Image-1.png"
     },
     {
-      "id": 20,
+      "id": "20",
       "name": "الإغاثة الإسلامية العالمية",
       "description": "كمنظمة دولية إنسانية وإنمائية وخيرية غير حكومبة، تعمل الإغاثة الإسلامية على خدمة الإنسانية منذ 36 عامًا. ومن خلال تواجدنا النشط والفعال في أكثر من 48 دولة في شتى أنحاء العالم، فإننا نسعى جاهدين لجعل العالم مكانًا أفضل وأكثر إنصافًا للثلاثة مليارات إنسان ما زالوا يعيشون في حالة الفقر. فمنذ تلقينا أول تبرع لنا في عام 1984، ساعدنا أكثر من 120 مليون مستفيد من أفقر الناس و أكثرهم إحتياجاً على مستوى العالم. وانطلاقًا من ديننا الحنيف واسترشادًا بقيمنا الإسلامية السمحة، فإننا نؤمن أن أصحاب الثروات والمقتدرين عليهم واجب تجاه الأقل حظًا  منهم، بغض النظر عن العرق أو الجنس أو المعتقد أو اللون.",
       "link": "https://islamic-relief.org",
-      "methods": ["Cash"],
-      "donationFor": ["Health", "Society", "Gaza"],
+      "methods": [
+        "Cash"
+      ],
+      "donationFor": [
+        "Health",
+        "Society",
+        "Gaza"
+      ],
       "donationDetails": [
         {
           "method": "نقدي",
@@ -3046,12 +3273,16 @@
       ]
     },
     {
-      "id": 21,
+      "id": "21",
       "name": "أوكسفام",
       "description": "أوكسفام هي حركة عالمية تضم أشخاصًا يحاربون عدم المساواة للتغلب على الفقر معًا. من إنقاذ الأرواح وتطوير المشاريع التي تجعل الفقراء مسؤولين عن حياتهم وسبل عيشهم، إلى الحملات من أجل التغيير الدائم.",
       "link": "https://www.oxfamamerica.org/",
-      "methods": ["Cash"],
-      "donationFor": ["Health"],
+      "methods": [
+        "Cash"
+      ],
+      "donationFor": [
+        "Health"
+      ],
       "donationDetails": [
         {
           "method": "نقدي",
@@ -3077,12 +3308,16 @@
       "logo": "https://i.ibb.co/Fbjskt3/png-clipart-oxfam-logo-organization-poverty-banquet-love-miscellaneous-removebg-preview.png"
     },
     {
-      "id": 22,
+      "id": "22",
       "name": "مؤسسة علمني",
       "description": "مؤسسة علمني هي مؤسسة مسجلة غير ربحية تطمح إلى إعادة تعريف التعليم في مصر من خلال نموذج تعليمي تقدمي قائم على المهارات ومرتكز على المتعلم مع تعزيز ثقافة تحقيق الذات والتعلم مدى الحياة. تدير مؤسسة مدرسة مجتمعية في الطالبية بالجيزة وتدير برامج تدريب وتطوير لكل من معلمي وطلاب المدارس الحكومية في عدد من المحافظات. تقدم  أيضًا خدمات استشارية تعليمية لمنظمات مختلفة.",
       "link": "https://educateme-foundation.org",
-      "methods": ["Cash"],
-      "donationFor": ["Education"],
+      "methods": [
+        "Cash"
+      ],
+      "donationFor": [
+        "Education"
+      ],
       "donationDetails": [
         {
           "method": "Cash",
@@ -3120,7 +3355,9 @@
       ],
       "banner": "https://images.wuzzuf-data.net/files/company_logo/Educate-Me-Egypt-18605-1572785391-og.png",
       "logo": "https://i.ibb.co/vBb5qP4/educate-me-logo-removebg-preview.png",
-      "snapshots": ["https://img.youm7.com/xlarge/201709190530443044.jpg"]
+      "snapshots": [
+        "https://img.youm7.com/xlarge/201709190530443044.jpg"
+      ]
     }
   ]
 }

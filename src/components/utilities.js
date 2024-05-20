@@ -92,6 +92,26 @@ export async function getStates() {
 }
 
 //_____________________________________________________________________________________
+export async function postState(data) {
+  try {
+    const response = await api.post('/states', data);
+    return response.data;
+  } catch (error) {
+    console.error('Error posting state:', error);
+    throw error;
+  }
+}
+//_____________________________________________________________________________________
+export async function deleteState(stateId) {
+  try {
+    const response = await api.delete(`/states/${stateId}`);
+    return response.data;
+  } catch (error) {
+    console.error('Error deleting state:', error);
+    throw error;
+  }
+}
+//_____________________________________________________________________________________
 export async function getNews(lang = 'en', config = {}) {
   try {
     const response = await api.get(
@@ -101,6 +121,26 @@ export async function getNews(lang = 'en', config = {}) {
     return response.data;
   } catch (error) {
     console.error('Error fetching news:', error);
+    throw error;
+  }
+}
+//_____________________________________________________________________________________
+export async function postNews(data) {
+  try {
+    const response = await api.post('/news', data);
+    return response.data;
+  } catch (error) {
+    console.error('Error posting news:', error);
+    throw error;
+  }
+}
+//_____________________________________________________________________________________
+export async function deleteNews(newsId) {
+  try {
+    const response = await api.delete(`/news/${newsId}`);
+    return response.data;
+  } catch (error) {
+    console.error('Error deleting news:', error);
     throw error;
   }
 }
@@ -123,6 +163,26 @@ export async function getCharities(lang = 'en') {
     return { error: null, charities: response.data };
   } catch (error) {
     console.error('Error fetching charities:', error);
+    throw error;
+  }
+}
+//_____________________________________________________________________________________
+export async function postCharity(data) {
+  try {
+    const response = await api.post('/charities', data);
+    return response.data;
+  } catch (error) {
+    console.error('Error posting charity:', error);
+    throw error;
+  }
+}
+//_____________________________________________________________________________________
+export async function deleteCharity(charityId) {
+  try {
+    const response = await api.delete(`/charities/${charityId}`);
+    return response.data;
+  } catch (error) {
+    console.error('Error deleting charity:', error);
     throw error;
   }
 }

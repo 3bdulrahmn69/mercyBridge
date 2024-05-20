@@ -104,28 +104,6 @@ const Footer = () => {
             </Link>
           </div>
         </div>
-        <div>
-          <p className="text-center mt-4">
-            {t('Made_With')}
-            <span role="img" aria-label="heart" className="mx-2 text-xl">
-              ❤️
-            </span>
-            {t('By')}{' '}
-            <a
-              href="https://www.3bdulrahmn.tech"
-              className="text-green-500 hover:underline transition-colors duration-300"
-            >
-              {t('Abdulrahman Moussa')}
-            </a>
-            <span className="mx-2">-</span>
-            <a
-              href="https://github.com/3bdulrahmn69"
-              className="text-green-500 hover:underline transition-colors duration-300"
-            >
-              {t('Github')}
-            </a>
-          </p>
-        </div>
       </Container>
     </footer>
   );

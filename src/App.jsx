@@ -21,6 +21,7 @@ import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
 import Help from './pages/Help';
 import ScrollToTop from './components/ScrollToTop';
+import Dashboard from './pages/Dashboard';
 
 const App = () => {
   return (
@@ -37,7 +38,10 @@ const InnerApp = () => {
 
   const hideHeader =
     location.pathname.match(/\/news\/\d+$/) ||
-    location.pathname.match(/\/donate\/\d+$/);
+    location.pathname.match(/\/donate\/\d+$/) ||
+    location.pathname.match(/\/dashboard$/);
+
+  const hideFooter = location.pathname.match(/\/dashboard$/);
 
   return (
     <>
@@ -53,13 +57,14 @@ const InnerApp = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/donate" element={<Donate />} />
         <Route path="/donate/:id" element={<CharityProfile />} />
+        <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/privacy" element={<Privacy />} />
         <Route path="/terms" element={<Terms />} />
         <Route path="/help" element={<Help />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <GoTopBtn />
-      <Footer />
+      {!hideFooter && <Footer />}
     </>
   );
 };
