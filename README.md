@@ -47,7 +47,7 @@ Activate the heart of MercyBridge on your local machine:
 - **For the JSON Server (Mock Backend):**
 
   ```sh
-  npx json-server --watch data/db.json --port 8000
+  npm run server
   ```
 
 Open your browser and visit `http://localhost:5173` to immerse yourself in the MercyBridge experience.
